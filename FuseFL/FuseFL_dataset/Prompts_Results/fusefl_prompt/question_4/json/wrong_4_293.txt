@@ -1,0 +1,29 @@
+{
+  "faultLoc": [
+    {
+      "faultyLine": 8,
+      "code": "lst.remove(i)",
+      "explanation": "The line attempts to remove the person with the biggest age from the list, but it uses the wrong variable 'i' which doesn't represent the person with the biggest age."
+    },
+    {
+      "faultyLine": 7,
+      "code": "biggest=i[1]",
+      "explanation": "This line assigns the age of the current person to 'biggest', but it doesn't update the variable 'i' or store the person with the biggest age."
+    },
+    {
+      "faultyLine": 6,
+      "code": "if i[1]>biggest:",
+      "explanation": "This line checks if the age of the current person is greater than the current 'biggest' value, but it doesn't update the variable 'i' or store the person with the biggest age."
+    },
+    {
+      "faultyLine": 5,
+      "code": "for i in lst:",
+      "explanation": "This line iterates over the list 'lst', but the subsequent lines suggest that the code doesn't handle the iteration correctly."
+    },
+    {
+      "faultyLine": 4,
+      "code": "biggest=0",
+      "explanation": "This line initializes the variable 'biggest' to 0, but it should be moved outside the 'while' loop to ensure it is not reset in each iteration."
+    }
+  ]
+}

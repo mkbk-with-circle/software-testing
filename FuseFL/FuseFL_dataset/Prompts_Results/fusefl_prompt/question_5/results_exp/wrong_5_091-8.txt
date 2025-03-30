@@ -1,0 +1,1 @@
+This line is inside the `while` loop, which means it will keep appending `max` to `lst2` until its length becomes equal to `k`. However, it should only append the maximum value once.

@@ -1,0 +1,1 @@
+Instead of checking the uniqueness of the last day, it should check the uniqueness of the first day.

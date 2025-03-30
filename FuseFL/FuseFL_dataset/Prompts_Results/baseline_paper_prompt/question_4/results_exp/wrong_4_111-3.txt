@@ -1,0 +1,1 @@
+This line starts a while loop that will continue until the input list 'lst' is empty. No issues found.

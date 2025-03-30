@@ -1,0 +1,1 @@
+The variable 'pos' is assigned the length of the sequence 'seq' without considering the case when the sequence is empty. This could lead to incorrect positioning of x.

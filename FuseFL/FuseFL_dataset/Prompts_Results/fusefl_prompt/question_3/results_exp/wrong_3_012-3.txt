@@ -1,0 +1,1 @@
+The line is causing a TypeError because it attempts to iterate over `lst` and `not result`, which is a boolean value.

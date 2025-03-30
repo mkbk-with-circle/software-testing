@@ -1,0 +1,1 @@
+This line is causing an IndexError when the seq is empty. The condition is checking if x is less than or equal to the first element of seq, but it doesn't handle the case when seq is empty.

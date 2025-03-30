@@ -1,0 +1,1 @@
+This line returns the final list 'new_lst' after removing duplicates. It is correct and necessary for the function.

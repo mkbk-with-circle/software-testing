@@ -1,0 +1,29 @@
+{
+  "faultLoc": [
+    {
+      "faultyLine": 23,
+      "code": "if count_months(month, possible_birthdays) == 1:",
+      "explanation": "The line tries to compare the month values, but the code has an IndexError in line 17 due to incorrect tuple indexing."
+    },
+    {
+      "faultyLine": 17,
+      "code": "if i[2] == month:",
+      "explanation": "The line tries to access the third element of each tuple in `possible_birthdays`, but the tuples only have two elements (month and day)."
+    },
+    {
+      "faultyLine": 29,
+      "code": "return",
+      "explanation": "The line is missing the return value, resulting in `None` being returned by default."
+    },
+    {
+      "faultyLine": 16,
+      "code": "for i in possible_birthdays:",
+      "explanation": "The line initializes a loop to iterate over the `possible_birthdays` list. There doesn't seem to be any issue with this line."
+    },
+    {
+      "faultyLine": 15,
+      "code": "count = 0",
+      "explanation": "The line initializes the `count` variable to 0. There doesn't seem to be any issue with this line."
+    }
+  ]
+}

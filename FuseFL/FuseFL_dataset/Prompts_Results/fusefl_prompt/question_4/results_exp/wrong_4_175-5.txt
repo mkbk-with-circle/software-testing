@@ -1,0 +1,1 @@
+The 'for' loop is used to iterate over the 'lst' list starting from index 1. However, if the 'lst' list has only one person, this loop will not execute, and the 'smallest' value will not be updated. The loop should be modified to include the first person as well by using 'range(len(lst))' instead of 'range(1,len(lst))'.

@@ -1,0 +1,1 @@
+The code attempts to subtract 1 from the list 'lst' instead of subtracting 1 from the length of 'lst'. This causes a TypeError.

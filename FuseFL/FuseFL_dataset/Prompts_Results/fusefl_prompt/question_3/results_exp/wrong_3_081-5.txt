@@ -1,0 +1,1 @@
+The 'append()' method modifies the list in-place and does not return a new list. Assigning the result of 'append()' to 'newlst' results in 'None', which is incorrect. This line should be removed as it is unnecessary. Instead, we can directly call 'newlst.append(i)' without assigning it to 'newlst'.

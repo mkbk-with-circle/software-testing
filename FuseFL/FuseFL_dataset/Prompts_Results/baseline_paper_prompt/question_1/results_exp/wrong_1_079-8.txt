@@ -1,0 +1,1 @@
+Check if `ele` is less than or equal to `x` to find the correct position for insertion.

@@ -1,0 +1,29 @@
+{
+  "faultLoc": [
+    {
+      "faultyLine": 4,
+      "code": "elif lst[0] not in lst[1:]:",
+      "explanation": "The condition on this line only checks if the first occurrence of an element is unique, but it doesn't consider repeated occurrences. This line is potentially faulty."
+    },
+    {
+      "faultyLine": 5,
+      "code": "return lst[0] + remove_extras(lst[1:])",
+      "explanation": "The code assumes that the first element is an integer and can be concatenated with a list using the '+' operator. This assumption is incorrect and leads to a TypeError. This line is potentially faulty."
+    },
+    {
+      "faultyLine": 7,
+      "code": "return remove_extras(lst[1:])",
+      "explanation": "Since the previous line is potentially faulty, this line will also be affected by the same issue. This line is potentially faulty."
+    },
+    {
+      "faultyLine": 2,
+      "code": "if lst == []:",
+      "explanation": "Although this condition is correct, it is unnecessary because the subsequent condition on line 4 already handles the case when the list is empty. This line is not directly faulty but can be improved."
+    },
+    {
+      "faultyLine": 3,
+      "code": "return []",
+      "explanation": "Although this line correctly returns an empty list when the input list is empty, it is unnecessary because the subsequent condition on line 4 already handles the case when the list is empty. This line is not directly faulty but can be improved."
+    }
+  ]
+}

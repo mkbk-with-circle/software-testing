@@ -1,0 +1,1 @@
+The loop iterates from 0 to len(lst)-2, excluding the last element of the list. This may cause the last element to be missed during the duplicate removal process.

@@ -1,0 +1,1 @@
+The condition in this line is incorrect as it doesn't handle the case where `x` is found in the sequence.

@@ -1,0 +1,1 @@
+This line assumes the date structure is consistent, raising IndexError if not

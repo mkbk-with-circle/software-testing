@@ -1,0 +1,1 @@
+This line assumes the sequence is sorted in ascending order, might not hold if the sequence is not sorted correctly.

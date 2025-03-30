@@ -1,0 +1,1 @@
+This else block is unnecessary and can be removed since it is covered by the previous conditions.

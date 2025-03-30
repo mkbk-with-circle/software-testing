@@ -1,0 +1,1 @@
+This condition incorrectly assumes that if `x` is less than the first element of the sequence, it should be placed at position 0. However, if the sequence is empty, it should return 0 instead.

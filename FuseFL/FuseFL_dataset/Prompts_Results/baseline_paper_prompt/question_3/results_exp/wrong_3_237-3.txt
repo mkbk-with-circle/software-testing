@@ -1,0 +1,1 @@
+The loop variable 'i' should iterate over the range of indices, not the length of the list.

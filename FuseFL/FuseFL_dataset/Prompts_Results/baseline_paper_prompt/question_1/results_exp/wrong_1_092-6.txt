@@ -1,0 +1,1 @@
+The loop can be simplified by directly iterating over the sequence elements using 'for i in seq:' instead of using the range function.

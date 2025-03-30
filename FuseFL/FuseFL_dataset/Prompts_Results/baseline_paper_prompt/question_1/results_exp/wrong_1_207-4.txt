@@ -1,0 +1,1 @@
+The code assumes that 'seq' is a non-empty sorted sequence, but it doesn't check if 'seq' is empty before accessing its last element.

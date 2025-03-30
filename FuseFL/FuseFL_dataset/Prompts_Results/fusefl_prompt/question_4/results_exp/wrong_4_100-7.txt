@@ -1,0 +1,1 @@
+The reverse() method doesn't return anything, so returning the result will always be None.

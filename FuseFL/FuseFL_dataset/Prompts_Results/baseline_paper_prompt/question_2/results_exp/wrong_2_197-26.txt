@@ -1,0 +1,1 @@
+Potential bug: The condition checks if 'True' is present in 'results', but 'results' is a tuple of booleans. It should check if 'True' is present in 'results' using the 'any' function.

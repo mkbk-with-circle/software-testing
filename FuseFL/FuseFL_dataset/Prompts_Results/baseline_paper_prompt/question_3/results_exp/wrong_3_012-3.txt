@@ -1,0 +1,1 @@
+The loop condition is suspicious because it doesn't iterate correctly over the list.

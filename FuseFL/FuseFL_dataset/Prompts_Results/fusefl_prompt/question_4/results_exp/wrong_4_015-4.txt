@@ -1,0 +1,1 @@
+Initializing 'smallest' with the first element of 'lst' seems fine.

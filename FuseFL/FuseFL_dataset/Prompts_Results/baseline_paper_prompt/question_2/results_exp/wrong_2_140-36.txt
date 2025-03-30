@@ -1,0 +1,1 @@
+The 'else' block is indented incorrectly, causing the function to return 'False' prematurely if the condition is 'False' for the first 'x' value in the loop.

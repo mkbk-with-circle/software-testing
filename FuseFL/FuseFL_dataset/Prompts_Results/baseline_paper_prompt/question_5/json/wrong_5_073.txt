@@ -1,0 +1,30 @@
+{
+  "intentOfThisFunction": "Return the top k elements from the given list in descending order.",
+  "faultLocalization": [
+    {
+      "lineNumber": 8,
+      "codeContent": "results.append(lst.pop(i))",
+      "reason": "Modifying the list during iteration can lead to unexpected behavior."
+    },
+    {
+      "lineNumber": 7,
+      "codeContent": "if lst[i] == max(lst):",
+      "reason": "Calling max() function on every iteration is inefficient."
+    },
+    {
+      "lineNumber": 8,
+      "codeContent": "results.append(lst.pop(i))",
+      "reason": "Assuming the maximum value will always be found at index i."
+    },
+    {
+      "lineNumber": 5,
+      "codeContent": "for i in range(-len(lst),0):",
+      "reason": "Iterating over the list using negative indices can be confusing."
+    },
+    {
+      "lineNumber": 2,
+      "codeContent": "counter = 0",
+      "reason": "The counter variable is not incremented within the while loop."
+    }
+  ]
+}

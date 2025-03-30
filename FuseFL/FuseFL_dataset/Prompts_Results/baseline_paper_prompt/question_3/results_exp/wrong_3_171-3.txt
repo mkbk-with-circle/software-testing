@@ -1,0 +1,1 @@
+Potential Iteration Over Entire List: The code iterates over the entire input list 'lst', including the element at index 0, which is already added to the 'one' list in line 3. This may lead to duplicate elements in the output list.

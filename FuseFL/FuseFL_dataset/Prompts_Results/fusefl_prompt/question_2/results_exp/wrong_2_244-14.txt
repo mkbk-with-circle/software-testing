@@ -1,0 +1,1 @@
+This line initializes `x` to `1` within the loop, but it should be initialized outside the loop.

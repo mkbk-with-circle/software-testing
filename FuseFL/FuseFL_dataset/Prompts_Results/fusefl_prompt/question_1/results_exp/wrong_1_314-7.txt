@@ -1,0 +1,1 @@
+This line throws an UnboundLocalError when the sequence is empty because the loop in line 2 is never executed, and thus, the variable 'i' is not defined. The fix for this issue would be to handle the case when the sequence is empty separately, returning 0 before the loop.

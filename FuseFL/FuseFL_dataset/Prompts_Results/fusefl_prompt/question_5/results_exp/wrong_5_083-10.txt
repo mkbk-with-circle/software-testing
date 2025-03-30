@@ -1,0 +1,1 @@
+The code incorrectly removes elements from lst during the iteration, resulting in an empty list. This line should be fixed to return the k largest elements from the result list.

@@ -1,0 +1,1 @@
+This condition checks if the current age is less than the last age in agelist. Similar to the previous issue, if agelist is empty, this line will raise an IndexError.

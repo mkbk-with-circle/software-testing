@@ -1,0 +1,1 @@
+The line tries to compare the month values, but the code has an IndexError in line 17 due to incorrect tuple indexing.

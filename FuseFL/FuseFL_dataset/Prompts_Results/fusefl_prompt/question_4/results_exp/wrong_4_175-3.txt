@@ -1,0 +1,1 @@
+The 'while' loop is used to iterate over the 'lst' list. However, there is no condition for breaking out of the loop. This will result in an infinite loop if the 'lst' list is not empty initially. It seems like the intention was to iterate until the 'lst' list becomes empty, but this condition is missing.

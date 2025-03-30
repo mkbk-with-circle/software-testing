@@ -1,0 +1,1 @@
+This line checks if the sequence is empty. However, the task description specifies that if the sequence is empty, the function should return 0. This line should be modified to return the correct position for an empty sequence.

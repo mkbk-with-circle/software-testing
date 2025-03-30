@@ -1,0 +1,1 @@
+Redundant assignment of 'counter' variable.

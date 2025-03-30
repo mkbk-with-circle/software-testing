@@ -1,0 +1,1 @@
+This line compares the given month with the month of each birthday tuple. However, the task description states that the function should check for a unique day, not a unique month. So, this line is potentially faulty.

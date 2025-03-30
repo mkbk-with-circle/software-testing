@@ -1,0 +1,1 @@
+This line removes the last element from the list `lst` instead of the current `element` being compared. It should be changed to `lst.remove(biggest)` to remove the current biggest element from the list.

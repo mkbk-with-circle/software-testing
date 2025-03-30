@@ -1,0 +1,1 @@
+This return statement is missing a value to be returned. It should return the index where x should be inserted, but it is currently returning None. This will cause unexpected behavior.

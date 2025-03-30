@@ -1,0 +1,1 @@
+This line skips the rest of the loop and moves to the next iteration without considering other elements in the sequence.

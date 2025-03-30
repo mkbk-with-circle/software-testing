@@ -1,0 +1,1 @@
+Initializing an empty list 'new' to store the unique elements.

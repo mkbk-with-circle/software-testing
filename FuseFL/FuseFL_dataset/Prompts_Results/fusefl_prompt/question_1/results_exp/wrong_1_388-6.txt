@@ -1,0 +1,1 @@
+Calculating the length of lst1 seems unnecessary since it is only used once in line 8.

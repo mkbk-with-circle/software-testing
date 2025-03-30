@@ -1,0 +1,1 @@
+This line compares 'seq' with an empty tuple using the '==' operator. However, it is more common to check for an empty sequence using 'if not seq', which is more readable and idiomatic.

@@ -1,0 +1,1 @@
+This line removes the element at index i from the list. However, removing elements while iterating over the list causes the iteration to skip the next element, leading to incorrect results.

@@ -1,0 +1,1 @@
+The line is causing a 'TypeError: 'NoneType' object is not subscriptable' error. This occurs because the 'reverse()' method of a list returns None and does not return a new reversed list. Therefore, 'rev_lst' is None, and when trying to access elements using indexing, the error is raised.

@@ -1,0 +1,1 @@
+The range used for the loop is incorrect because lst[1:] creates a new list starting from the second element. We should use len(lst) instead to iterate over the entire list.

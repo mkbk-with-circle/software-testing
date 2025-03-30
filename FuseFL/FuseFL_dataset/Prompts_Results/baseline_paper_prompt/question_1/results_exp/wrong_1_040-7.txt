@@ -1,0 +1,1 @@
+If the loop completes without finding a suitable index, returning 'i' (equal to len(seq)) may lead to unexpected behavior.

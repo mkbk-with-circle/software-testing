@@ -1,0 +1,1 @@
+This line assumes that the sequence is sorted. However, the code does not check if the sequence is sorted before entering this loop. If the sequence is not sorted, the returned position may be incorrect.

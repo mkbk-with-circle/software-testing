@@ -1,0 +1,29 @@
+{
+  "faultLoc": [
+    {
+      "faultyLine": 5,
+      "code": "for i in range(-len(lst),0):",
+      "explanation": "The range function is used with negative indices, which is not the correct way to iterate over a list in reverse order."
+    },
+    {
+      "faultyLine": 6,
+      "code": "if lst[i] == max(lst):",
+      "explanation": "The condition checks if the current element is equal to the maximum value of the entire list, which is incorrect. It should compare the current element with the maximum value found so far."
+    },
+    {
+      "faultyLine": 9,
+      "code": "continue",
+      "explanation": "The continue statement is unnecessary here as it doesn't affect the loop execution."
+    },
+    {
+      "faultyLine": 7,
+      "code": "results.append(lst.pop(i))",
+      "explanation": "The pop operation inside the loop modifies the list while iterating, which can lead to incorrect results. It should store the maximum value in a separate variable and append it to results after the loop."
+    },
+    {
+      "faultyLine": 8,
+      "code": "counter += 1",
+      "explanation": "The counter variable is incremented after each iteration of the inner loop, which is incorrect. It should be incremented only when a maximum value is found."
+    }
+  ]
+}

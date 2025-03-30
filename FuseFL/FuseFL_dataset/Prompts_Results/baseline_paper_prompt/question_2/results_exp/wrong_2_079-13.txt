@@ -1,0 +1,1 @@
+Similar to the previous issue, the code compares the first element of 'i' with the 'month' parameter. It should be verified if 'i[0]' exists before comparing.

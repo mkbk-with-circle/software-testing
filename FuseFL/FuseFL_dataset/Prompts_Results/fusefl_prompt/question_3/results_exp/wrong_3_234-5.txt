@@ -1,0 +1,1 @@
+Since Line 4 is potentially faulty, this line could also be faulty because it adds elements to new_lst without considering if they are repeated or not.

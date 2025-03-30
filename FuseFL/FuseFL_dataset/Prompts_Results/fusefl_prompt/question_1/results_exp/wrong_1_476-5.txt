@@ -1,0 +1,1 @@
+This line is correctly using 'enumerate' to iterate over the elements of 'seq' along with their indices.

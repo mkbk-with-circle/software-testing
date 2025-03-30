@@ -1,0 +1,1 @@
+The 'unique_day' function returns True as soon as it finds a match in the possible birthdays. However, it should only return True after checking all possible birthdays. Move this line outside the loop to fix the issue.

@@ -1,0 +1,1 @@
+This conditional statement compares 'x' with the current element. If the condition is not correctly defined, it may cause incorrect positioning of 'x' in the sorted sequence.

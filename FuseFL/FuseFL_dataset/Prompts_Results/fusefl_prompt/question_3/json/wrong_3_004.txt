@@ -1,0 +1,19 @@
+{
+  "faultLoc": [
+    {
+      "faultyLine": 6,
+      "code": "if item not in occurrences:",
+      "explanation": "The occurrences tuple is not being updated correctly, causing all items to be added to the new list."
+    },
+    {
+      "faultyLine": 7,
+      "code": "occurrences += (item,)",
+      "explanation": "Tuples are immutable, so this line creates a new tuple instead of updating the occurrences."
+    },
+    {
+      "faultyLine": 8,
+      "code": "new_list.append(item)",
+      "explanation": "The variable name should be new_lst to match the variable defined in line 4."
+    }
+  ]
+}

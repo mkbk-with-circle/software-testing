@@ -1,0 +1,1 @@
+The code does not handle the case when the list is already sorted, resulting in an infinite loop.

@@ -1,0 +1,1 @@
+This line checks if x is greater than or equal to the last element of the sequence. If true, it returns the length of the sequence. However, the task description specifies that the function should return the first possible position. This line should be modified to return the correct position.

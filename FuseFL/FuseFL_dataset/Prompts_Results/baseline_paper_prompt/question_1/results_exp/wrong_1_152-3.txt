@@ -1,0 +1,1 @@
+Assumes sorted elements in 'seq'.

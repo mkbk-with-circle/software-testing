@@ -1,0 +1,1 @@
+The element is appended to the wrong list, not removing duplicates

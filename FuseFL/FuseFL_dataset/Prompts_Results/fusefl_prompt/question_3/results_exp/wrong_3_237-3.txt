@@ -1,0 +1,1 @@
+The variable 'l' is an integer representing the length, but it is being used as an iterable in a for loop. This causes a TypeError: 'int' object is not iterable.

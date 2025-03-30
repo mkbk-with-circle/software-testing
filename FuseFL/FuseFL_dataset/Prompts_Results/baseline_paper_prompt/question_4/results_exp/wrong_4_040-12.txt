@@ -1,0 +1,1 @@
+The `reverse()` method does not return a sorted list. Instead, it reverses the order of the list in-place. So, the return statement will always return `None`. This might be a bug as the function is expected to return the sorted list.

@@ -1,0 +1,9 @@
+{
+  "faultLoc": [
+    {
+      "faultyLine": 3,
+      "code": "if len(seq) == 0:",
+      "explanation": "The line checks if the sequence is empty, but it is placed inside the loop. It should be moved outside the loop to check only once if the sequence is empty. If it is, return 0."
+    }
+  ]
+}

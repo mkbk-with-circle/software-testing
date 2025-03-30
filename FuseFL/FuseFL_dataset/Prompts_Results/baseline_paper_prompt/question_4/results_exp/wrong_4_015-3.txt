@@ -1,0 +1,1 @@
+Potential infinite loop if 'lst' is not handled or modified within the loop

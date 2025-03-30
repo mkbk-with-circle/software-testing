@@ -1,0 +1,1 @@
+The variable 'biggest' is not initialized correctly. It should be set to negative infinity or the smallest possible value to ensure proper comparison.

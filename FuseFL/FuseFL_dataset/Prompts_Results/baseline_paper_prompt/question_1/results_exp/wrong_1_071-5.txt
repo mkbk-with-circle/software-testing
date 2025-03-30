@@ -1,0 +1,1 @@
+This condition is unnecessary since the subsequent condition handles the case when x is equal to elem.

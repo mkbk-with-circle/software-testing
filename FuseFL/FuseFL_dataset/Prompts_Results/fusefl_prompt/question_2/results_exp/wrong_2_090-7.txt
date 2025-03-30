@@ -1,0 +1,1 @@
+The counter variable might not be updated correctly or the condition is not properly evaluated.

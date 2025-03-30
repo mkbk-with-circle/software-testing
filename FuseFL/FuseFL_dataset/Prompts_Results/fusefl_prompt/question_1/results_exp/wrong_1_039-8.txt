@@ -1,0 +1,1 @@
+This line unconditionally updates the counter variable in every iteration of the loop. It should only update the counter when the conditions in lines 4 and 6 are met.

@@ -1,0 +1,1 @@
+The 'new_lst' list is created but not used or returned by the function.

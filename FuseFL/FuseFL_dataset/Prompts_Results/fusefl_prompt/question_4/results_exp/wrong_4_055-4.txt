@@ -1,0 +1,1 @@
+Initializing the variable 'oldest' with the first element of the 'lst' list.

@@ -1,0 +1,1 @@
+Potential bug: It assumes that a unique month is indicated by a counter value of 1, but it may not cover all scenarios

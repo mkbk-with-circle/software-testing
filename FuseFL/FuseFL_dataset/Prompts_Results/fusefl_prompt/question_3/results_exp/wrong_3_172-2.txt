@@ -1,0 +1,1 @@
+Iterating over the indices of the list using range(len(lst)) can lead to an IndexError because we are modifying the list inside the loop. We should avoid modifying the list while iterating over it.

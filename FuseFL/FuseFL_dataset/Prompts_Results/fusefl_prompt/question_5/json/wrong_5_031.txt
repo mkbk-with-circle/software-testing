@@ -1,0 +1,9 @@
+{
+  "faultLoc": [
+    {
+      "faultyLine": 8,
+      "code": "new_lst.append(lst.pop(largest))",
+      "explanation": "The line tries to pop an element from the list using the largest number as an index, which is incorrect. It should use the index method to find the index of the largest number in the list."
+    }
+  ]
+}

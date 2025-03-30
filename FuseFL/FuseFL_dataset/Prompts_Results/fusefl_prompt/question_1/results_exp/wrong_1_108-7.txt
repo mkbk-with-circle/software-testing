@@ -1,0 +1,1 @@
+This line returns the length of the sequence when x is greater than or equal to the last element. However, it should return the position of the last element instead. Changing it to 'return len(seq) - 1' will give the correct result.

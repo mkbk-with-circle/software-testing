@@ -1,0 +1,24 @@
+{
+  "faultLoc": [
+    {
+      "faultyLine": 2,
+      "code": "for i in range(1,len(lst)):",
+      "explanation": "The loop starts from index 1 instead of 0, skipping the first element."
+    },
+    {
+      "faultyLine": 3,
+      "code": "while lst[i][1]<lst[i-1][1]:",
+      "explanation": "The loop condition doesn't update the value of 'i', potentially leading to an infinite loop."
+    },
+    {
+      "faultyLine": 4,
+      "code": "lst.pop(lst[i])",
+      "explanation": "'pop()' expects an index as an argument, but 'lst[i]' is a tuple."
+    },
+    {
+      "faultyLine": 6,
+      "code": "return lst.reverse()",
+      "explanation": "'reverse()' method reverses the list in-place and returns 'None', resulting in incorrect return value."
+    }
+  ]
+}

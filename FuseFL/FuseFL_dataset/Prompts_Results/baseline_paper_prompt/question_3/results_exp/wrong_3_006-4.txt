@@ -1,0 +1,1 @@
+This condition will always evaluate to 'True' since the newly created 'new_list' will always be empty at the start. The condition should check if 'number' is not already in 'new_list'.

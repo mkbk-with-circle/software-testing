@@ -1,0 +1,1 @@
+The code should use 'len(seq)' instead of 'len[i]' to compare 'x' with the length of 'seq'.

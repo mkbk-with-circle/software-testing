@@ -1,0 +1,1 @@
+This line returns the length of the sequence when x is greater than or equal to the last element in seq. It doesn't handle the case where x is equal to the last element correctly.

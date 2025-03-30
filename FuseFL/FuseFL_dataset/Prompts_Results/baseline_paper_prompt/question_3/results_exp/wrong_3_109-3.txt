@@ -1,0 +1,1 @@
+The condition always evaluates to False in the first iteration because lst[:k] is an empty list, leading to the function not removing any duplicates.

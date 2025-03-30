@@ -1,0 +1,1 @@
+The condition should check if the element is not already present in the new list, not in the initial empty list.

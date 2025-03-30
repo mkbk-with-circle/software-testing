@@ -1,0 +1,1 @@
+If the condition in line 4 is met, this line should return the index 'i'. However, if no element satisfies the condition, the function will terminate without returning anything.

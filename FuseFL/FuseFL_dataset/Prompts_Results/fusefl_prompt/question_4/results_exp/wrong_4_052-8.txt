@@ -1,0 +1,1 @@
+The line `newlst.append(person)` is incorrect because it is placed inside the `if` condition block. This means that it will only append a person to `newlst` if their age is greater than the current `oldest`. However, we want to include all the people in the sorted list, not just the older ones. Placing this line outside the `if` condition block will fix the issue.

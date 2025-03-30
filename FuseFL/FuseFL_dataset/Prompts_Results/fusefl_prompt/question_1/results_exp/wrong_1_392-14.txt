@@ -1,0 +1,1 @@
+This line causes an IndexError because it assumes there will always be a next element in the seq list. It needs to be modified to handle this case.

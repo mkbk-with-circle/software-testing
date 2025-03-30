@@ -1,0 +1,1 @@
+The variable 'x' should be initialized as an empty list '[]'.

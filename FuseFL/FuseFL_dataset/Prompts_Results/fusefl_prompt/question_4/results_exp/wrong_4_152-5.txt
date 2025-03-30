@@ -1,0 +1,1 @@
+The code extends the list by appending lst[i] to the end. However, this is unnecessary because the intention seems to be moving the element to the end of the list. Instead of using lst.extend(), we can use lst.append(lst[i]) to achieve the desired behavior.

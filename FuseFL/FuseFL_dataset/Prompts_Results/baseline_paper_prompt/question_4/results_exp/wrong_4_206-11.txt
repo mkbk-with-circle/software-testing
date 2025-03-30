@@ -1,0 +1,1 @@
+If the previous condition is not met, this line inserts the current age at a specific index in agelist. However, if the age is equal to an existing age in agelist, this line will insert the age at the wrong position, potentially resulting in an incorrect sorting order.

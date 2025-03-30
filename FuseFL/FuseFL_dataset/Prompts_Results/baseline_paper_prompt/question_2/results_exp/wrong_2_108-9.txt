@@ -1,0 +1,1 @@
+The condition should be 'count_dates(date, possible_birthdays) == 1' instead of zero. If the count is zero, it means the date is unique, not the other way around.

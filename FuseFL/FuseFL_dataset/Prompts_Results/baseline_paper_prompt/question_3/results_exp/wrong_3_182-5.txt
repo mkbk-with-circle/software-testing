@@ -1,0 +1,1 @@
+The comparison 'i == lst[j]' is performed without updating the value of 'i' inside the loop, potentially causing incorrect duplicate detection.

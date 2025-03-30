@@ -1,0 +1,29 @@
+{
+  "faultLoc": [
+    {
+      "faultyLine": 10,
+      "code": "return new_lst",
+      "explanation": "The variable name used here is incorrect. It should be 'new_list' instead of 'new_lst'."
+    },
+    {
+      "faultyLine": 2,
+      "code": "new_list=[]",
+      "explanation": "This line initializes an empty list 'new_list'. It is considered potentially faulty because it might not be used correctly in the subsequent code."
+    },
+    {
+      "faultyLine": 3,
+      "code": "for i in range(len(lst)):",
+      "explanation": "This line starts a loop iterating over the indices of the input list 'lst'. It is considered potentially faulty because it might not handle all elements correctly."
+    },
+    {
+      "faultyLine": 4,
+      "code": "judge=0",
+      "explanation": "This line initializes a variable 'judge' with 0. It is considered potentially faulty because it might not be used correctly in the subsequent code."
+    },
+    {
+      "faultyLine": 5,
+      "code": "for j in range(i):",
+      "explanation": "This line starts a nested loop iterating over the indices up to 'i'. It is considered potentially faulty because it might not handle all elements correctly."
+    }
+  ]
+}

@@ -1,0 +1,1 @@
+The line `lst1 = list(seq)` is considered potentially faulty because it converts `seq` into a list unconditionally. However, the variable `seq` is expected to be a sequence, which could be a tuple or a list already. Converting it to a list might not be necessary and could introduce unintended behavior.

@@ -1,0 +1,1 @@
+This line initializes an empty list new_lst to store the unique elements.

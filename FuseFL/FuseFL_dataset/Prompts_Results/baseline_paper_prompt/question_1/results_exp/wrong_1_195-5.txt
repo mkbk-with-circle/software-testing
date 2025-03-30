@@ -1,0 +1,1 @@
+Comparing 'seq' with an empty list using the equality operator instead of checking for its length

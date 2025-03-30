@@ -1,0 +1,1 @@
+Returning None instead of the length of the sequence seems incorrect. It should return the index where x should be inserted.

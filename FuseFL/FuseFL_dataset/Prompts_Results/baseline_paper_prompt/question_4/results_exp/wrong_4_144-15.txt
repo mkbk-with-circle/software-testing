@@ -1,0 +1,1 @@
+This line assumes that each element in the 'left' and 'right' lists has a string as its first element. If any of the elements is an empty list or a string without a first character, it will raise an IndexError.

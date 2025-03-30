@@ -1,0 +1,1 @@
+This condition checks if 'x' is greater than the last element of 'seq'. However, it should be 'x >= seq[length - 1]' to include the case when 'x' is equal to the last element.

@@ -1,0 +1,1 @@
+The code does not handle cases where the elements are equal. If the intention is to sort in descending order, the condition should be modified to 'if lst[i][1] > lst[i+1][1]'.

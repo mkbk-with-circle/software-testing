@@ -1,0 +1,1 @@
+This line throws an UnboundLocalError when seq is empty. It should be handled separately to return 0 when seq is empty.

@@ -1,0 +1,29 @@
+{
+  "faultLoc": [
+    {
+      "faultyLine": 5,
+      "code": "for i in range(-len(lst),0):",
+      "explanation": "The range function is used with negative indices to iterate over the list in reverse order. However, negative indices are not supported by the range function. This line should be modified to use positive indices instead."
+    },
+    {
+      "faultyLine": 6,
+      "code": "if lst[i] == max(lst):",
+      "explanation": "This line compares the current element of the list with the maximum value of the entire list. However, it should only compare with the maximum value of the remaining elements. This line should be modified to compare with the maximum value of the remaining unprocessed elements."
+    },
+    {
+      "faultyLine": 7,
+      "code": "results.append(lst.pop(i))",
+      "explanation": "This line removes an element from the list using the index 'i' and appends it to the 'results' list. However, removing elements from the list while iterating over it can lead to unexpected behavior. This line should be modified to store the maximum value in a separate variable and append it to the 'results' list after the iteration is complete."
+    },
+    {
+      "faultyLine": 8,
+      "code": "counter += 1",
+      "explanation": "This line increments the 'counter' variable by 1. However, it should only be incremented when a maximum value is appended to the 'results' list. This line should be moved inside the 'if' statement after appending the maximum value to 'results'."
+    },
+    {
+      "faultyLine": 2,
+      "code": "results = []",
+      "explanation": "This line initializes an empty list 'results'. Although it is not directly causing the incorrect results, it is considered suspicious as it is not used in the subsequent code. It can be removed to improve code readability."
+    }
+  ]
+}

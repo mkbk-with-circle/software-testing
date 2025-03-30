@@ -1,0 +1,1 @@
+The return statement is placed within the loop, causing premature termination and incorrect results.

@@ -1,0 +1,14 @@
+{
+  "faultLoc": [
+    {
+      "faultyLine": 2,
+      "code": "first = lst[0][1]",
+      "explanation": "This line initializes the variable 'first' with the age of the first person in the list. However, if the list is empty, an IndexError will occur."
+    },
+    {
+      "faultyLine": 5,
+      "code": "if x[1] > first:",
+      "explanation": "This line checks if the age of the current person is greater than the age of the first person. However, there is an issue with this line. Instead of appending the values to the 'result' list, it assigns a tuple of two ages to the 'result' variable, overwriting the previous value."
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "faultLoc": [
+    {
+      "faultyLine": 5,
+      "code": "new_lst = new_lst + i",
+      "explanation": "The line attempts to concatenate a list with an integer, resulting in a TypeError. To fix this, we should use the append() method to add the element 'i' to 'new_lst' instead of concatenating it."
+    },
+    {
+      "faultyLine": 4,
+      "code": "if i not in new_lst:",
+      "explanation": "This line checks if the element 'i' is not already in 'new_lst'. Although this line is correct, the subsequent faulty line (line 5) causes the issue."
+    },
+    {
+      "faultyLine": 2,
+      "code": "new_lst = []",
+      "explanation": "This line initializes an empty list 'new_lst' to store the unique elements. It is correct and necessary for the function."
+    },
+    {
+      "faultyLine": 3,
+      "code": "for i in lst:",
+      "explanation": "This line iterates over each element 'i' in the input list 'lst'. It is correct and necessary for the function."
+    },
+    {
+      "faultyLine": 8,
+      "code": "return new_lst",
+      "explanation": "This line returns the final list 'new_lst' after removing duplicates. It is correct and necessary for the function."
+    }
+  ]
+}

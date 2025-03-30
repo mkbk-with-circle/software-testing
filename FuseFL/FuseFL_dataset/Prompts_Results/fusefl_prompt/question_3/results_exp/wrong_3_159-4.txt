@@ -1,0 +1,1 @@
+This line checks if the current element i is already present in the newlist. If it is not, the element is considered unique and will be added to newlist. However, this line is causing the incorrect results because it only checks for the presence of the element in newlist but does not handle the case when the element is present.

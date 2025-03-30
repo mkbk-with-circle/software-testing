@@ -1,0 +1,24 @@
+{
+  "faultLoc": [
+    {
+      "faultyLine": 9,
+      "code": "if lst[j][1] > lst[i][1]:",
+      "explanation": "The code assumes that lst[j] and lst[i] are tuples with indices, but lst is a list of integers. This line should be modified to compare the integers directly."
+    },
+    {
+      "faultyLine": 8,
+      "code": "for j in range(i, len(lst)):",
+      "explanation": "The inner loop iteration logic might be incorrect, causing unexpected behavior."
+    },
+    {
+      "faultyLine": 7,
+      "code": "for i in range(len(lst)-1):",
+      "explanation": "The iteration logic might be incorrect, leading to incorrect results."
+    },
+    {
+      "faultyLine": 2,
+      "code": "lst = sort_descending(lst)",
+      "explanation": "If there is an issue with the sorting logic in the sort_descending function, it will affect the final result."
+    }
+  ]
+}

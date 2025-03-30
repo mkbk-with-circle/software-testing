@@ -1,0 +1,1 @@
+This condition checks if the current element is smaller than the next element. However, it should swap the elements if lst[i] < lst[i+1] to sort the list in descending order.

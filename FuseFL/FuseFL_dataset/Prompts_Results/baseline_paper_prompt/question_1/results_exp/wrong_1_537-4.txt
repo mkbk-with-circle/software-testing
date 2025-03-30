@@ -1,0 +1,1 @@
+No check to handle scenario when no element in `seq` is greater than `x`

@@ -1,0 +1,1 @@
+This line inserts the 'ele' element at the 'indx' position in the 'out' list. But if 'out' is empty, an IndexError will be raised since the 'indx' will be out of range.

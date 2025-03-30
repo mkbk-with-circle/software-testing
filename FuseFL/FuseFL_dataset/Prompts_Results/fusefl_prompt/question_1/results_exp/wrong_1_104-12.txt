@@ -1,0 +1,1 @@
+The line raises an UnboundLocalError when the sequence is empty. It should be modified to handle this case and return 0 instead.

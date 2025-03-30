@@ -1,0 +1,1 @@
+Line 5 returns the modified list lst. While this line is not faulty, the incorrect logic in lines 3 and 4 causes the returned list to be incorrect.

@@ -1,0 +1,1 @@
+The 'unique_month' function checks if the given month is in the current date being iterated. However, it should check for the month, not the entire date. Modify the condition to 'if month == dates[0]:' to fix the issue.

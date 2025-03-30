@@ -1,0 +1,1 @@
+The line `if lst1 == []:` is considered potentially faulty because it checks if `lst1` is an empty list using the equality operator. However, it is more Pythonic to use the `not` operator to check for an empty list. So, this line could be modified to `if not lst1:`.

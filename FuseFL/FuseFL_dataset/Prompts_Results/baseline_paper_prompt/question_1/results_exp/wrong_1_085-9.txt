@@ -1,0 +1,1 @@
+The return value should be modified to return len(seq) + 1 to indicate that the element should be inserted at the end of the sequence.

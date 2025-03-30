@@ -1,0 +1,1 @@
+The code correctly checks if the age of the current person is greater than the current maximum age. However, it doesn't update the value of 'biggest' when a new maximum age is found. This results in incorrect sorting.

@@ -1,0 +1,1 @@
+Comparing a list with an empty list using the '==' operator is unnecessary. Instead, the condition should be checked using the 'not lst' expression.

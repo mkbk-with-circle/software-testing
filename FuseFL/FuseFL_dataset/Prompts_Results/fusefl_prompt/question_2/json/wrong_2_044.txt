@@ -1,0 +1,29 @@
+{
+  "faultLoc": [
+    {
+      "faultyLine": 14,
+      "code": "return",
+      "explanation": "The 'unique_month' function is expected to return a boolean value indicating whether the month is unique within the list of possible birthdays. Since the function is currently returning 'None', this line should be investigated further."
+    },
+    {
+      "faultyLine": 17,
+      "code": "return",
+      "explanation": "The 'contains_unique_day' function is expected to return a boolean value indicating whether there exists a birthday with a unique day within the list for a specific month. Since the function is currently returning 'None', this line should be investigated further."
+    },
+    {
+      "faultyLine": 4,
+      "code": "count=0",
+      "explanation": "This line initializes the 'count' variable to 0, which is necessary for counting occurrences. It is not directly related to the reported issues."
+    },
+    {
+      "faultyLine": 5,
+      "code": "for birthday in possible_birthdays:",
+      "explanation": "This line iterates over the 'possible_birthdays' list to check each birthday. It is not directly related to the reported issues."
+    },
+    {
+      "faultyLine": 6,
+      "code": "if day in birthday[1]:",
+      "explanation": "This line checks if the given day is present in the second element of the 'birthday' tuple. It is not directly related to the reported issues."
+    }
+  ]
+}

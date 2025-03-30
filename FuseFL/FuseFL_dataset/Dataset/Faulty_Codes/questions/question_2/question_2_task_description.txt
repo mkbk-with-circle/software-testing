@@ -1,0 +1,3 @@
+The `unique_day` function takes a day (provided as a string) and a list of possible_birthdays (represented as tuples containing month and day) as input. It checks if a given day is unique within the list of possible birthdays.
+The `unique_month` function takes a month (provided as a string) and a list of possible_birthdays (represented as tuples containing month and day) as input. It checks if a given month is unique within the list of possible birthdays.
+The `contains_unique_day` function takes a month (provided as a string) and a list of possible_birthdays (represented as tuples containing month and day) as input. It checks if there exists a birthday with a unique day within the list for a specific month.

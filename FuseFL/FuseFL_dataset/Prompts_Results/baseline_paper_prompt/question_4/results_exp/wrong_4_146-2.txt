@@ -1,0 +1,1 @@
+The initialization of 'youngest' variable assumes that the first element of the list is the youngest. This may lead to incorrect results if the list is not properly sorted.

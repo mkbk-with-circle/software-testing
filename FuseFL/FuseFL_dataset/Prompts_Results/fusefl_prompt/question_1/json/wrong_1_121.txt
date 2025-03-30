@@ -1,0 +1,29 @@
+{
+  "faultLoc": [
+    {
+      "faultyLine": 5,
+      "code": "return len(seq)",
+      "explanation": "The line returns the length of the sequence when there are no elements greater than or equal to x. This is incorrect because it should return the index where x should be inserted to maintain the sorted order."
+    },
+    {
+      "faultyLine": 4,
+      "code": "elif x >= seq[-1]:",
+      "explanation": "This line checks if x is greater than or equal to the last element of the sequence. However, it should only return the length of the sequence when x is greater than or equal to the last element, not the length of the whole sequence."
+    },
+    {
+      "faultyLine": 2,
+      "code": "if len(seq) == 0:",
+      "explanation": "This line checks if the sequence is empty. It correctly returns 0 when the sequence is empty, but it should also return the index 0 when x is smaller than the first element of the sequence."
+    },
+    {
+      "faultyLine": 7,
+      "code": "for i, elem in enumerate(seq):",
+      "explanation": "This line starts a loop to iterate over the elements in the sequence. It is not necessarily faulty, but it's included in the potentially faulty lines list for further investigation."
+    },
+    {
+      "faultyLine": 8,
+      "code": "if elem >= x:",
+      "explanation": "This line checks if the current element is greater than or equal to x. It is not necessarily faulty, but it's included in the potentially faulty lines list for further investigation."
+    }
+  ]
+}

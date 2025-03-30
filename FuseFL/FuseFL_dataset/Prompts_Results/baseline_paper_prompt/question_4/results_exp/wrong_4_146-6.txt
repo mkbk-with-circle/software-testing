@@ -1,0 +1,1 @@
+The comparison 'elem[1] < youngest' is incorrect because 'youngest' is not updated within the loop. It should compare 'elem[1]' with the current youngest element in the list.

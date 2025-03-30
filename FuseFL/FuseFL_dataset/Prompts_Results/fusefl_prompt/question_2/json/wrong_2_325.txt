@@ -1,0 +1,29 @@
+{
+  "faultLoc": [
+    {
+      "faultyLine": 22,
+      "code": "return",
+      "explanation": "The 'contains_unique_day' function is not returning any value. It should return either True or False based on the condition."
+    },
+    {
+      "faultyLine": 17,
+      "code": "return True",
+      "explanation": "The return statement should be outside the loop to ensure it is executed after iterating through all possible birthdays."
+    },
+    {
+      "faultyLine": 15,
+      "code": "count +=  1",
+      "explanation": "This line is not faulty. The issue lies in the indentation of the subsequent lines."
+    },
+    {
+      "faultyLine": 12,
+      "code": "count = 0",
+      "explanation": "This line is not faulty. The issue lies in the indentation of the subsequent lines."
+    },
+    {
+      "faultyLine": 13,
+      "code": "for i in range (len(possible_birthdays)):",
+      "explanation": "This line is not faulty. The issue lies in the indentation of the subsequent lines."
+    }
+  ]
+}

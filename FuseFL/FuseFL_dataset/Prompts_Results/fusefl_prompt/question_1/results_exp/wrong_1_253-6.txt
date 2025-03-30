@@ -1,0 +1,1 @@
+This line checks if x is greater than or equal to the last element of the sequence. However, if the sequence is empty, an IndexError will occur when trying to access seq[len(seq) - 1]. This line needs to be modified to handle the empty sequence case.

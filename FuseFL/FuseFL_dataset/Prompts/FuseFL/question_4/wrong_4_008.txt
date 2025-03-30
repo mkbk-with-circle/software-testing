@@ -1,0 +1,46 @@
+Faulty Code:
+```python
+def sort_age(lst):
+    for i in range(0,len(lst)):
+        this=lst[i]
+        for j in range(0,len(lst)):
+            if lst[j][1]<this[1]:
+                del lst[i]
+                lst=lst[0:j]+[this]+lst[j:]
+    return lst# Fill in your code here
+    pass
+```
+
+Task Description:
+Given a list of people that is represented using a tuple (<gender>, <age>), function `sort_age` sorts the people and return a list in an order such that the older people are at the front of the list. An example of the list of people is [("M", 23), ("F", 19), ("M", 30)]. The sorted list would look like [("M", 30), ("M", 23), ("F", 19)]. You may assume that no two members of the list of people are of the same age.
+
+
+Test Results:
+The provided code is producing incorrect results. For example:
+- Running the function as follows `sort_age([("M", 35), ("F", 18), ("M", 23), ("F", 19), ("M", 30), ("M", 17)])` yields `[('M', 35), ('M', 35), ('M', 35), ('M', 35), ('M', 35), ('M', 35)]` instead of the expected `[('M', 35), ('M', 30), ('M', 23), ('F', 19), ('F', 18), ('M', 17)]`.
+- Running the function as follows `sort_age([("F", 18), ("M", 23), ("F", 19), ("M", 30), ("M", 17)])` yields `[('M', 23), ('F', 19), ('F', 19), ('F', 19), ('F', 19)]` instead of the expected `[('M', 30), ('M', 23), ('F', 19), ('F', 18), ('M', 17)]`.
+- Running the function as follows `sort_age([("F", 18), ("M", 23), ("F", 19), ("M", 30)])` yields `[('M', 30), ('M', 30), ('M', 30), ('M', 30)]` instead of the expected `[('M', 30), ('M', 23), ('F', 19), ('F', 18)]`.
+- Running the function as follows `sort_age([("M", 23), ("F", 19), ("M", 30)])` yields `[('M', 30), ('M', 30), ('M', 30)]` instead of the expected `[('M', 30), ('M', 23), ('F', 19)]`.
+
+Spectrum-based Fault Localization (SBFL) Techniques Results:
+We have used SBFL techniques to identify potentially faulty lines. Here are the results of top-5 suspicious lines sorted in descending order of the score:
+1. Line 6 `del lst[i]`, Ochiai score: 0.377964
+2. Line 7 `lst=lst[0:j]+[this]+lst[j:]`, Ochiai score: 0.377964
+3. Line 3 `this=lst[i]`, Ochiai score: 0.338062
+4. Line 4 `for j in range(0,len(lst)):`, Ochiai score: 0.338062
+5. Line 5 `if lst[j][1]<this[1]:`, Ochiai score: 0.338062
+
+Analyze the provided code and utilize task description, test results, and SBFL techniques results to help in identifying potentially faulty lines. Provide the results following this JSON template:
+```json
+{
+  "faultLoc": [
+    {
+      "faultyLine": (indicating the line number of the suspicious code),
+      "code": (displaying the actual code),
+      "explanation": (step by step reasoning on why this location is considered potentially faulty)
+    },
+    ...
+  ]
+}
+```
+Ensure that the objects in the "faultLoc" array are sorted in descending order of suspicion.

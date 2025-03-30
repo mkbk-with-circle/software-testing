@@ -1,0 +1,14 @@
+{
+  "faultLoc": [
+    {
+      "faultyLine": 25,
+      "code": "if month == i[0]:",
+      "explanation": "This line compares the given month with the month of each birthday tuple. However, the task description states that the function should check for a unique day, not a unique month. So, this line is potentially faulty."
+    },
+    {
+      "faultyLine": 27,
+      "code": "if occur == 1:",
+      "explanation": "This line checks if there is only one occurrence of the given month. However, since we are looking for unique days, this line is potentially faulty."
+    }
+  ]
+}

@@ -1,0 +1,1 @@
+The line 'if ele not in result:' is potentially faulty because it checks if 'ele' is not in 'result' correctly. However, the subsequent code does not handle the case when 'ele' is not in 'result'. This can lead to incorrect results.

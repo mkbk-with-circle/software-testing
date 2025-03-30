@@ -1,0 +1,1 @@
+Initializing the variable 'biggest' with the age of the first person in the list assumes that the first person is the oldest, which is incorrect in general cases.

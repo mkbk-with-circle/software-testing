@@ -1,0 +1,1 @@
+Potential IndexError if possible_birthdays list doesn't contain elements with at least two elements

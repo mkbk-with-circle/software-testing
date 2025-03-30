@@ -1,0 +1,1 @@
+This line is potentially faulty because it removes elements from the list while iterating over it, which can lead to unexpected behavior.

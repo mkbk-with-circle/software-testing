@@ -1,0 +1,1 @@
+The logic is incorrect as it appends the element to the original list `lst` instead of the new list `new_lst`.

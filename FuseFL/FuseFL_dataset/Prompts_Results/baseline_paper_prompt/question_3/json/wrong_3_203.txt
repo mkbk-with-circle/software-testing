@@ -1,0 +1,20 @@
+{
+  "intentOfThisFunction": "Remove duplicates from a list",
+  "faultLocalization": [
+    {
+      "lineNumber": 3,
+      "codeContent": "while elem in lst[lst.index(elem)+1:]:",
+      "reason": "Potential infinite loop due to incorrect usage of lst.index(elem)"
+    },
+    {
+      "lineNumber": 4,
+      "codeContent": "lst.remove(elem)",
+      "reason": "Modifying a list while iterating over it can lead to unexpected behavior"
+    },
+    {
+      "lineNumber": 5,
+      "codeContent": "return lst",
+      "reason": "Modifying the input list directly instead of creating a new list"
+    }
+  ]
+}

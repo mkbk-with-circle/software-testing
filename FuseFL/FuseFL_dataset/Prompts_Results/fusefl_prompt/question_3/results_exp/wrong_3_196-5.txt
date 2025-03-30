@@ -1,0 +1,1 @@
+The line attempts to concatenate a list with an integer, resulting in a TypeError. To fix this, we should use the append() method to add the element 'i' to 'new_lst' instead of concatenating it.

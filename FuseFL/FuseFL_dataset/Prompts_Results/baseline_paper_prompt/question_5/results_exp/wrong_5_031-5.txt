@@ -1,0 +1,1 @@
+Misleading loop variable name. Should be 'number' instead of 'numbers'.

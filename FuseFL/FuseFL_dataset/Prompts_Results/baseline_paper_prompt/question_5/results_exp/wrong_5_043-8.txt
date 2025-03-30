@@ -1,0 +1,1 @@
+The removal of the largest element is done inside the for loop, which may cause incorrect behavior and lead to missing elements. It should be placed outside the loop.

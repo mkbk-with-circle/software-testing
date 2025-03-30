@@ -1,0 +1,1 @@
+The logic seems incorrect as it should return the index of the element if found, not modify the list.

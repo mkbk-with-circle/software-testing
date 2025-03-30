@@ -1,0 +1,1 @@
+This line is causing an IndexError when the sequence is empty because it tries to access the first element of an empty list or tuple. To fix this, we need to check if the sequence is empty before accessing its elements.

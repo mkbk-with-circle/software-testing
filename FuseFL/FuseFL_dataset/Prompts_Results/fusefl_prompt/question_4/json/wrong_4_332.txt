@@ -1,0 +1,29 @@
+{
+  "faultLoc": [
+    {
+      "faultyLine": 7,
+      "code": "biggest  - i",
+      "explanation": "The code mistakenly uses the subtraction operator instead of the assignment operator. Change 'biggest  - i' to 'biggest = i' to correctly update the value of 'biggest' with the current tuple 'i' if it has a higher age."
+    },
+    {
+      "faultyLine": 4,
+      "code": "biggest = lst[0]",
+      "explanation": "No issues found in this line. It assigns the first tuple in the list to 'biggest' to initialize the comparison."
+    },
+    {
+      "faultyLine": 5,
+      "code": "for i in lst:",
+      "explanation": "No issues found in this line. It iterates over each tuple 'i' in the list 'lst'."
+    },
+    {
+      "faultyLine": 6,
+      "code": "if i[1] > biggest[1]:",
+      "explanation": "No issues found in this line. It compares the age of the current tuple 'i' with the age of the 'biggest' tuple."
+    },
+    {
+      "faultyLine": 2,
+      "code": "sort = []",
+      "explanation": "No issues found in this line. It initializes an empty list 'sort' to store the sorted tuples."
+    }
+  ]
+}

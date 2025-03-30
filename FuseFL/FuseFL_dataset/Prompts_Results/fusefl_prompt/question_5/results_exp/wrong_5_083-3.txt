@@ -1,0 +1,1 @@
+The loop iterates over the indices of lst, but it is not necessary for the current functionality. This line should be removed to simplify the code.

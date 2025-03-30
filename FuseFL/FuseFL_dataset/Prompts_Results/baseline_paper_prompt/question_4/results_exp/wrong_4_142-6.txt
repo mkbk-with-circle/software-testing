@@ -1,0 +1,1 @@
+Assumes each item has at least two elements, raising an IndexError if not.

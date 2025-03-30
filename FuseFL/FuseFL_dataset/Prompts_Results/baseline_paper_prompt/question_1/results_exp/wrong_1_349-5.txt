@@ -1,0 +1,1 @@
+The loop variable 'x' is being used as both the loop iterator and as a comparison value. This will cause incorrect results because 'x' is being redefined in each iteration.

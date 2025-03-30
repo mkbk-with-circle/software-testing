@@ -1,0 +1,45 @@
+Faulty Code:
+```python
+def remove_extras(lst):
+    l=len(lst)
+    for i in l:
+        for j in range(i+1,l):
+            if lst[i]==lst[j]:
+                del lst[j]
+    return lst
+            
+    # your code here
+    pass
+```
+
+Task Description:
+The function `remove_extras` takes in a list and returns a new list with all repeated occurrences of any element removed. This new list should maintain the same order as the input list. For example, remove_extras([5, 2, 1, 2, 3]) returns the list [5, 2, 1, 3].
+
+Test Results:
+The provided code is producing incorrect results. For example:
+- Running the function as follows `remove_extras([1, 1, 1, 2, 3])` generate a `TypeError: 'int' object is not iterable` in line 3 `for i in l:`.
+- Running the function as follows `remove_extras([1, 5, 1, 1, 3, 2])` generate a `TypeError: 'int' object is not iterable` in line 3 `for i in l:`.
+- Running the function as follows `remove_extras([])` generate a `TypeError: 'int' object is not iterable` in line 3 `for i in l:`.
+- Running the function as follows `remove_extras([3, 4, 5, 1, 3])` generate a `TypeError: 'int' object is not iterable` in line 3 `for i in l:`.
+- Running the function as follows `remove_extras([3, 4, 5, 1, 3])` generate a `TypeError: 'int' object is not iterable` in line 3 `for i in l:`.
+- Running the function as follows `remove_extras([3, 4, 5, 1, 3])` generate a `TypeError: 'int' object is not iterable` in line 3 `for i in l:`.
+
+Spectrum-based Fault Localization (SBFL) Techniques Results:
+We have used SBFL techniques to identify potentially faulty lines. Here are the results of top-2 suspicious lines sorted in descending order of the score:
+1. Line 2 `l=len(lst)`, Ochiai score: 0.707107
+2. Line 3 `for i in l:`, Ochiai score: 0.707107
+
+Analyze the provided code and utilize task description, test results, and SBFL techniques results to help in identifying potentially faulty lines. Provide the results following this JSON template:
+```json
+{
+  "faultLoc": [
+    {
+      "faultyLine": (indicating the line number of the suspicious code),
+      "code": (displaying the actual code),
+      "explanation": (step by step reasoning on why this location is considered potentially faulty)
+    },
+    ...
+  ]
+}
+```
+Ensure that the objects in the "faultLoc" array are sorted in descending order of suspicion.

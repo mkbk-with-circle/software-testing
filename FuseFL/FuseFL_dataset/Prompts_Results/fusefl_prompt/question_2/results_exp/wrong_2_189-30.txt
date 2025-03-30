@@ -1,0 +1,1 @@
+It should check if the birthday[0] (month) matches the given month. To fix this, replace possible_birthdays[i][0] with birthday[0] in the condition.

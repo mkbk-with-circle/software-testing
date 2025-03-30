@@ -1,0 +1,1 @@
+This line appends the element 'i' to the original list 'lst' instead of the new list 'new_lst'. This will result in an infinite loop as the loop condition is based on the length of 'lst'.

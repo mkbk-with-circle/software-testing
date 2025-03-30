@@ -1,0 +1,1 @@
+The loop iterates over the entire list, but it doesn't update the 'max' variable correctly. It should compare each element with 'max' and update it accordingly.

@@ -1,0 +1,1 @@
+Potential bug: The function returns False without checking all elements in possible_birthdays

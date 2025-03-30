@@ -1,0 +1,25 @@
+{
+  "intentOfThisFunction": "The function is intended to remove duplicate elements from a list.",
+  "faultLocalization": [
+    {
+      "lineNumber": 6,
+      "codeContent": "new_list.append(item)",
+      "reason": "The variable name 'new_list' is incorrect. It should be 'new_lst'."
+    },
+    {
+      "lineNumber": 5,
+      "codeContent": "occurrences += (item,)",
+      "reason": "The variable name 'occurrences' is incorrect. It should be 'occurrences'."
+    },
+    {
+      "lineNumber": 4,
+      "codeContent": "for item in lst:",
+      "reason": "The loop variable 'item' is missing an 's'. It should be 'items'."
+    },
+    {
+      "lineNumber": 3,
+      "codeContent": "occurrences = ()",
+      "reason": "The variable name 'occurrences' is incorrect. It should be 'occurrences'."
+    }
+  ]
+}

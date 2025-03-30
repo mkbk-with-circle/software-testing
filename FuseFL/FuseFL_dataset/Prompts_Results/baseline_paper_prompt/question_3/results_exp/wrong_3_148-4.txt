@@ -1,0 +1,1 @@
+This line is potentially faulty because it checks if 'i' is not in 'lst2'. However, 'lst2' is initially an empty list, so this condition will always evaluate to True, leading to duplicate elements being added.

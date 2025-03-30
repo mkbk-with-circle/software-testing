@@ -1,0 +1,47 @@
+Faulty Code:
+```python
+def top_k(lst, k):
+    sorted_list = []
+    while lst:
+        smallest = lst[0]
+        for element in lst:
+            if element < smallest:
+                smallest = element
+            lst.remove(element)
+            sorted_list.append(element)
+    return list.reverse(sorted_list)[:k-1]
+```
+
+Task Description:
+The `top_k` function takes in a list of integers as the input and returns the greatest k number of values as a list, with its elements sorted in descending order. 
+
+Test Results:
+The provided code is producing incorrect results. For example:
+- Running the function as follows `top_k([9, 9, 4, 9, 7, 9, 3, 1, 6], 5)` generate a `TypeError: 'NoneType' object is not subscriptable` in line 10 `return list.reverse(sorted_list)[:k-1]`.
+- Running the function as follows `top_k([9, 8, 4, 5, 7, 2, 3, 1, 6], 5)` generate a `TypeError: 'NoneType' object is not subscriptable` in line 10 `return list.reverse(sorted_list)[:k-1]`.
+- Running the function as follows `top_k([4, 5, 2, 3, 1, 6], 6)` generate a `TypeError: 'NoneType' object is not subscriptable` in line 10 `return list.reverse(sorted_list)[:k-1]`.
+- Running the function as follows `top_k([4, 5, 2, 3, 1, 6], 3)` generate a `TypeError: 'NoneType' object is not subscriptable` in line 10 `return list.reverse(sorted_list)[:k-1]`.
+- Running the function as follows `top_k([4, 5, 2, 3, 1, 6], 0)` generate a `TypeError: 'NoneType' object is not subscriptable` in line 10 `return list.reverse(sorted_list)[:k-1]`.
+
+Spectrum-based Fault Localization (SBFL) Techniques Results:
+We have used SBFL techniques to identify potentially faulty lines. Here are the results of top-5 suspicious lines sorted in descending order of the score:
+1. Line 2 `sorted_list = []`, Ochiai score: 0.333333
+2. Line 3 `while lst:`, Ochiai score: 0.333333
+3. Line 4 `smallest = lst[0]`, Ochiai score: 0.333333
+4. Line 10 `return list.reverse(sorted_list)[:k-1]`, Ochiai score: 0.333333
+5. Line 5 `for element in lst:`, Ochiai score: 0.333333
+
+Analyze the provided code and utilize task description, test results, and SBFL techniques results to help in identifying potentially faulty lines. Provide the results following this JSON template:
+```json
+{
+  "faultLoc": [
+    {
+      "faultyLine": (indicating the line number of the suspicious code),
+      "code": (displaying the actual code),
+      "explanation": (step by step reasoning on why this location is considered potentially faulty)
+    },
+    ...
+  ]
+}
+```
+Ensure that the objects in the "faultLoc" array are sorted in descending order of suspicion.

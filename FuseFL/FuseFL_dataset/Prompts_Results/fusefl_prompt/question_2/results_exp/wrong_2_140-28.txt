@@ -1,0 +1,1 @@
+This line initializes an empty tuple to store the days in the given month, but it should be a list instead.

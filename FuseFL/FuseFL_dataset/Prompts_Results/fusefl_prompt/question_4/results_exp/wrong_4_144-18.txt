@@ -1,0 +1,1 @@
+The line should append the first element of the right list, which is a tuple. Modify the line to results.append(right.pop(0)[0]).

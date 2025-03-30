@@ -1,0 +1,14 @@
+{
+  "faultLoc": [
+    {
+      "faultyLine": 5,
+      "code": "final += [element,]",
+      "explanation": "This line appends the current maximum value 'element' to the 'final' list. It is responsible for adding the elements to the result list but does not handle sorting them in descending order."
+    },
+    {
+      "faultyLine": 4,
+      "code": "element = max(lst)",
+      "explanation": "This line finds the maximum value in the list 'lst' and assigns it to the variable 'element'. It is responsible for selecting the maximum value but does not handle the sorting correctly."
+    }
+  ]
+}

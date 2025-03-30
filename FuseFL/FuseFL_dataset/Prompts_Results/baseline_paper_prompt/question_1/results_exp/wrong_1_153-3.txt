@@ -1,0 +1,1 @@
+Using seq.index(seq[i]) to return the index position is unnecessary and inefficient. It would be better to simply return i.

@@ -1,0 +1,1 @@
+Although this line doesn't directly cause the error, it should be fixed to correctly check for an empty sequence. Replace the condition with 'if seq == ():'.

@@ -1,0 +1,1 @@
+This line checks if the element 'i' is not already in 'new_lst'. Although this line is correct, the subsequent faulty line (line 5) causes the issue.

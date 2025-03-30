@@ -1,0 +1,1 @@
+The loop iterates through the sequence, but it should handle cases where x is greater than all elements in the sequence.

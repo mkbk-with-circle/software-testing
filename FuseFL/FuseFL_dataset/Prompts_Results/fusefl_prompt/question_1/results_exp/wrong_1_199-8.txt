@@ -1,0 +1,1 @@
+The line returns the length of the sequence, which is incorrect. The function should return the position that x should go to such that the sequence remains sorted, but here it returns the length of the sequence instead.

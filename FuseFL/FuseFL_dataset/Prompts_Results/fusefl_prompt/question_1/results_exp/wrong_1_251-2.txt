@@ -1,0 +1,1 @@
+This line compares the value x with the first element of the sequence seq. It doesn't handle the case when the sequence is empty, causing an IndexError.

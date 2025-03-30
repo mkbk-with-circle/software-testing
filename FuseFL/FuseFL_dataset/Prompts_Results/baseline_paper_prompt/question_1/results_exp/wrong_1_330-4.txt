@@ -1,0 +1,1 @@
+This line could potentially cause an error as the 'index' function is not defined in the code snippet.

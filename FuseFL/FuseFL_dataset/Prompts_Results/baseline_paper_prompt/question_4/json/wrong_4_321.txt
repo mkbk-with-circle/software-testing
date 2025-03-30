@@ -1,0 +1,30 @@
+{
+  "intentOfThisFunction": "Sort a list based on the second element of each element in descending order.",
+  "faultLocalization": [
+    {
+      "lineNumber": 3,
+      "codeContent": "big = lst[0]",
+      "reason": "Incorrect assignment of 'big' variable"
+    },
+    {
+      "lineNumber": 5,
+      "codeContent": "for n in lst:",
+      "reason": "Inefficient iteration over the entire list"
+    },
+    {
+      "lineNumber": 6,
+      "codeContent": "if n[1] > big[1]:",
+      "reason": "Incorrect comparison between 'n' and 'big'"
+    },
+    {
+      "lineNumber": 8,
+      "codeContent": "lst.remove(big)",
+      "reason": "Removing elements while iterating can cause issues"
+    },
+    {
+      "lineNumber": 9,
+      "codeContent": "newlst.append(big)",
+      "reason": "Appending incorrect variable to 'newlst'"
+    }
+  ]
+}

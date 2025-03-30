@@ -1,0 +1,1 @@
+The initialization of an empty list 'b' might be causing incorrect results.

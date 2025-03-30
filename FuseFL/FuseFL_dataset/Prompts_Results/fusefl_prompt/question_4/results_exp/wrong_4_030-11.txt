@@ -1,0 +1,1 @@
+This line initializes an empty list to store the sorted result. It seems fine and necessary for the algorithm.

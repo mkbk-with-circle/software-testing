@@ -1,0 +1,1 @@
+The 'append()' method modifies the list in-place and does not return a new list. Assigning the result of 'append()' to 'newlst' results in 'None', causing subsequent iterations to throw a 'TypeError'. This line should be modified to 'if i not in newlst:' without assigning the result of 'append()'.

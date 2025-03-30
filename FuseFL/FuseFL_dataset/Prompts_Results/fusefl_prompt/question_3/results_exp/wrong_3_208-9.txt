@@ -1,0 +1,1 @@
+Incrementing 'i' after removing an element can cause skipped elements.

@@ -1,0 +1,1 @@
+The condition should check for equality only, as the function intends to find the first element greater than or equal to 'x'.

@@ -1,0 +1,1 @@
+The code returns only the first three elements of the `result` list, instead of the top k elements. This is incorrect and needs to be fixed.

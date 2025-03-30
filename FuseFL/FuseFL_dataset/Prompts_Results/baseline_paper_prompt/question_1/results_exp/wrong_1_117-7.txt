@@ -1,0 +1,1 @@
+If the condition in line 4 is not satisfied, this return statement will execute. However, it should return the index where x should be inserted, not the current index i. This will result in incorrect output.

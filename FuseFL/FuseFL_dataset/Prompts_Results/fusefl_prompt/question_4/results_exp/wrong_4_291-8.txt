@@ -1,0 +1,1 @@
+This line attempts to remove the last person from the list. However, since 'i' represents the last person in the list, it will always remove the same person in each iteration, leading to incorrect results.

@@ -1,0 +1,20 @@
+{
+  "intentOfThisFunction": "The function returns the top k elements from a given list in descending order.",
+  "faultLocalization": [
+    {
+      "lineNumber": 4,
+      "codeContent": "lst.extend([i])",
+      "reason": "The list is extended with the index instead of the value at index i."
+    },
+    {
+      "lineNumber": 5,
+      "codeContent": "lst.pop(i)",
+      "reason": "The wrong element is being removed from the list."
+    },
+    {
+      "lineNumber": 8,
+      "codeContent": "return lst[:k+1]",
+      "reason": "The function should return lst[:k] to match the intended behavior."
+    }
+  ]
+}

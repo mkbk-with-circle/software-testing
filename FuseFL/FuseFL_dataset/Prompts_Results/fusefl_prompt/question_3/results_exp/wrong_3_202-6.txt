@@ -1,0 +1,1 @@
+Assigning the value at the current index 'i' to the variable 'a', which is not directly causing the issue.

@@ -1,0 +1,1 @@
+Adding an empty list to the 'new' list does not contribute to the desired functionality of removing repeated occurrences.

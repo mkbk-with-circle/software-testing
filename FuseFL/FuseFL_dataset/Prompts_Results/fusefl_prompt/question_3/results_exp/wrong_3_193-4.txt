@@ -1,0 +1,1 @@
+The 'ori_len' variable is assigned the length of 'lst' at the beginning of the function. However, this length is not used anywhere in the subsequent code. It seems to be unnecessary and can be removed.

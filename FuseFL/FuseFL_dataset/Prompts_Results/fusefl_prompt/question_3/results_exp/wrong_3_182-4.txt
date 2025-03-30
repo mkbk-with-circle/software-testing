@@ -1,0 +1,1 @@
+The loop iterates through the indices of 'lst', but the comment is misleading because the loop will execute even if 'lst' is empty.

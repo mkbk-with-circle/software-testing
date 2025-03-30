@@ -1,0 +1,29 @@
+{
+  "faultLoc": [
+    {
+      "faultyLine": 5,
+      "code": "for x in lst:",
+      "explanation": "The code is throwing a 'TypeError: 'NoneType' object is not iterable' because the input list 'lst' is None or empty, causing the loop to fail."
+    },
+    {
+      "faultyLine": 6,
+      "code": "if holder==[]:",
+      "explanation": "The condition 'if holder==[]' is incorrect. It should check if 'holder' is empty using the 'len(holder) == 0' condition instead of 'holder == []'."
+    },
+    {
+      "faultyLine": 10,
+      "code": "return [holder]+sort_age(lst.remove(holder))",
+      "explanation": "The line 'lst.remove(holder)' returns None, so the recursive call to 'sort_age' with 'lst.remove(holder)' as an argument will cause a 'TypeError: 'NoneType' object is not iterable'."
+    },
+    {
+      "faultyLine": 7,
+      "code": "holder=x",
+      "explanation": "The assignment 'holder=x' is incorrect. It should append 'x' to 'holder' using 'holder.append(x)' instead of overwriting the 'holder' list."
+    },
+    {
+      "faultyLine": 2,
+      "code": "holder=[]",
+      "explanation": "The initialization 'holder=[]' is not necessary since it gets overwritten later in the code. Removing this line won't affect the functionality."
+    }
+  ]
+}

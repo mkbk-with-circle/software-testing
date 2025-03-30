@@ -1,0 +1,1 @@
+This line returns the index of the current element in the sequence. However, it should return the first possible position for the element x. The current implementation doesn't consider the case when the element is found, and it should return the index of the found element, not the current element.

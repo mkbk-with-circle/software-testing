@@ -1,0 +1,29 @@
+{
+  "faultLoc": [
+    {
+      "faultyLine": 4,
+      "code": "if birthday[1] == day:",
+      "explanation": "The variable 'day' is not defined. It should be replaced with 'date' to compare the day from the 'birthday' tuple."
+    },
+    {
+      "faultyLine": 2,
+      "code": "counter = 0",
+      "explanation": "This line initializes the 'counter' variable, which is used to count the occurrences of a specific day or month."
+    },
+    {
+      "faultyLine": 3,
+      "code": "for birthday in possible_birthdays:",
+      "explanation": "This line starts a loop to iterate over the 'possible_birthdays' list."
+    },
+    {
+      "faultyLine": 24,
+      "code": "a = ()",
+      "explanation": "This line initializes an empty tuple 'a', which is later used to store birthdays with a specific month."
+    },
+    {
+      "faultyLine": 25,
+      "code": "for birthday in possible_birthdays:",
+      "explanation": "This line starts a loop to iterate over the 'possible_birthdays' list."
+    }
+  ]
+}

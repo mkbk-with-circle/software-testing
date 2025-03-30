@@ -1,0 +1,1 @@
+This line iterates over the 'seq' sequence assuming it is not empty. It can cause an error if 'seq' is empty.

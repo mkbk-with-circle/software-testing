@@ -1,0 +1,1 @@
+The line appends the remaining portion of the list (`lst[lst.index(elem)+1:]`) to the `sub_list`. However, the usage of `lst.index(elem)` will always return the index of the first occurrence of `elem`, which won't work correctly for subsequent occurrences.

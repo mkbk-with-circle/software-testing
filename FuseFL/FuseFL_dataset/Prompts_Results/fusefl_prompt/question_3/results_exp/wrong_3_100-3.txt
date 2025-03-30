@@ -1,0 +1,1 @@
+Reversing the list is unnecessary for removing duplicates and can be removed.

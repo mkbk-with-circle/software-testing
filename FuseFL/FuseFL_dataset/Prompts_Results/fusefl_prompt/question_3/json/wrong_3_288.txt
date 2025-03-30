@@ -1,0 +1,24 @@
+{
+  "faultLoc": [
+    {
+      "faultyLine": 4,
+      "code": "for j in i:",
+      "explanation": "The 'TypeError: 'int' object is not iterable' occurs because the variable 'i' is an integer and cannot be iterated over."
+    },
+    {
+      "faultyLine": 2,
+      "code": "new = []",
+      "explanation": "Initializing an empty list 'new' to store the unique elements."
+    },
+    {
+      "faultyLine": 3,
+      "code": "for i in lst:",
+      "explanation": "Iterating over each element 'i' in the input list 'lst'."
+    },
+    {
+      "faultyLine": 7,
+      "code": "return new",
+      "explanation": "Returning the new list with all repeated occurrences of any element removed."
+    }
+  ]
+}

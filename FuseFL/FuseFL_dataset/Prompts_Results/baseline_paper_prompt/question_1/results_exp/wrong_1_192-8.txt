@@ -1,0 +1,1 @@
+Returning count-1 may result in an invalid index if the first element greater than x is at index 0. It should return count instead.

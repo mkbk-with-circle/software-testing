@@ -1,0 +1,1 @@
+The function returns the 'a' list, but it should return the top k largest elements. The current implementation may return more than k elements if the 'a' list has duplicates or if its length is less than k. A fix is needed to ensure the correct number of elements is returned.

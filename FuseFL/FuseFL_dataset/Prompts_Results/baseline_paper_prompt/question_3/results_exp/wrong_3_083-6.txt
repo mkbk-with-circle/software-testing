@@ -1,0 +1,1 @@
+The function returns the original list 'lst' instead of the modified result list. This indicates a mistake in the implementation.

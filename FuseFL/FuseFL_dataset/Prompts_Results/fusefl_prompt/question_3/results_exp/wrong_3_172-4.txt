@@ -1,0 +1,1 @@
+The comparison between lst[i] and lst[j] is incorrect because the range of j is incorrect. This can lead to an IndexError. We need to fix the range issue first before addressing this line.

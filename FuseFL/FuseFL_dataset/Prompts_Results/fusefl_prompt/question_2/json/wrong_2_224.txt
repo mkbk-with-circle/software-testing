@@ -1,0 +1,9 @@
+{
+  "faultLoc": [
+    {
+      "faultyLine": 16,
+      "code": "return",
+      "explanation": "The `return` statement is missing a return value, causing the function to return `None` instead of the expected result. This line has been fixed in the modified code."
+    }
+  ]
+}

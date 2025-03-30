@@ -1,0 +1,29 @@
+{
+  "faultLoc": [
+    {
+      "faultyLine": 4,
+      "code": "top = max(lst)",
+      "explanation": "This line throws a ValueError when the input list is empty. We need to add a condition to check if the list is empty before finding the maximum value."
+    },
+    {
+      "faultyLine": 5,
+      "code": "new.append(top)",
+      "explanation": "This line appends the found maximum value to the 'new' list."
+    },
+    {
+      "faultyLine": 6,
+      "code": "lst.remove(top)",
+      "explanation": "This line removes the found maximum value from the input list."
+    },
+    {
+      "faultyLine": 2,
+      "code": "new = []",
+      "explanation": "This line initializes an empty list 'new' to store the top k values."
+    },
+    {
+      "faultyLine": 3,
+      "code": "while len(lst) > len(lst) - k:",
+      "explanation": "This line creates a while loop that continues until 'new' contains the top k values."
+    }
+  ]
+}

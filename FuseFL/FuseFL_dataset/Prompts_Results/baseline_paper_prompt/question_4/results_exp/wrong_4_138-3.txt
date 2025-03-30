@@ -1,0 +1,1 @@
+This line assumes that the list 'lst' is not empty. If the list is empty, it will raise an IndexError. It would be good to add a check to handle the case when the list is empty.

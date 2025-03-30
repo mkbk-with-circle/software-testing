@@ -1,0 +1,1 @@
+Initializing the variable 'i' to 0. This line is not likely to be the cause of the issues.

@@ -1,0 +1,1 @@
+The code assumes that lst[j] and lst[i] are tuples with indices, but lst is a list of integers. This line should be modified to compare the integers directly.

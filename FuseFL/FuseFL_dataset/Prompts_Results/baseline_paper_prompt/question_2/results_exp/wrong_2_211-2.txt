@@ -1,0 +1,1 @@
+Variable 'result' should be initialized to 1

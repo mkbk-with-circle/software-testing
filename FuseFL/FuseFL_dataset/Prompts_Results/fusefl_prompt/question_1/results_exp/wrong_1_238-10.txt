@@ -1,0 +1,1 @@
+The current code incorrectly returns the index of the maximum element plus 1, even if x is greater than all elements in the sequence.

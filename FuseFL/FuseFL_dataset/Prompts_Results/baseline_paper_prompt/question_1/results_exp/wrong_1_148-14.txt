@@ -1,0 +1,1 @@
+This loop iterates through 'seq' to find the correct position for 'val', but it does not handle the case where 'val' is greater than all items in 'seq'.

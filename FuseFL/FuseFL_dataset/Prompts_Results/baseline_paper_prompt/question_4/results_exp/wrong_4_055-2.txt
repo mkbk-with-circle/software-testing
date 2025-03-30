@@ -1,0 +1,1 @@
+The 'result' list is initialized but not returned or used further.

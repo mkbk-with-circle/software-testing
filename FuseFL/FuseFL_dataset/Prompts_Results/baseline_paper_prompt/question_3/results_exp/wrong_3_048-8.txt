@@ -1,0 +1,1 @@
+The return statement is placed inside the loop, which means the function will terminate and return the current new list after the first iteration. This will prevent the loop from completing and processing the entire input list.

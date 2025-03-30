@@ -1,0 +1,1 @@
+The initialization 'holder=[]' is not necessary since it gets overwritten later in the code. Removing this line won't affect the functionality.

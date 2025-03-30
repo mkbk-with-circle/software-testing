@@ -1,0 +1,1 @@
+This line compares the current element of the list with the maximum value of the entire list. However, it should only compare with the maximum value of the remaining elements. This line should be modified to compare with the maximum value of the remaining unprocessed elements.

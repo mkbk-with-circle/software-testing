@@ -1,0 +1,29 @@
+{
+  "faultLoc": [
+    {
+      "faultyLine": 10,
+      "code": "return [tup]",
+      "explanation": "The line returns the sorted list as a single-element list containing the `tup` tuple. However, the expected output is a list of tuples, not a list containing a single tuple. This line should be modified to return the sorted elements as separate tuples within a list."
+    },
+    {
+      "faultyLine": 9,
+      "code": "tup=tuple(i)+tup",
+      "explanation": "The line concatenates the current tuple `i` with the existing `tup` tuple. However, the order of concatenation is incorrect. It should be `tup = (i,) + tup` to ensure the older people are at the front of the list."
+    },
+    {
+      "faultyLine": 2,
+      "code": "current=0",
+      "explanation": "This line initializes the `current` variable to 0. However, it seems unnecessary for sorting the list of people based on age. The `current` variable is not used elsewhere in the code, so it can be considered potentially faulty."
+    },
+    {
+      "faultyLine": 3,
+      "code": "tup=()",
+      "explanation": "This line initializes an empty tuple `tup`. However, it doesn't seem to serve any purpose in the sorting process. It is not used directly for sorting or storing the sorted results. Therefore, it can be considered potentially faulty."
+    },
+    {
+      "faultyLine": 4,
+      "code": "for i in lst:",
+      "explanation": "This line starts a loop to iterate over the elements of the input list `lst`. It seems correct and necessary for sorting the list of people based on age."
+    }
+  ]
+}

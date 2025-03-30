@@ -1,0 +1,1 @@
+The function always returns True unconditionally, which is incorrect.

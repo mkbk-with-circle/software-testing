@@ -1,0 +1,1 @@
+The condition checks if 'counter' is equal to 1, but it should check if 'counter' is greater than 1 to determine if a day or month is unique. This causes incorrect results when checking for uniqueness.

@@ -1,0 +1,1 @@
+This line is potentially faulty because the append() method does not return a new list, but rather modifies the existing list in-place. Therefore, assigning the result of append() to 'newlst' will set it to 'None'.

@@ -1,0 +1,1 @@
+Using the variable 'i' as a loop variable can cause issues later in the code. It is better to use a different variable name to avoid confusion.

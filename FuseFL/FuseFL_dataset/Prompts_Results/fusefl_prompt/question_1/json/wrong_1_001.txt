@@ -1,0 +1,24 @@
+{
+  "faultLoc": [
+    {
+      "faultyLine": 3,
+      "code": "if x < e:",
+      "explanation": "This line might be faulty because it skips the position when x is equal to e."
+    },
+    {
+      "faultyLine": 2,
+      "code": "for i, e in enumerate(seq):",
+      "explanation": "This line is included because it is related to the potentially faulty line."
+    },
+    {
+      "faultyLine": 5,
+      "code": "return len(seq)",
+      "explanation": "This line might be faulty because it returns the length instead of 0 when the sequence is empty."
+    },
+    {
+      "faultyLine": 4,
+      "code": "return i",
+      "explanation": "This line is included because it could be faulty if the condition on line 3 is also faulty."
+    }
+  ]
+}

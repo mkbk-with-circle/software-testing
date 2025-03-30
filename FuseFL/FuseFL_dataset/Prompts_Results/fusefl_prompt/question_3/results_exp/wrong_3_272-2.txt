@@ -1,0 +1,1 @@
+The initialization of 'result' with the first element of 'lst' can cause an 'IndexError' when 'lst' is empty.

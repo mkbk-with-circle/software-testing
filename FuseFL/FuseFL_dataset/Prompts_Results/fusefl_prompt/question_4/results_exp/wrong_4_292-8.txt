@@ -1,0 +1,1 @@
+Modifying a list while iterating over it can lead to unexpected behavior. It is better to create a new list and append the sorted people to it instead of modifying the original list.

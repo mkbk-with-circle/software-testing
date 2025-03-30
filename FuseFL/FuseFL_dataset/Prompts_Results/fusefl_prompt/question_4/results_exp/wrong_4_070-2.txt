@@ -1,0 +1,1 @@
+The 'store' list is initialized but never used or modified later in the code.

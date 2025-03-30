@@ -1,0 +1,1 @@
+Empty tuple `tpl` does not match any tuples in `lst` for removal.

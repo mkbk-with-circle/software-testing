@@ -1,0 +1,1 @@
+This line correctly iterates over the elements in the input list 'lst'.

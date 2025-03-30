@@ -1,0 +1,1 @@
+The condition in this line is incorrect. The 'or' operator is not being used correctly to check for an empty sequence. It should be 'if seq == () or seq == []:' instead.

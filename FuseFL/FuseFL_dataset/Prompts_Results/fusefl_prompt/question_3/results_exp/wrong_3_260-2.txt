@@ -1,0 +1,1 @@
+This line is considered potentially faulty because it loops through the elements of the input list 'lst'. However, the issue lies in the incorrect usage of 'count(element)' in line 3.

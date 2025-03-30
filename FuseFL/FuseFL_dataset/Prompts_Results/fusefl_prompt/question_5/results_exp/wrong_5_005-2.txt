@@ -1,0 +1,1 @@
+The 'sort' list is initialized but not used correctly in the code.

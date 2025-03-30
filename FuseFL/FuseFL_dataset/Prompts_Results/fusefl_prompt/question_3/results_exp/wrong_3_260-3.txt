@@ -1,0 +1,1 @@
+The code attempts to call a non-existent function 'count(element)' to check if the element appears more than once. This line should be modified to use the 'count()' method available for lists in Python.

@@ -1,0 +1,1 @@
+The assignment 'smallest = lst[0]' is potentially faulty because it assumes that 'lst' has at least one element. However, when the input list is empty, this line will raise an IndexError. This needs to be handled properly.

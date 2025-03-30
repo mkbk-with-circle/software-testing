@@ -1,0 +1,1 @@
+TypeError: lst[i] is not a valid index for the insert() method.

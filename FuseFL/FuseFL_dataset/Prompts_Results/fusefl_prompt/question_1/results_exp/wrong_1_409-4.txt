@@ -1,0 +1,1 @@
+This line is responsible for returning the index i when x is less than the current element and seems to be functioning correctly.

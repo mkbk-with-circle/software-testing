@@ -1,0 +1,1 @@
+The use of 'extend' here is unnecessary and could lead to unexpected behavior. 'append' should be used instead.

@@ -1,0 +1,1 @@
+The variable 'i' is not properly assigned within the loop. It should be assigned to the largest value found in the list, but it is not updated correctly. This will cause an error when trying to append it to the 'sort' list.

@@ -1,0 +1,1 @@
+This return statement should be placed outside the loop, as it should only execute if 'x' is greater than all elements in 'seq'.

@@ -1,0 +1,1 @@
+This line starts a while loop that continues until count is less than the length of the sequence, and there doesn't seem to be any issue with it.

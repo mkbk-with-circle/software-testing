@@ -1,0 +1,20 @@
+{
+  "intentOfThisFunction": "The purpose of this code is to check if a given day or month occurs only once in a list of possible birthdays.",
+  "faultLocalization": [
+    {
+      "lineNumber": 13,
+      "codeContent": "if occur == 1:",
+      "reason": "The condition 'occur == 1' should be changed to 'occur > 0' to handle the case where the given day/month doesn't occur at all."
+    },
+    {
+      "lineNumber": 22,
+      "codeContent": "if occur == 1:",
+      "reason": "The condition 'occur == 1' should be changed to 'occur > 0' to handle the case where the given day/month doesn't occur at all."
+    },
+    {
+      "lineNumber": 31,
+      "codeContent": "if occur == 1:",
+      "reason": "The condition 'occur == 1' should be changed to 'occur > 0' to handle the case where the given month doesn't occur at all."
+    }
+  ]
+}

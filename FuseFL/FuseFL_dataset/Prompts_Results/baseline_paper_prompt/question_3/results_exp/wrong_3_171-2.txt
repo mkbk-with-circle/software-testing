@@ -1,0 +1,1 @@
+Potential Index Error: The code assumes that the input list 'lst' has at least one element, but it doesn't check if the list is empty or not.

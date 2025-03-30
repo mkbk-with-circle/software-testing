@@ -1,0 +1,1 @@
+It is unclear whether duplicate values are allowed in the 'seq' list. If not, this condition should be modified to handle the case where 'x' is equal to the maximum value.

@@ -1,0 +1,1 @@
+This line attempts to access the `len` function as if it were a subscriptable object. It should compare `x` with `len(seq[i])` instead.

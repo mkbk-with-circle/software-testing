@@ -1,0 +1,1 @@
+The condition should check if 'x' should be inserted at the current position

@@ -1,0 +1,1 @@
+The line initializes the variable `oldest` with the first element of `lst`. It seems fine as it sets the initial oldest person correctly.

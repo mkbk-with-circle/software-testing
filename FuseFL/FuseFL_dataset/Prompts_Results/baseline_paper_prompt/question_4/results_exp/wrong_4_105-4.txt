@@ -1,0 +1,1 @@
+Possible IndexError when initializing 'largest' with the first element's second value

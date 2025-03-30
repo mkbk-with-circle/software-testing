@@ -1,0 +1,10 @@
+{
+  "intentOfThisFunction": "To sort a list based on the second element of each item in descending order",
+  "faultLocalization": [
+    {
+      "lineNumber": 2,
+      "codeContent": "return lst.sort(key=lambda x:x[1],reverse=True)",
+      "reason": "The `sort()` method does not return a new sorted list but modifies the list in-place. Use `sorted()` instead."
+    }
+  ]
+}

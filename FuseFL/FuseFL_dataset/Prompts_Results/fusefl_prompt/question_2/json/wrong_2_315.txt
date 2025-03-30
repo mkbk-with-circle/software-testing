@@ -1,0 +1,29 @@
+{
+  "faultLoc": [
+    {
+      "faultyLine": 22,
+      "code": "return",
+      "explanation": "The 'contains_unique_day' function is missing a return statement. This causes the function to return 'None' by default, which is incorrect."
+    },
+    {
+      "faultyLine": 2,
+      "code": "counter = 0",
+      "explanation": "This line initializes the 'counter' variable, but it is not used correctly in the subsequent code. This may lead to incorrect counting of unique days or months."
+    },
+    {
+      "faultyLine": 3,
+      "code": "for i in possible_birthdays:",
+      "explanation": "The loop iterates over the 'possible_birthdays' list, but it does not handle cases where the list is empty or contains no matching elements. This may result in incorrect counting of unique days or months."
+    },
+    {
+      "faultyLine": 4,
+      "code": "if day == i[1]:",
+      "explanation": "This line compares the provided 'day' with the second element of each tuple in 'possible_birthdays'. However, it should compare with the first element (representing the month) instead. This leads to incorrect counting of unique days."
+    },
+    {
+      "faultyLine": 6,
+      "code": "if counter == 1:",
+      "explanation": "The condition checks if 'counter' is equal to 1, but it should check if 'counter' is greater than 1 to determine if a day or month is unique. This causes incorrect results when checking for uniqueness."
+    }
+  ]
+}

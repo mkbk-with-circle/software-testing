@@ -1,0 +1,1 @@
+This condition is redundant because it will always evaluate to 'True' since the previous condition 'if x <= seq[num]' was not met. This line can be removed to simplify the code.

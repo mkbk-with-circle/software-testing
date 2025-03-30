@@ -1,0 +1,1 @@
+The 'unique_day' function is called with the loop variable 'i' instead of the corresponding day from 'days_in_month'.

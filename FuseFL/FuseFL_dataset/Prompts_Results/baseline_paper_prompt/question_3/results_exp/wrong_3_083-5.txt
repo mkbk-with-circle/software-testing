@@ -1,0 +1,1 @@
+The code attempts to append 'lst[0]' to the unused 'list' variable, which is incorrect. It should append 'i' to the result list.

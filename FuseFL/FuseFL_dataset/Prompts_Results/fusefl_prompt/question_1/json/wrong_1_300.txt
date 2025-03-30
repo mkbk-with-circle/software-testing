@@ -1,0 +1,14 @@
+{
+  "faultLoc": [
+    {
+      "faultyLine": 10,
+      "code": "return i",
+      "explanation": "This line raises an UnboundLocalError when seq is empty because i might not be assigned a value if the loop doesn't execute."
+    },
+    {
+      "faultyLine": 2,
+      "code": "for i in range(len(seq)):",
+      "explanation": "This line initializes the variable i outside the loop, causing incorrect behavior when seq is empty. It should be handled separately if seq is empty."
+    }
+  ]
+}

@@ -1,0 +1,1 @@
+Converting `seq` into a list is unnecessary since it is already a sorted sequence.

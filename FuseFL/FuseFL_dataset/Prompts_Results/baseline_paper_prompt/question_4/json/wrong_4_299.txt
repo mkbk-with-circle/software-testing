@@ -1,0 +1,10 @@
+{
+  "intentOfThisFunction": "The intended purpose of this function is to sort a list of elements based on the second element of each element in the list.",
+  "faultLocalization": [
+    {
+      "lineNumber": 2,
+      "codeContent": "return lst.sort(key=lambda x:x[1])",
+      "reason": "The sort() method of lists in Python does an in-place sorting and returns None. Therefore, the return statement in this line will always return None instead of the sorted list. If the intention is to return the sorted list, you should use the sorted() function instead of sort()."
+    }
+  ]
+}

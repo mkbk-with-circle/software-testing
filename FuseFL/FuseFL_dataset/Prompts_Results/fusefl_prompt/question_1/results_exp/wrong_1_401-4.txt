@@ -1,0 +1,1 @@
+The 'continue' statement is used here to skip to the next iteration if 'x' is greater than the current element. However, if the condition is incorrect or the loop is not properly structured, it could result in unexpected behavior.

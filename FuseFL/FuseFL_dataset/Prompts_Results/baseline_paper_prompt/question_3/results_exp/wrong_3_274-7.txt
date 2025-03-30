@@ -1,0 +1,1 @@
+This line is unnecessary as it does not affect the program's behavior. It can be safely removed.

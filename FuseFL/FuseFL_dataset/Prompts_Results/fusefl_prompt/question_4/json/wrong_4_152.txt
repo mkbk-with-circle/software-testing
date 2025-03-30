@@ -1,0 +1,29 @@
+{
+  "faultLoc": [
+    {
+      "faultyLine": 6,
+      "code": "lst.pop(lst[i])",
+      "explanation": "The code tries to remove an element from the list using lst.pop(). However, lst[i] is passed as an argument to lst.pop(), which causes a TypeError. The correct way to remove an element by index is lst.pop(i)."
+    },
+    {
+      "faultyLine": 5,
+      "code": "lst.extend([lst[i]])",
+      "explanation": "The code extends the list by appending lst[i] to the end. However, this is unnecessary because the intention seems to be moving the element to the end of the list. Instead of using lst.extend(), we can use lst.append(lst[i]) to achieve the desired behavior."
+    },
+    {
+      "faultyLine": 4,
+      "code": "if lst[i][1]<lst[i+1][1]:",
+      "explanation": "The code compares the age of two people using lst[i][1] and lst[i+1][1]. However, the comparison should be in reverse order to sort the list in descending order of age. Changing the comparison to lst[i][1] > lst[i+1][1] will fix the sorting order."
+    },
+    {
+      "faultyLine": 3,
+      "code": "while i+1<len(lst):",
+      "explanation": "The code uses a while loop to iterate over the list, but the termination condition should be while i+1 <= len(lst) to ensure the last element is also considered for comparison."
+    },
+    {
+      "faultyLine": 2,
+      "code": "i=0",
+      "explanation": "The code initializes the variable i outside the loop, which is correct. However, it is missing the increment statement i += 1 inside the loop. Adding i += 1 will ensure that the loop progresses correctly."
+    }
+  ]
+}

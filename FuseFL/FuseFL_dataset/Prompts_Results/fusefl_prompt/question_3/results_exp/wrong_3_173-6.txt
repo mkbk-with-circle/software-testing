@@ -1,0 +1,1 @@
+If the previous lines are potentially faulty, this line might return an incorrect result.

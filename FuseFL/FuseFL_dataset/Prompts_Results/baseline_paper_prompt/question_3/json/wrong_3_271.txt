@@ -1,0 +1,4 @@
+{
+  "intentOfThisFunction": "The intent of this function is to remove duplicate elements from a list.",
+  "faultLocalization": []
+}

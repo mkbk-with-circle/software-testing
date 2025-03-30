@@ -1,0 +1,1 @@
+The swapping operation should be performed on lst[j] and lst[j+1] instead of their second elements.

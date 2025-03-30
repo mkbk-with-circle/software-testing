@@ -1,0 +1,1 @@
+The variable pos is updated with the current index i. This is the correct position when x is found in the sequence. However, if x is not found, pos will still hold the last index of the sequence, which is incorrect.

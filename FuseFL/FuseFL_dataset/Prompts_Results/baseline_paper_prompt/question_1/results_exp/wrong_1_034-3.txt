@@ -1,0 +1,1 @@
+Doesn't handle the case when x is smaller than the first element

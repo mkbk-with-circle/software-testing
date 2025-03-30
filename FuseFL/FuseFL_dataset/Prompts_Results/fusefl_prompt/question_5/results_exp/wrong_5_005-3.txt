@@ -1,0 +1,1 @@
+The condition of the while loop is incorrect. It should check if the 'lst' list is not empty.

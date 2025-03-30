@@ -1,0 +1,1 @@
+This line sets the `check` variable to `False` if a repeated occurrence is found. However, since the loop in line 5 does not execute, the `check` variable will always remain `True`. Therefore, this line is potentially faulty.

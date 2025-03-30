@@ -1,0 +1,1 @@
+This line iterates over the indices of the list but might not handle the removal of duplicates correctly.

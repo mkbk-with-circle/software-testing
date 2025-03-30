@@ -1,0 +1,9 @@
+{
+  "faultLoc": [
+    {
+      "faultyLine": 25,
+      "code": "if month == i[1]:",
+      "explanation": "This line should compare the month with the first element (month) of the tuple 'i' instead of the second element."
+    }
+  ]
+}

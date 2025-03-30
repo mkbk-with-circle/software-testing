@@ -1,0 +1,1 @@
+This line tries to find the maximum value in the list `lst` using the `max()` function. It raises a `ValueError` if the list is empty, as observed in one of the test results. We need to handle this case.

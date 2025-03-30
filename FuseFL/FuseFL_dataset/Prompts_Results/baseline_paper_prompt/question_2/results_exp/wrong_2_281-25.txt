@@ -1,0 +1,1 @@
+The loop should break if 'month == i[0]' is not satisfied, to avoid unnecessary iterations.

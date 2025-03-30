@@ -1,0 +1,30 @@
+{
+  "intentOfThisFunction": "To remove duplicate elements from a list",
+  "faultLocalization": [
+    {
+      "lineNumber": 4,
+      "codeContent": "for i in range(len(lst)-1):",
+      "reason": "The loop should iterate until len(lst) instead of len(lst)-1"
+    },
+    {
+      "lineNumber": 5,
+      "codeContent": "for j in range(i+1,len(lst[1:])):",
+      "reason": "The range should be len(lst) instead of len(lst[1:])"
+    },
+    {
+      "lineNumber": 6,
+      "codeContent": "if lst[i] == lst[j]:",
+      "reason": "The condition should check for lst[i] == lst[j] instead of lst[i] == lst[j]"
+    },
+    {
+      "lineNumber": 7,
+      "codeContent": "del lst[j]",
+      "reason": "Deleting elements from a list while iterating can cause unexpected results"
+    },
+    {
+      "lineNumber": 8,
+      "codeContent": "return lst",
+      "reason": "Returning the modified list instead of a new list"
+    }
+  ]
+}

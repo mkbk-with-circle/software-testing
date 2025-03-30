@@ -1,0 +1,1 @@
+The line returns True when the count of birthdays with the same day is less than 2, but it should return False. This line produces incorrect results.

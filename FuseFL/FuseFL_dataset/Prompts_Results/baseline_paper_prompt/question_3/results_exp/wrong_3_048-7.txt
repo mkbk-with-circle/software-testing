@@ -1,0 +1,1 @@
+The append() method does not return a new list but instead modifies the existing list in place. Assigning the result of new.append(x) to new will make new become None. This will cause an error when trying to concatenate new with another list in the next iteration.

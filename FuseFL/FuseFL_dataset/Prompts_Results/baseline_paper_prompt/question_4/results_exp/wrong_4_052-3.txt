@@ -1,0 +1,1 @@
+The 'while lst:' condition is not sufficient for ensuring the loop terminates correctly. The condition should be 'while lst != []' or 'while len(lst) > 0' to avoid potential infinite looping.

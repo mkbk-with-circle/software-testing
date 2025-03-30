@@ -1,0 +1,29 @@
+{
+  "faultLoc": [
+    {
+      "faultyLine": 3,
+      "code": "return None",
+      "explanation": "The code returns None in case the sequence is empty, which is incorrect according to the task description. The expected behavior is to return 0 when the sequence is empty."
+    },
+    {
+      "faultyLine": 2,
+      "code": "if seq == () or []:",
+      "explanation": "The condition `seq == () or []` always evaluates to `False`. This line is intended to check if the sequence is empty, but the condition is incorrect. It should be `if seq == () or seq == []:` to correctly check for an empty sequence."
+    },
+    {
+      "faultyLine": 5,
+      "code": "for i, elem in enumerate (seq):",
+      "explanation": "This line is not faulty, it correctly iterates over the sequence and assigns each element to `elem` variable."
+    },
+    {
+      "faultyLine": 6,
+      "code": "if x<=elem:",
+      "explanation": "This line is not faulty, it correctly checks if the current element is greater than or equal to `x`."
+    },
+    {
+      "faultyLine": 8,
+      "code": "elif x>seq[-1]:",
+      "explanation": "This line is not faulty, it correctly checks if `x` is greater than the last element of the sequence."
+    }
+  ]
+}

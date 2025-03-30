@@ -1,0 +1,1 @@
+This line returns the calculated position, but it does not account for the case when 'seq' is empty. It should return 0 in that case.

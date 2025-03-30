@@ -1,0 +1,1 @@
+This line iterates over the range starting from 1 instead of 0. It should start from 0 because the indices of the sequence start from 0.

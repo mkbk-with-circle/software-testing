@@ -1,0 +1,1 @@
+This line checks if the age of the current person is greater than the current 'biggest' value, but it doesn't update the variable 'i' or store the person with the biggest age.

@@ -1,0 +1,14 @@
+{
+  "faultLoc": [
+    {
+      "faultyLine": 4,
+      "code": "if i not in newlist:",
+      "explanation": "This line checks if the current element i is already present in the newlist. If it is not, the element is considered unique and will be added to newlist. However, this line is causing the incorrect results because it only checks for the presence of the element in newlist but does not handle the case when the element is present."
+    },
+    {
+      "faultyLine": 2,
+      "code": "newlist = []",
+      "explanation": "This line initializes an empty list called newlist to store the unique elements. However, this line is not causing the incorrect results observed in the test cases."
+    }
+  ]
+}

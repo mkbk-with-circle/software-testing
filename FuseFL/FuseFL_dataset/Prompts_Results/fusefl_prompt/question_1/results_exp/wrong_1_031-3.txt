@@ -1,0 +1,1 @@
+Although this line might cause an index out of range error if seq is empty, it is not directly responsible for the incorrect results observed in the test cases.

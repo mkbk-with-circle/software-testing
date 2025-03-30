@@ -1,0 +1,29 @@
+{
+  "faultLoc": [
+    {
+      "faultyLine": 2,
+      "code": "new_list=[lst[0]]",
+      "explanation": "The initialization of new_list with lst[0] can raise an IndexError if the input list is empty."
+    },
+    {
+      "faultyLine": 3,
+      "code": "for i in lst:",
+      "explanation": "No issue found with this line."
+    },
+    {
+      "faultyLine": 4,
+      "code": "if i in new_list:",
+      "explanation": "No issue found with this line."
+    },
+    {
+      "faultyLine": 8,
+      "code": "return new_list",
+      "explanation": "No issue found with this line."
+    },
+    {
+      "faultyLine": 5,
+      "code": "continue",
+      "explanation": "No issue found with this line."
+    }
+  ]
+}

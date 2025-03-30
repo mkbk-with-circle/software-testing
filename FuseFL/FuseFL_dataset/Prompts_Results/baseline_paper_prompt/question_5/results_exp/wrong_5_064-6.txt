@@ -1,0 +1,1 @@
+Comparing the list element with `max(lst)` inside the loop is inefficient. It would be better to calculate the maximum value once before the loop.

@@ -1,0 +1,1 @@
+The variable 'biggest' is assigned the first element of the list 'lst', but it is not updated later in the loop. This might lead to incorrect sorting results.

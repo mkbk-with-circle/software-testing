@@ -1,0 +1,1 @@
+This line returns the final list 'newlst' after removing the repeated occurrences of elements. There doesn't seem to be any issue with this line.

@@ -1,0 +1,1 @@
+The condition doesn't handle cases where 'x' is equal to 'seq[i]' or 'seq[i+1]' properly. It will cause an error for the last index.

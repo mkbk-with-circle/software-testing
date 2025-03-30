@@ -1,0 +1,1 @@
+Tuples are immutable, so days_in_month cannot be modified later in the loop. To fix this, days_in_month should be initialized as an empty list instead: days_in_month = []

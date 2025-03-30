@@ -1,0 +1,29 @@
+{
+  "faultLoc": [
+    {
+      "faultyLine": 4,
+      "code": "if copy.count(i) > 1:",
+      "explanation": "The condition doesn't handle cases where an element occurs more than twice."
+    },
+    {
+      "faultyLine": 5,
+      "code": "left = lst[:copy.index(i)+1]",
+      "explanation": "The original list 'lst' is used instead of the 'copy' list, causing incorrect indexing."
+    },
+    {
+      "faultyLine": 6,
+      "code": "right = lst[copy.index(i)+1:]",
+      "explanation": "The original list 'lst' is used instead of the 'copy' list, causing incorrect slicing."
+    },
+    {
+      "faultyLine": 7,
+      "code": "right.remove(i)",
+      "explanation": "Only removes the first occurrence of the element, not handling cases where it appears multiple times consecutively."
+    },
+    {
+      "faultyLine": 8,
+      "code": "copy = left + right",
+      "explanation": "Doesn't consider cases where the current element occurs more than twice, resulting in incorrect output."
+    }
+  ]
+}

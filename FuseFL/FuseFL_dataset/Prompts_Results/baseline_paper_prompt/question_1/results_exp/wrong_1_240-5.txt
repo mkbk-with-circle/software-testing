@@ -1,0 +1,1 @@
+The 'position' variable is being assigned the value of 'i' inside the loop, which will result in 'position' being reset to 0 in each iteration. This will prevent the correct position from being returned.

@@ -1,0 +1,1 @@
+This line returns the length of seq when x is greater than the last element in seq. However, according to the task description, it should return the position where x should go to in order to maintain the sorted sequence. Therefore, this line should be removed.

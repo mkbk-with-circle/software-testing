@@ -1,0 +1,1 @@
+This line skips the first iteration of the loop, which might be unnecessary since it doesn't seem to have any effect on the sorting logic.

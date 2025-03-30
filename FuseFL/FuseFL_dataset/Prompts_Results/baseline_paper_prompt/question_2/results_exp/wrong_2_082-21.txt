@@ -1,0 +1,1 @@
+Similar to the previous issue, the code is concatenating tuples instead of lists.

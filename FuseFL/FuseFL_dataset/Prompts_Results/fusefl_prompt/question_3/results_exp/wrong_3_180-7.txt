@@ -1,0 +1,1 @@
+Removing elements here can cause issues. We should add the unique elements to a new list instead.

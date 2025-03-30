@@ -1,0 +1,14 @@
+{
+  "faultLoc": [
+    {
+      "faultyLine": 4,
+      "code": "if lst[i]<lst[i+1]:",
+      "explanation": "This line compares the elements at indices i and i+1. If the condition is true, it modifies the list."
+    },
+    {
+      "faultyLine": 5,
+      "code": "lst.extend([i])",
+      "explanation": "This line extends the list by appending the value of i at the end, potentially causing incorrect results."
+    }
+  ]
+}

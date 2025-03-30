@@ -1,0 +1,1 @@
+Loop variable i is used outside the loop without further processing.

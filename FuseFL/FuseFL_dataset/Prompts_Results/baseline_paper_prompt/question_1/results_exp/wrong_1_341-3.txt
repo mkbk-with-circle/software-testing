@@ -1,0 +1,1 @@
+This line compares 'x' with the last element of 'seq' to check if 'x' is greater. However, this condition is incorrect as it should check if 'x' is greater than or equal to the last element of 'seq'.

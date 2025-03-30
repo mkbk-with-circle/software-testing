@@ -1,0 +1,1 @@
+Comparison assumes the sequence is sorted.

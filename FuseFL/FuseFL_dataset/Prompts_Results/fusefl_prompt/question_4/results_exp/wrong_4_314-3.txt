@@ -1,0 +1,1 @@
+This line is not faulty. It simply returns the sorted list.

@@ -1,0 +1,1 @@
+Starting a loop iterating through the indices of the input list, which is not directly causing the issue.

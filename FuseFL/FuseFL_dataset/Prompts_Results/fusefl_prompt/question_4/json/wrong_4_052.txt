@@ -1,0 +1,29 @@
+{
+  "faultLoc": [
+    {
+      "faultyLine": 7,
+      "code": "oldest=person[1]",
+      "explanation": "The line `oldest=person[1]` initializes the `oldest` variable with the age of the current person. However, this line is incorrect because it should not be inside the `for` loop. Placing it here will reset `oldest` to the age of the current person in each iteration, causing incorrect sorting."
+    },
+    {
+      "faultyLine": 8,
+      "code": "newlst.append(person)",
+      "explanation": "The line `newlst.append(person)` is incorrect because it is placed inside the `if` condition block. This means that it will only append a person to `newlst` if their age is greater than the current `oldest`. However, we want to include all the people in the sorted list, not just the older ones. Placing this line outside the `if` condition block will fix the issue."
+    },
+    {
+      "faultyLine": 9,
+      "code": "lst.remove(person)",
+      "explanation": "The line `lst.remove(person)` is incorrect because it is also placed inside the `if` condition block. Similar to the previous line, this will only remove a person from `lst` if their age is greater than the current `oldest`. However, we need to remove all people from `lst` after appending them to `newlst`, regardless of their age. Moving this line outside the `if` condition block will resolve the issue."
+    },
+    {
+      "faultyLine": 4,
+      "code": "oldest = lst[0][1] #first age",
+      "explanation": "The line `oldest = lst[0][1]` is not faulty. It correctly initializes `oldest` with the age of the first person in the list. This line can be considered as a starting point for finding the oldest person, as it sets the initial value of `oldest`."
+    },
+    {
+      "faultyLine": 5,
+      "code": "for person in lst:",
+      "explanation": "The line `for person in lst:` is not faulty. It correctly iterates over each person in the list. This line sets up the loop to compare the ages of the people and find the oldest person."
+    }
+  ]
+}

@@ -1,0 +1,1 @@
+The line is used to compare the ages of two people. However, it should compare with the current largest age (largest[1]), not largest itself. This comparison should be fixed.

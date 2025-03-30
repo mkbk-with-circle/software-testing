@@ -1,0 +1,1 @@
+This condition assumes that 'seq' is not empty, but it should be handled as a special case before accessing 'seq[-1]' in line 5.

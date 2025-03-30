@@ -1,0 +1,1 @@
+No issue with this line, but modifying the list while iterating can lead to unexpected behavior.

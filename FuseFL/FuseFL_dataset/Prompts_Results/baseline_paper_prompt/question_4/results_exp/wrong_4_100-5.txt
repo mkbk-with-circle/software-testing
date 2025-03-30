@@ -1,0 +1,1 @@
+Deleting an element causes the list length to decrease, leading to potential out-of-range index access.

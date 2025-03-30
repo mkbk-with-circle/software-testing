@@ -1,0 +1,25 @@
+{
+  "intentOfThisFunction": "This function is intended to sort a list of elements based on the second element of each sublist.",
+  "faultLocalization": [
+    {
+      "lineNumber": 4,
+      "codeContent": "for i in range(len(lst)-1):",
+      "reason": "The loop should iterate until len(lst)-2 to avoid accessing an out-of-range index in the next line."
+    },
+    {
+      "lineNumber": 5,
+      "codeContent": "for j in range(len(lst)-i):",
+      "reason": "The loop should iterate until len(lst)-i-1 to avoid accessing an out-of-range index in the next line."
+    },
+    {
+      "lineNumber": 6,
+      "codeContent": "if lst[j][1] < lst[j+1][1]:",
+      "reason": "The condition should compare lst[j][1] with lst[j+1][1] to ensure correct comparison of elements."
+    },
+    {
+      "lineNumber": 7,
+      "codeContent": "lst[j][1],lst[j+1][1] = lst[j+1][1],lst[j][1]",
+      "reason": "The swapping operation should be performed on lst[j] and lst[j+1] instead of their second elements."
+    }
+  ]
+}

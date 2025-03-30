@@ -1,0 +1,1 @@
+The line is returning the index of the last element of the sequence plus one unconditionally. This should only be executed if the previous condition (seq[-1] < x) is satisfied.

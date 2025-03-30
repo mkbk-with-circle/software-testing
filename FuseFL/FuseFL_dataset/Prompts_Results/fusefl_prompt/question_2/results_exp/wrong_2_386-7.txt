@@ -1,0 +1,1 @@
+The function 'unique_day' always returns True regardless of the condition. The logic should be revised to return False when the count is greater than or equal to 2.

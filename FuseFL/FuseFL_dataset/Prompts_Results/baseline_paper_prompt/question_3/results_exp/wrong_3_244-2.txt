@@ -1,0 +1,1 @@
+The initial assignment of `new_list` assumes that the input list is non-empty, which can raise an IndexError if the list is empty.

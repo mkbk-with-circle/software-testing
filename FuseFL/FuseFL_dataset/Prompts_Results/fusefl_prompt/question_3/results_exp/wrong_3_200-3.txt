@@ -1,0 +1,1 @@
+The condition to check if the input list is empty is unnecessary since the subsequent loop handles the case when the list is empty.

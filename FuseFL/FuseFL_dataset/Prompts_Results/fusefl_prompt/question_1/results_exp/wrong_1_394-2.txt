@@ -1,0 +1,1 @@
+The calculation of the length of the sequence is unnecessary and can lead to an out-of-range error if the sequence is empty.

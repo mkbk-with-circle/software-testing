@@ -1,0 +1,1 @@
+The code compares the second element of 'i' with the 'day' parameter. However, 'i' is expected to be a tuple representing a possible birthday, so it should be checked if 'i[1]' exists before comparing.

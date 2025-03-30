@@ -1,0 +1,1 @@
+This line is potentially faulty because it appends 'element' to 'sorted_list' instead of 'smallest', which would result in incorrect sorting.

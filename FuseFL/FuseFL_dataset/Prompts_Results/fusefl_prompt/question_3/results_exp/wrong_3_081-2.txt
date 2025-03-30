@@ -1,0 +1,1 @@
+This line initializes an empty list 'newlst' to store the unique elements from the input list. There doesn't seem to be any issue with this line.

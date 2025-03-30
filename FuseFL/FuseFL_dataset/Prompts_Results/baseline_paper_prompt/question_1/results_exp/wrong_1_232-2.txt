@@ -1,0 +1,1 @@
+Redundant condition. Checking for both empty tuple and empty list is unnecessary.

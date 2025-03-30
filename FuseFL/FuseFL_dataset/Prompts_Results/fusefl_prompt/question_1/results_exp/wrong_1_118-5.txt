@@ -1,0 +1,1 @@
+This line returns the length of seq when the condition x >= seq[-1] is satisfied. However, this doesn't correspond to the correct position that x should go to in order to maintain a sorted sequence.

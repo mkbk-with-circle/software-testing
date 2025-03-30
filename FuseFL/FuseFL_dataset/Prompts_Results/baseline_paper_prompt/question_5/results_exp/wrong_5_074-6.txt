@@ -1,0 +1,1 @@
+Comparing value at index i with maximum value of the list

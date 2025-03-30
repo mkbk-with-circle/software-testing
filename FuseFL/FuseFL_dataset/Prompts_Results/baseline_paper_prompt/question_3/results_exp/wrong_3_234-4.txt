@@ -1,0 +1,1 @@
+The count() method is called within a loop, which can be inefficient for larger lists. Consider using a more efficient approach.

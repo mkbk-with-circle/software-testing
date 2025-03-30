@@ -1,0 +1,1 @@
+The recursive call is missing a base case, causing a potential stack overflow error.

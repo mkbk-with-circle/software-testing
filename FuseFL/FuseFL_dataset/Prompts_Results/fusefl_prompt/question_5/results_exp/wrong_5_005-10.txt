@@ -1,0 +1,1 @@
+The line appends the wrong element to the 'sort' list. It should append the 'biggest' element instead.

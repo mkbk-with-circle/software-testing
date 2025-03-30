@@ -1,0 +1,1 @@
+Redundant line that assigns the same value back to the same index. It should be removed.

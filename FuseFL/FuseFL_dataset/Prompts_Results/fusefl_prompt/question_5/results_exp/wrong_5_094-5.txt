@@ -1,0 +1,1 @@
+This line is part of the swapping logic mentioned above. As explained, it assigns lst[j + 1] to lst[j], which is incorrect.

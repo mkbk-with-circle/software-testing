@@ -1,0 +1,1 @@
+This condition checks if the current element lst[i] is present in the sublist lst[i+1:]. However, removing elements from the list while iterating over it can lead to unexpected behavior and incorrect results.

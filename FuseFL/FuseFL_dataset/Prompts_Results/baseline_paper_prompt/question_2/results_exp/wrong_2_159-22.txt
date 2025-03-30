@@ -1,0 +1,1 @@
+The code assumes that if count_months() returns 1, the month is unique, but it doesn't handle the case of multiple months having the same count.

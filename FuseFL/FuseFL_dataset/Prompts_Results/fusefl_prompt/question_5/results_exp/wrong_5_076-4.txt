@@ -1,0 +1,1 @@
+This line throws a ValueError when the input list is empty. We need to add a condition to check if the list is empty before finding the maximum value.

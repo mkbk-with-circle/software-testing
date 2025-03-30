@@ -1,0 +1,1 @@
+The index calculation does not correspond to the correct index of the element to be removed.

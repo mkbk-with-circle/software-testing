@@ -1,0 +1,1 @@
+The loop starts from the current index 'i' in the outer loop. This is unnecessary and can be optimized by starting from 'i + 1' to avoid unnecessary comparisons.

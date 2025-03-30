@@ -1,0 +1,14 @@
+{
+  "faultLoc": [
+    {
+      "faultyLine": 16,
+      "code": "if counter == 1:",
+      "explanation": "The variable 'counter' is not defined. It should be 'i' since 'i' is used to count the occurrences."
+    },
+    {
+      "faultyLine": 22,
+      "code": "return",
+      "explanation": "The line is empty and does not return any value. It should be updated to return the appropriate value based on the condition being checked."
+    }
+  ]
+}

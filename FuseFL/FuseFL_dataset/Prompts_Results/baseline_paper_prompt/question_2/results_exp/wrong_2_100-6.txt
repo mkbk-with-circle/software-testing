@@ -1,0 +1,1 @@
+The 'return count' statement is indented incorrectly, causing the function to return prematurely.

@@ -1,0 +1,1 @@
+The line 'lst2=[]' initializes an empty list 'lst2', which is correct and not faulty.

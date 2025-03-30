@@ -1,0 +1,1 @@
+The loop iterates over 'lst' but the list is modified within the loop using 'lst.remove(biggest)'. This can lead to unexpected behavior and potential errors.

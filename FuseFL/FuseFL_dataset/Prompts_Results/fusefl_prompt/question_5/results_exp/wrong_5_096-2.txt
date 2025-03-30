@@ -1,0 +1,1 @@
+The loop iterates over the list to perform the sorting. However, it only performs one pass, which is not sufficient to sort the list correctly.

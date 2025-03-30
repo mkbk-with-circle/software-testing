@@ -1,0 +1,1 @@
+This condition skips the first iteration of the loop, which means the first element of the list is not being considered for sorting.

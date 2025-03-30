@@ -1,0 +1,14 @@
+{
+  "faultLoc": [
+    {
+      "faultyLine": 6,
+      "code": "if i==l-1:",
+      "explanation": "The condition 'if i==l-1' is outside the loop and causes an error when the loop is not executed."
+    },
+    {
+      "faultyLine": 7,
+      "code": "i=i+1",
+      "explanation": "The line 'i=i+1' should be inside the 'if' block to avoid incrementing when the loop is not executed."
+    }
+  ]
+}

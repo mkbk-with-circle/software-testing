@@ -1,0 +1,80 @@
+Faulty Code:
+```python
+def count_dates(date, possible_birthdays):
+    count = 0
+    for i in possible_birthdays:
+        if i[1] == date:
+            count += 1
+    return count
+    
+def unique_day(date, possible_birthdays):
+    if count_dates(date, possible_birthdays) == 1:
+        return True
+    else:
+        return False
+    
+def count_months(month, possible_birthdays):
+    count = 0
+    for i in possible_birthdays:
+        if i[0] == month:
+            count += 1
+    return count
+    
+def unique_month(month, possible_birthdays):
+    if count_months(month, possible_birthdays) == 1:
+        return True
+    else:
+        return False
+
+
+def contains_unique_day(month, possible_birthdays):
+    days_in_month = ()
+    for i in possible_birthdays:
+        if i[0] == month:
+            days_in_month += (i,)
+    for x in range(len(days_in_month)):
+        if unique_day(days_in_month[x][1], possible_birthdays) == False:
+            return True
+        else:
+            return True
+           
+                
+        
+    
+    
+    
+   
+```
+
+Task Description:
+The `unique_day` function takes a day (provided as a string) and a list of possible_birthdays (represented as tuples containing month and day) as input. It checks if a given day is unique within the list of possible birthdays.
+The `unique_month` function takes a month (provided as a string) and a list of possible_birthdays (represented as tuples containing month and day) as input. It checks if a given month is unique within the list of possible birthdays.
+The `contains_unique_day` function takes a month (provided as a string) and a list of possible_birthdays (represented as tuples containing month and day) as input. It checks if there exists a birthday with a unique day within the list for a specific month.
+
+Test Results:
+The provided code is producing incorrect results. For example:
+- Running the function as follows `contains_unique_day("January", (("January","1"),("February","1")))` yields `True` instead of the expected `False`.
+- Running the function as follows `contains_unique_day("July", tuple_of_possible_birthdays)` yields `True` instead of the expected `False`.
+
+Spectrum-based Fault Localization (SBFL) Techniques Results:
+We have used SBFL techniques to identify potentially faulty lines. Here are the results of top-5 suspicious lines sorted in descending order of the score:
+1. Line 35 `return True`, Ochiai score: 0.218218
+2. Line 29 `days_in_month = ()`, Ochiai score: 0.169031
+3. Line 30 `for i in possible_birthdays:`, Ochiai score: 0.169031
+4. Line 31 `if i[0] == month:`, Ochiai score: 0.169031
+5. Line 33 `for x in range(len(days_in_month)):`, Ochiai score: 0.169031
+
+Analyze the provided code and utilize task description, test results, and SBFL techniques results to help in identifying potentially faulty lines. Provide the results following this JSON template:
+```json
+{
+  "faultLoc": [
+    {
+      "faultyLine": (indicating the line number of the suspicious code),
+      "code": (displaying the actual code),
+      "explanation": (step by step reasoning on why this location is considered potentially faulty)
+    },
+    ...
+  ]
+}
+```
+Ensure that the objects in the "faultLoc" array are sorted in descending order of suspicion.

@@ -1,0 +1,1 @@
+The return statement should be outside the loop to ensure it is executed after iterating through all possible birthdays.

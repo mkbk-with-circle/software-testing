@@ -1,0 +1,1 @@
+The code tries to concatenate the first element of the list with the result of recursively calling `remove_extras()` on the rest of the list. However, this line will raise a TypeError because it attempts to concatenate a list (`lst[0]`) with the result of the function call (`remove_extras(lst[1:])`), which is also a list.

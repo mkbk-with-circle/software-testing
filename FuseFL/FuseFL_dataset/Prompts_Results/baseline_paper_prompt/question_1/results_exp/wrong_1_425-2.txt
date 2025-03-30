@@ -1,0 +1,1 @@
+The condition 'seq == () or []' is incorrect. It should be 'seq == () or seq == []'.

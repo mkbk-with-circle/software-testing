@@ -1,0 +1,1 @@
+The statement 'lst += i' tries to concatenate an element 'i' to 'lst', but 'lst' is defined as an empty list.

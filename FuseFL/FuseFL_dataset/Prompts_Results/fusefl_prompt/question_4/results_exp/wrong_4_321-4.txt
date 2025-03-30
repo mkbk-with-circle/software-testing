@@ -1,0 +1,1 @@
+This line initializes `big` with the first person in the list. While this is a valid starting point, the subsequent iterations of the loop should update `big` based on the age comparison. However, the faulty line 7 overrides this initialization, making this line unnecessary.

@@ -1,0 +1,1 @@
+The line mistakenly checks for the presence of x in new_lst instead of appending x to new_lst.

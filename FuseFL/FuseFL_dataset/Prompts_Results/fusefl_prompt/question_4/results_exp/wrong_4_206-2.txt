@@ -1,0 +1,1 @@
+This line assumes the input list 'lst' is not empty, leading to an IndexError when 'lst' is empty. A check should be added to ensure 'lst' is not empty before accessing its first element.

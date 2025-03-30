@@ -1,0 +1,1 @@
+Initializing the counter variable without using it.

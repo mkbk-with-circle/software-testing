@@ -1,0 +1,1 @@
+This line removes the person with the maximum age (`big`) from the list. However, removing elements from a list while iterating over it (inside the loop of line 5) can cause unexpected behavior. It can result in skipped or repeated elements in subsequent iterations, leading to incorrect sorting.

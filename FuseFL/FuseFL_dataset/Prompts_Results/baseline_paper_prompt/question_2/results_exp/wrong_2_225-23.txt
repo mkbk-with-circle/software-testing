@@ -1,0 +1,1 @@
+The 'else' block can be simplified to 'return False' since it will only be reached if the loop completes without returning True.

@@ -1,0 +1,1 @@
+The if condition in the 'unique_month' function checks if the current birthday's month matches the given month, which is correct. However, the count is incremented for every match, but it should only be incremented once for each unique month.

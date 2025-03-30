@@ -1,0 +1,1 @@
+Assigns the index 'i' to the variable 'position'. It seems to be functioning correctly and does not seem to be faulty.

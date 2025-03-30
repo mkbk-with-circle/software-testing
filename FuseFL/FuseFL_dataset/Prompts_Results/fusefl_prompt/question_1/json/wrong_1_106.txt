@@ -1,0 +1,14 @@
+{
+  "faultLoc": [
+    {
+      "faultyLine": 2,
+      "code": "if x <= seq[0]:",
+      "explanation": "This line doesn't handle the case when seq is empty. It should be modified to return 0 if seq is empty."
+    },
+    {
+      "faultyLine": 5,
+      "code": "return len(seq)",
+      "explanation": "This line should return len(seq) - 1 instead of len(seq) to get the correct position."
+    }
+  ]
+}

@@ -1,0 +1,1 @@
+This line is potentially faulty because 'list.reverse(sorted_list)' does not return a list. It reverses the 'sorted_list' in-place and returns None. Additionally, slicing '[:k-1]' may not provide the correct result.

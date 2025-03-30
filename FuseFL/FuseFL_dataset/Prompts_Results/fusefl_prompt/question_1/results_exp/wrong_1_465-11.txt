@@ -1,0 +1,1 @@
+This condition is unnecessary because it is already handled in the previous line (line 10). This line should be removed.

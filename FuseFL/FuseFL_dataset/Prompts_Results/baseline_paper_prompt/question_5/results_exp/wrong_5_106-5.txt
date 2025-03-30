@@ -1,0 +1,1 @@
+The code does not handle the case where 'k' exceeds the length of the input list 'lst'.

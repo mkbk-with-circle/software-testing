@@ -1,0 +1,1 @@
+The line references the variable 'i' even if it was not assigned a value.

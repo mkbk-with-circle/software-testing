@@ -1,0 +1,1 @@
+The loop iterates over the length of 'seq', but it should iterate over the elements of 'seq' by using 'for i, element in enumerate(seq):' instead.

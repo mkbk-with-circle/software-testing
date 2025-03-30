@@ -1,0 +1,1 @@
+This line removes the found maximum value from the input list.

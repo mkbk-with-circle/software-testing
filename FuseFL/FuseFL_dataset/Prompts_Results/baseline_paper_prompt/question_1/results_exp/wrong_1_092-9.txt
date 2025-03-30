@@ -1,0 +1,1 @@
+The condition 'seq[-1] < x' is unnecessary. Since the loop iterates over the sequence elements in ascending order, if the last element is smaller than 'x', it implies that 'x' should be inserted at the end of the sequence. Therefore, 'return len(seq)' should be moved outside the loop.

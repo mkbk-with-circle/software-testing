@@ -1,0 +1,1 @@
+This line assumes that the input list `lst` has at least one element. If the list is empty, it will raise an `IndexError`.

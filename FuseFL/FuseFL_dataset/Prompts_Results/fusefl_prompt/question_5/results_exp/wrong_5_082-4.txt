@@ -1,0 +1,1 @@
+The condition in this while loop is incorrect. It should check if the length of sotsot is less than k, not less than or equal to k. This can cause more elements to be added than required.

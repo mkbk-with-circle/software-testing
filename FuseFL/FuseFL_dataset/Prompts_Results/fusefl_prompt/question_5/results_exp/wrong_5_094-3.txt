@@ -1,0 +1,1 @@
+This line is also part of the nested loop structure. It iterates over the elements of the list, but it has an issue. The loop should iterate until len(lst) - i - 1 instead of len(lst) - 1 to avoid unnecessary comparisons.

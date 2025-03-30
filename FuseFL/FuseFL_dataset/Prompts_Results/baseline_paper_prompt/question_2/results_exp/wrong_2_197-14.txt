@@ -1,0 +1,1 @@
+Potential bug: The condition checks if 'month' is present in 'birthday', but it should check if 'month' is equal to 'birthday'.

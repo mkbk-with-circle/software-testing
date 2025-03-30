@@ -1,0 +1,51 @@
+Faulty Code:
+```python
+def sort_age(lst):
+    def for_age(lst):
+        for i in range(len(lst)):
+            if i == 0: continue
+            else:
+                while i > 0:
+                    if lst[i][1] < lst[i-1][1]:
+                        lst[i], lst[i-1] = lst[i-1], lst[i]
+                        i -= 1
+                    else: i = 0
+    for_age(lst).reverse
+    return lst
+```
+
+Task Description:
+Given a list of people that is represented using a tuple (<gender>, <age>), function `sort_age` sorts the people and return a list in an order such that the older people are at the front of the list. An example of the list of people is [("M", 23), ("F", 19), ("M", 30)]. The sorted list would look like [("M", 30), ("M", 23), ("F", 19)]. You may assume that no two members of the list of people are of the same age.
+
+
+Test Results:
+The provided code is producing incorrect results. For example:
+- Running the function as follows `sort_age([("F", 19)])` generate an `AttributeError: 'NoneType' object has no attribute 'reverse'` in line 11 `for_age(lst).reverse`.
+- Running the function as follows `sort_age([("M", 35), ("F", 18), ("M", 23), ("F", 19), ("M", 30), ("M", 17)])` generate an `AttributeError: 'NoneType' object has no attribute 'reverse'` in line 11 `for_age(lst).reverse`.
+- Running the function as follows `sort_age([("F", 18), ("M", 23), ("F", 19), ("M", 30), ("M", 17)])` generate an `AttributeError: 'NoneType' object has no attribute 'reverse'` in line 11 `for_age(lst).reverse`.
+- Running the function as follows `sort_age([("F", 18), ("M", 23), ("F", 19), ("M", 30)])` generate an `AttributeError: 'NoneType' object has no attribute 'reverse'` in line 11 `for_age(lst).reverse`.
+- Running the function as follows `sort_age([("M", 23), ("F", 19), ("M", 30)])` generate an `AttributeError: 'NoneType' object has no attribute 'reverse'` in line 11 `for_age(lst).reverse`.
+- Running the function as follows `sort_age([])` generate an `AttributeError: 'NoneType' object has no attribute 'reverse'` in line 11 `for_age(lst).reverse`.
+
+Spectrum-based Fault Localization (SBFL) Techniques Results:
+We have used SBFL techniques to identify potentially faulty lines. Here are the results of top-5 suspicious lines sorted in descending order of the score:
+1. Line 3 `for i in range(len(lst)):`, Ochiai score: 0.373544
+2. Line 2 `def for_age(lst):`, Ochiai score: 0.373544
+3. Line 11 `for_age(lst).reverse`, Ochiai score: 0.373544
+4. Line 4 `if i == 0: continue`, Ochiai score: 0.340997
+5. Line 6 `while i > 0:`, Ochiai score: 0.304997
+
+Analyze the provided code and utilize task description, test results, and SBFL techniques results to help in identifying potentially faulty lines. Provide the results following this JSON template:
+```json
+{
+  "faultLoc": [
+    {
+      "faultyLine": (indicating the line number of the suspicious code),
+      "code": (displaying the actual code),
+      "explanation": (step by step reasoning on why this location is considered potentially faulty)
+    },
+    ...
+  ]
+}
+```
+Ensure that the objects in the "faultLoc" array are sorted in descending order of suspicion.

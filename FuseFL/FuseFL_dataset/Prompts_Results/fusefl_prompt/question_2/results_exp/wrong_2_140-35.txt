@@ -1,0 +1,1 @@
+This line returns True or False based on the first day encountered without considering the rest of the days.

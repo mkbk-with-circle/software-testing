@@ -1,0 +1,1 @@
+This line returns i+1 when the element x is not found. However, an UnboundLocalError occurs when the sequence is empty because i is not assigned.

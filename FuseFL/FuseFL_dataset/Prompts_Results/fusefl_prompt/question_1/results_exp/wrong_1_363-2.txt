@@ -1,0 +1,1 @@
+This line checks if the sequence is empty. It doesn't handle the case where the sequence is empty correctly.

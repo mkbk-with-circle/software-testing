@@ -1,0 +1,1 @@
+This line initializes the 'oldest' variable with the first element of the list. If this line is incorrect, it may lead to incorrect comparison between ages.

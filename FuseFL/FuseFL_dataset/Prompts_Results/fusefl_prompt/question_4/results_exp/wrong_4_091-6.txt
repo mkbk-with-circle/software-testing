@@ -1,0 +1,1 @@
+The condition 'if holder==[]' is incorrect. It should check if 'holder' is empty using the 'len(holder) == 0' condition instead of 'holder == []'.

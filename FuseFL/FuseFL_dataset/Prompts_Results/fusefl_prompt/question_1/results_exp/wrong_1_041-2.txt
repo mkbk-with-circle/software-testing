@@ -1,0 +1,1 @@
+The loop iterates from 1 to len(seq)+1, which exceeds the valid range of indices for the seq sequence. Modify the line to iterate from 0 to len(seq) to avoid an IndexError.

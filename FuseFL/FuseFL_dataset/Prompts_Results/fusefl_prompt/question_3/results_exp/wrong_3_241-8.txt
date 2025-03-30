@@ -1,0 +1,1 @@
+This line attempts to concatenate the result of `remove_extras` function call with `new_lst`. However, the function does not have a return statement when the condition `elif lst[0] not in lst:` is True. This results in the function returning `None`, causing a `TypeError` when trying to concatenate it to `new_lst`. Hence, this line is potentially faulty.

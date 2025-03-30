@@ -1,0 +1,1 @@
+The sort() method of lists in Python does an in-place sorting and returns None. Therefore, the return statement in this line will always return None instead of the sorted list. If the intention is to return the sorted list, you should use the sorted() function instead of sort().

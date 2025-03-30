@@ -1,0 +1,1 @@
+This line returns the list lst2 after the loop. Since the incorrect condition prevents any elements from being added to lst2, the function always returns an empty list.

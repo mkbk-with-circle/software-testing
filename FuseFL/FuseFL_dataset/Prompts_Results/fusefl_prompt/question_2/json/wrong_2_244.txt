@@ -1,0 +1,29 @@
+{
+  "faultLoc": [
+    {
+      "faultyLine": 26,
+      "code": "return",
+      "explanation": "The `contains_unique_day` function is missing a return statement."
+    },
+    {
+      "faultyLine": 23,
+      "code": "return True",
+      "explanation": "This line always returns `True` regardless of the condition."
+    },
+    {
+      "faultyLine": 11,
+      "code": "return True",
+      "explanation": "This line always returns `True` regardless of the condition."
+    },
+    {
+      "faultyLine": 19,
+      "code": "x = x",
+      "explanation": "This line is unnecessary and doesn't affect the logic of the code."
+    },
+    {
+      "faultyLine": 14,
+      "code": "x = 1",
+      "explanation": "This line initializes `x` to `1` within the loop, but it should be initialized outside the loop."
+    }
+  ]
+}

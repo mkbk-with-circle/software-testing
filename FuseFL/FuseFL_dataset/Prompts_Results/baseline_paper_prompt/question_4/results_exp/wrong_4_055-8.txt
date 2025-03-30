@@ -1,0 +1,1 @@
+Modifying a list while iterating over it can lead to unexpected behavior.

@@ -1,0 +1,19 @@
+{
+  "faultLoc": [
+    {
+      "faultyLine": 10,
+      "code": "print(new_lst)",
+      "explanation": "The line is printing the sorted list, but it is not necessary for the function to return the sorted list. Consider removing this line."
+    },
+    {
+      "faultyLine": 4,
+      "code": "oldest = lst[0]",
+      "explanation": "The line initializes the variable `oldest` with the first element of `lst`. It seems fine as it sets the initial oldest person correctly."
+    },
+    {
+      "faultyLine": 5,
+      "code": "for i in range(len(lst)):",
+      "explanation": "The line starts a for loop that iterates over the elements of `lst`. There doesn't seem to be any issue with this line."
+    }
+  ]
+}

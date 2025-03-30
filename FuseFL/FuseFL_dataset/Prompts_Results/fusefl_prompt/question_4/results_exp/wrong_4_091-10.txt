@@ -1,0 +1,1 @@
+The line 'lst.remove(holder)' returns None, so the recursive call to 'sort_age' with 'lst.remove(holder)' as an argument will cause a 'TypeError: 'NoneType' object is not iterable'.

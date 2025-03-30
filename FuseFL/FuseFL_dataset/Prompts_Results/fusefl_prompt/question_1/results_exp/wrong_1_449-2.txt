@@ -1,0 +1,1 @@
+The code assumes that seq is an iterable object, but later uses seq[i] as if seq is a list index. Additionally, the loop terminates after the first iteration due to the return statement in the else block.

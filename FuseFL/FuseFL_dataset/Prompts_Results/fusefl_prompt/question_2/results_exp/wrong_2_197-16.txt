@@ -1,0 +1,1 @@
+The counting logic might not correctly identify unique days or months.

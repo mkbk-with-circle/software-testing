@@ -1,0 +1,29 @@
+{
+  "faultLoc": [
+    {
+      "faultyLine": 16,
+      "code": "pass",
+      "explanation": "The `pass` statement does nothing and can be removed."
+    },
+    {
+      "faultyLine": 11,
+      "code": "counter=0",
+      "explanation": "Initializing `counter` to 0 is unnecessary and can be removed."
+    },
+    {
+      "faultyLine": 12,
+      "code": "for i in possible_birthdays:",
+      "explanation": "The loop iterates over `possible_birthdays`, but the subsequent `if` conditions are faulty."
+    },
+    {
+      "faultyLine": 13,
+      "code": "if month==i[0]:",
+      "explanation": "The comparison does not handle all cases correctly, leading to incorrect results."
+    },
+    {
+      "faultyLine": 17,
+      "code": "return counter<=1",
+      "explanation": "The counter is not correctly updated within the loop, leading to incorrect results."
+    }
+  ]
+}

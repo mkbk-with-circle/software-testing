@@ -1,0 +1,1 @@
+The 'continue' statement skips necessary steps to correctly remove all repeated occurrences of an element.

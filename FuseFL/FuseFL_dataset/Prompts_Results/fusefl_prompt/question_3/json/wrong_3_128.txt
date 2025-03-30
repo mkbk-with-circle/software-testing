@@ -1,0 +1,19 @@
+{
+  "faultLoc": [
+    {
+      "faultyLine": 6,
+      "code": "lst.pop[i]",
+      "explanation": "The line attempts to remove an element from the list using square brackets instead of parentheses. This is a syntax error and would cause the code to fail."
+    },
+    {
+      "faultyLine": 4,
+      "code": "if lst[i] in lst[:i]:",
+      "explanation": "The condition checks if the current element at index 'i' is present in the sublist from the start of the list to index 'i'. This approach is incorrect as it should check for duplicates after the current index 'i', not before it."
+    },
+    {
+      "faultyLine": 5,
+      "code": "lst.pop[i]",
+      "explanation": "The line is outside the if statement and should be indented to be executed only when the condition is true. As it stands, it tries to remove an element from the list unconditionally, leading to incorrect results."
+    }
+  ]
+}

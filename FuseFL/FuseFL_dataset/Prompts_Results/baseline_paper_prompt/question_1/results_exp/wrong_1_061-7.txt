@@ -1,0 +1,1 @@
+This condition assumes that 'seq' is sorted in ascending order. If 'seq' is not sorted, this condition may not work as expected and return an incorrect index position.

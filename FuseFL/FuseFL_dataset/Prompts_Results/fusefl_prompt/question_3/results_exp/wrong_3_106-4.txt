@@ -1,0 +1,1 @@
+The 'count' variable is initialized to 0, but it is not used correctly to keep track of the index in the 'result' tuple. This leads to incorrect comparisons in line 6 and unexpected behavior in the code.

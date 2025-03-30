@@ -1,0 +1,1 @@
+This line starts a while loop that iterates until n is less than the length of the list lst. The loop is used to check each element of the list for duplicates.

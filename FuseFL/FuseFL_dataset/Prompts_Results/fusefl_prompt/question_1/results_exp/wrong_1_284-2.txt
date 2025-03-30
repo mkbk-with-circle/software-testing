@@ -1,0 +1,1 @@
+The loop is iterating one extra time by using len(seq) + 1 as the upper limit. It should iterate up to len(seq) to avoid going out of bounds.

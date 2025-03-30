@@ -1,0 +1,1 @@
+The code returns 'new_lst' as the result, but the previous lines have faulty logic, leading to incorrect results.

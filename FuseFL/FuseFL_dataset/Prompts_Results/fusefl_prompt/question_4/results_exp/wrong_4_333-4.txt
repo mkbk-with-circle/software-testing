@@ -1,0 +1,1 @@
+'pop()' expects an index as an argument, but 'lst[i]' is a tuple.

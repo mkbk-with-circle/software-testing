@@ -1,0 +1,1 @@
+The return value should be the index where 'x' should be inserted, not the index of the current element.

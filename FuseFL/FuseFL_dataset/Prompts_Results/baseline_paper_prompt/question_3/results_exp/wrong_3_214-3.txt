@@ -1,0 +1,1 @@
+The code does not handle the case when the length of 'lst' is zero. It should have a check to handle this scenario.

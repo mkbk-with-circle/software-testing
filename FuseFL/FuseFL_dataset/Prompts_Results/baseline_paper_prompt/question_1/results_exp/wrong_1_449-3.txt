@@ -1,0 +1,1 @@
+The 'i' variable should represent the index of the current element in the 'seq' list, but it is assigned the actual element.

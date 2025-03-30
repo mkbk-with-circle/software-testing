@@ -1,0 +1,1 @@
+There is no check for invalid input or unexpected counter value

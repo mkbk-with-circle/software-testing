@@ -1,0 +1,1 @@
+The loop variable `i` is used to iterate over the elements of the outer list `lst`. However, the variable name `i` is traditionally used to represent an index, which may cause confusion and unintended behavior.

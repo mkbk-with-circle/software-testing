@@ -1,0 +1,1 @@
+This condition checks if the sequence is empty. However, the task description states that if the sequence is empty, the function should return 0. Changing it to 'if not seq:' will correctly handle the case of an empty sequence.

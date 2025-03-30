@@ -1,0 +1,1 @@
+The line is returning 0 unconditionally, which is incorrect. It should only be executed if the sequence is empty.

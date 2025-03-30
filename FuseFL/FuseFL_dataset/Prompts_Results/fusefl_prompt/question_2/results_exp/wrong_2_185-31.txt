@@ -1,0 +1,1 @@
+This condition correctly checks if the month of a birthday matches the given month.

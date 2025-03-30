@@ -1,0 +1,4 @@
+{
+  "intentOfThisFunction": "The functions aim to determine uniqueness of days and months among a list of possible birthdays.",
+  "faultLocalization": []
+}

@@ -1,0 +1,1 @@
+This line assumes that the sequence 'seq' is not empty, but it does not check for an empty sequence. If 'seq' is empty, it will result in an IndexError.

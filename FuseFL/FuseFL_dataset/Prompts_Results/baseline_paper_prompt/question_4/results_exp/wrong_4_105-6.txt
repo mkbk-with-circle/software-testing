@@ -1,0 +1,1 @@
+Possible IndexError when comparing elements of 'lst' assuming they are tuples with at least two elements

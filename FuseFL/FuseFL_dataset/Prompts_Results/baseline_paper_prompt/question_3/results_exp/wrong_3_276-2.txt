@@ -1,0 +1,1 @@
+The initial assignment of 'result' only includes the first element of the input list ('lst[0]'). This assumes that the input list is non-empty. If the input list is empty, this line will raise an 'IndexError' since there is no element at index 0.

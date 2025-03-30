@@ -1,0 +1,1 @@
+Looping directly over 'seq' using 'for num in seq' would be more efficient and readable

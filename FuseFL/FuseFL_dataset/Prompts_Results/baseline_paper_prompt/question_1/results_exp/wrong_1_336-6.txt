@@ -1,0 +1,1 @@
+Excluding the last element of 'seq' from consideration in the loop

@@ -1,0 +1,1 @@
+Comparing 'seq' with an empty tuple instead of an empty list

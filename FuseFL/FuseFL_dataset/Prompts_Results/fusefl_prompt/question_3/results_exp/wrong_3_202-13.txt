@@ -1,0 +1,1 @@
+Returning the new_lst as the output, which is not directly causing the issue.

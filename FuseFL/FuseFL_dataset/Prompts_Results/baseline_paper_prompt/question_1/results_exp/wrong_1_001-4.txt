@@ -1,0 +1,1 @@
+If the condition on line 4 is satisfied, this line returns the index 'i'. However, it is unclear if returning 'i' is the correct behavior since 'seq' is not guaranteed to be sorted.

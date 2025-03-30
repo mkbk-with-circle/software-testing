@@ -1,0 +1,1 @@
+The code is unnecessarily creating a new list 'new' for each element in 'lst'. This approach is inefficient and can be improved.

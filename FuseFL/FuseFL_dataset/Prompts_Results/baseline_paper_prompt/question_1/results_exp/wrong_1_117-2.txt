@@ -1,0 +1,1 @@
+The condition is checking if x is greater than or equal to the last element of the sequence. However, this assumes that the sequence is not empty. If the sequence is empty, an IndexError will occur.

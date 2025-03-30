@@ -1,0 +1,1 @@
+The line tries to extend the list with an element that is not iterable (an integer). This causes a TypeError.

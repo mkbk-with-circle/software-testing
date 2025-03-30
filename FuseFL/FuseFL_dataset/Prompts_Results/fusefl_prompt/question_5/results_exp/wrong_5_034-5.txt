@@ -1,0 +1,1 @@
+This line appends the current maximum value 'element' to the 'final' list. It is responsible for adding the elements to the result list but does not handle sorting them in descending order.

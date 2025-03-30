@@ -1,0 +1,1 @@
+The initialization of new_list with lst[0] can raise an IndexError if the input list is empty.

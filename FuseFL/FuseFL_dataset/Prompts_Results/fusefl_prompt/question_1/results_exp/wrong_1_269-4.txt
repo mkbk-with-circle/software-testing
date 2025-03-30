@@ -1,0 +1,1 @@
+No major issue found with this line, but it's more pythonic to use `if not seq:` instead.

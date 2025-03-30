@@ -1,0 +1,1 @@
+This line is not faulty as it correctly initializes the list.

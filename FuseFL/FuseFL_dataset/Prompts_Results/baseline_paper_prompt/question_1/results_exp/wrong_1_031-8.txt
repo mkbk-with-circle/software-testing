@@ -1,0 +1,1 @@
+The condition checks if 'x' is greater than the last element of 'seq', but it should check if 'x' is greater than or equal to the last element by using 'elif x >= seq[len(seq)-1]:' instead.

@@ -1,0 +1,1 @@
+This line assumes that the sequence is not empty and directly accesses the first element of the sequence, seq[0]. However, if the sequence is empty, an IndexError will occur. This line needs to be modified to handle the empty sequence case.

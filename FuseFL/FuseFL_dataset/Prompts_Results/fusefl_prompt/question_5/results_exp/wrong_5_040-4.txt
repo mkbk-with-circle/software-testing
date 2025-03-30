@@ -1,0 +1,1 @@
+This line compares the elements at indices i and i+1. If the condition is true, it modifies the list.

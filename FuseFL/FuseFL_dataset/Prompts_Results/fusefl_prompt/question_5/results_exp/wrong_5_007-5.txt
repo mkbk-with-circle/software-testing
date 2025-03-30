@@ -1,0 +1,1 @@
+This line appends the current element to `lst1`, but there is no issue with this line.

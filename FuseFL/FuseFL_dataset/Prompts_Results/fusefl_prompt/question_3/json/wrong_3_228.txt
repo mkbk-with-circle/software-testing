@@ -1,0 +1,14 @@
+{
+  "faultLoc": [
+    {
+      "faultyLine": 3,
+      "code": "if lst.count(i) > 1:",
+      "explanation": "The count method checks if an element occurs more than once. It is not directly causing the incorrect results, but it could be optimized."
+    },
+    {
+      "faultyLine": 4,
+      "code": "lst.reverse.remove(i).reverse",
+      "explanation": "This line attempts to remove the duplicate element from the list. However, it mistakenly uses 'reverse' as an attribute and then calls it as a method, resulting in an AttributeError."
+    }
+  ]
+}

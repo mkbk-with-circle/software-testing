@@ -1,0 +1,1 @@
+The condition 'elif day not in tup_month_2' is unnecessary. Since it is the last condition checked, it can be replaced with 'else'.

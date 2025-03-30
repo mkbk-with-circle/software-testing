@@ -1,0 +1,1 @@
+This line is not relevant to the functionality of the code and can be considered as a comment. It can be removed.

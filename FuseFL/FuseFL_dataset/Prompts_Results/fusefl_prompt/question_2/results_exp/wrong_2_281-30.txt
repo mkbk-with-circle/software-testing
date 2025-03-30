@@ -1,0 +1,1 @@
+This line adds the same unique day multiple times, resulting in incorrect behavior.

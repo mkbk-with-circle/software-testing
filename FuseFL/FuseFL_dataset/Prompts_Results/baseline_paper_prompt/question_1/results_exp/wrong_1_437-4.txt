@@ -1,0 +1,1 @@
+This loop iterates over the 'seq' parameter to check each element.

@@ -1,0 +1,1 @@
+The '+=' operator is used for concatenating lists, not for adding a single element to a list. This line tries to add an integer to the list, causing the 'TypeError: 'int' object is not iterable' error.

@@ -1,0 +1,1 @@
+The loop condition 'while lst' is potentially faulty because it assumes that 'lst' is not an empty list. However, the task description mentions that the input list can be empty, so this condition needs to be modified.

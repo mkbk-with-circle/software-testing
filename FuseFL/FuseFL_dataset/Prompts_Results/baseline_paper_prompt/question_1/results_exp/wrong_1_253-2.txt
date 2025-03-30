@@ -1,0 +1,1 @@
+The condition can be simplified to 'if not seq' to check for an empty sequence.

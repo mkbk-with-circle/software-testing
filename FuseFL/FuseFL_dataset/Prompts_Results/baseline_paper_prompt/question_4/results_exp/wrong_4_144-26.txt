@@ -1,0 +1,1 @@
+This line calculates the midpoint of the input list 'lst' using integer division. If the length of 'lst' is an odd number, it might not divide equally, potentially causing issues with the subsequent recursive calls to 'merge_sort'.

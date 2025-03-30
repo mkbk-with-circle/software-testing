@@ -1,0 +1,1 @@
+The range should be range(0, len(seq)) instead of range(0, len(seq) + 1).

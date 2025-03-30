@@ -1,0 +1,1 @@
+Incorrect condition, should check 'seq[count-1]' instead of 'seq[-1]'.

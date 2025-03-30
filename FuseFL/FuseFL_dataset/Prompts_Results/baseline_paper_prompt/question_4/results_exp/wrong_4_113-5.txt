@@ -1,0 +1,1 @@
+The loop iterates over the indices of the `out` list, but it fails to consider the case when `out` is empty. In such cases, it will raise an `IndexError`.

@@ -1,0 +1,1 @@
+The 'newlst.append(person)' statement is placed incorrectly within the if statement. It should be outside the if statement to avoid skipping the first person in the list.

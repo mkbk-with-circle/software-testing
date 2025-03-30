@@ -1,0 +1,1 @@
+If the condition in line 5 is true, the `continue` statement will skip the rest of the loop body, which means the current element `i` will not be added to the `result` list. This will result in missing elements in the output list.

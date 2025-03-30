@@ -1,0 +1,1 @@
+This condition should not be inside the loop, as it only needs to be checked once.

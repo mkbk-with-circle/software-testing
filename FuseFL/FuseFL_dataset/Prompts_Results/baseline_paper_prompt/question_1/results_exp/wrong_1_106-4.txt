@@ -1,0 +1,1 @@
+This line may cause an IndexError if 'seq' is an empty list. The condition should be checked before accessing seq[-1].

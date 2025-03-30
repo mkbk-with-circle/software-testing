@@ -1,0 +1,1 @@
+This line starts a loop to iterate over the list of people. However, the subsequent lines of code use the variable 'i' assuming it represents a person, but it actually represents the last person in the list due to the previous loop iterations.

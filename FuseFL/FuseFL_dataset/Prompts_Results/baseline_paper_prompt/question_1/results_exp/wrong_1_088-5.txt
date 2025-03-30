@@ -1,0 +1,1 @@
+This line is potentially faulty because it increments 'count' even when 'seq[count]' is less than 'x'.

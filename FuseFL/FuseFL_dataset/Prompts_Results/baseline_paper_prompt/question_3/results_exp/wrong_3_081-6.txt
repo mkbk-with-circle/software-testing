@@ -1,0 +1,1 @@
+This line is potentially faulty because 'newlst' is expected to contain the unique elements of 'lst', but due to the previous issue, it will be 'None' instead.

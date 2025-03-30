@@ -1,0 +1,29 @@
+{
+  "faultLoc": [
+    {
+      "faultyLine": 7,
+      "code": "biggesr  - k",
+      "explanation": "The line contains a typo and should be 'biggest -= k' instead of 'biggesr  - k'."
+    },
+    {
+      "faultyLine": 4,
+      "code": "biggest = lst[0]",
+      "explanation": "The line initializes the 'biggest' variable with the first element of the input list 'lst'. It doesn't handle the case when the list is empty."
+    },
+    {
+      "faultyLine": 5,
+      "code": "for i in lst:",
+      "explanation": "The line iterates over each element 'i' in the input list 'lst'."
+    },
+    {
+      "faultyLine": 6,
+      "code": "if i[1] > biggest[1]:",
+      "explanation": "The line checks if the age of the current element 'i' is greater than the age of the current 'biggest' element."
+    },
+    {
+      "faultyLine": 2,
+      "code": "sort = []",
+      "explanation": "The line initializes an empty list 'sort' to store the sorted elements."
+    }
+  ]
+}

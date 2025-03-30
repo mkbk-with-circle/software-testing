@@ -1,0 +1,1 @@
+This line assumes that each element i in possible_birthdays is a list or tuple with at least three elements. If this assumption is incorrect, it could lead to an 'index out of range' error.

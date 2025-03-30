@@ -1,0 +1,1 @@
+The line initializes new_lst with the first element of lst, but if lst is empty, it raises an IndexError.

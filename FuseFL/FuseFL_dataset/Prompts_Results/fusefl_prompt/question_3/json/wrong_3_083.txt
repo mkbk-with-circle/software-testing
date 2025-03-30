@@ -1,0 +1,14 @@
+{
+  "faultLoc": [
+    {
+      "faultyLine": 4,
+      "code": "if i not in list:",
+      "explanation": "The variable name 'list' is used as a list object, which shadows the built-in 'list()' function. Additionally, the 'list' variable is never updated within the loop, resulting in the condition always being true."
+    },
+    {
+      "faultyLine": 5,
+      "code": "list += lst[0]",
+      "explanation": "The '+=' operator is used for concatenating lists, not for adding a single element to a list. This line tries to add an integer to the list, causing the 'TypeError: 'int' object is not iterable' error."
+    }
+  ]
+}

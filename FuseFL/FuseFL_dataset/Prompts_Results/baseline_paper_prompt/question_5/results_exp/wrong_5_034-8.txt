@@ -1,0 +1,1 @@
+Using a 'for' loop instead of a 'while' loop would be more efficient and eliminate the need for this 'break' statement.

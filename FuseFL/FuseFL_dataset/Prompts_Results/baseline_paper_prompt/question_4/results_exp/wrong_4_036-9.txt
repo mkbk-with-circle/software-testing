@@ -1,0 +1,1 @@
+The swap operation is incorrect, swapping lst[j] with itself, which has no effect. It should be lst[i], lst[j] = lst[j], lst[i].

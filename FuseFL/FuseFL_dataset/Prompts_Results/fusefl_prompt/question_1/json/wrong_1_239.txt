@@ -1,0 +1,29 @@
+{
+  "faultLoc": [
+    {
+      "faultyLine": 11,
+      "code": "return (list(seq).index(max(seq)))+1",
+      "explanation": "Incorrectly assumes x is greater than or equal to max(seq)"
+    },
+    {
+      "faultyLine": 8,
+      "code": "elif x == element:",
+      "explanation": "Returns index of the first occurrence of x, not the first possible position"
+    },
+    {
+      "faultyLine": 10,
+      "code": "elif x >= max(seq):",
+      "explanation": "Incorrectly assumes x is greater than or equal to max(seq)"
+    },
+    {
+      "faultyLine": 5,
+      "code": "for element in seq:",
+      "explanation": "Loop that evaluates faulty conditions for each element"
+    },
+    {
+      "faultyLine": 6,
+      "code": "if x <= element:",
+      "explanation": "Returns index of the first occurrence of x, not the first possible position"
+    }
+  ]
+}

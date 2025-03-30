@@ -1,0 +1,1 @@
+The condition checks if the given month is present in the entire tuple 'i', which is incorrect. It should check if the given month is present in the first element of the tuple 'i' (representing the month).

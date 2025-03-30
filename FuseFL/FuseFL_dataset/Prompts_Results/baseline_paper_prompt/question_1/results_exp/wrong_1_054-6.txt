@@ -1,0 +1,1 @@
+This condition should be 'if x >= seq[-1]'. The current condition returns an incorrect index if 'x' is equal to the last element in 'seq'.

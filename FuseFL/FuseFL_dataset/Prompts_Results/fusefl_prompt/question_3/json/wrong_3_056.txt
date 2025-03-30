@@ -1,0 +1,24 @@
+{
+  "faultLoc": [
+    {
+      "faultyLine": 4,
+      "code": "if i not in new_lst:",
+      "explanation": "The code incorrectly checks if the entire 'lst' is present in the 'new_lst' instead of checking if the current element 'i' is already present."
+    },
+    {
+      "faultyLine": 5,
+      "code": "new_lst.append(i)",
+      "explanation": "The code appends 'i' to 'new_lst' instead of using the '+=' operator, which results in the correct order of elements."
+    },
+    {
+      "faultyLine": 3,
+      "code": "for i in lst:",
+      "explanation": "The code iterates over the elements of 'lst', but the logic inside the loop is faulty."
+    },
+    {
+      "faultyLine": 6,
+      "code": "return new_lst",
+      "explanation": "The code returns 'new_lst' as the result, but the previous lines have faulty logic, leading to incorrect results."
+    }
+  ]
+}

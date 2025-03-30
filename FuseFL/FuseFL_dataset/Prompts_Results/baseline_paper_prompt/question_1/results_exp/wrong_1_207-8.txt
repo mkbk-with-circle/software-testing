@@ -1,0 +1,1 @@
+The code assumes that 'seq' is sorted in ascending order, but it doesn't handle the case where 'seq' is not sorted properly. It should check if 'seq' is sorted before performing the search.

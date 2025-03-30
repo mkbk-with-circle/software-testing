@@ -1,0 +1,24 @@
+{
+  "faultLoc": [
+    {
+      "faultyLine": 5,
+      "code": "result += ele",
+      "explanation": "The line 'result += ele' is potentially faulty because it tries to concatenate an integer 'ele' to the list 'result'. This operation is not valid since the '+=' operator expects an iterable object on the right-hand side, but 'ele' is an integer."
+    },
+    {
+      "faultyLine": 4,
+      "code": "if ele not in result:",
+      "explanation": "The line 'if ele not in result:' is potentially faulty because it checks if 'ele' is not in 'result' correctly. However, the subsequent code does not handle the case when 'ele' is not in 'result'. This can lead to incorrect results."
+    },
+    {
+      "faultyLine": 2,
+      "code": "result = []",
+      "explanation": "The line 'result = []' is potentially faulty because it initializes the 'result' list inside the loop. This will result in resetting the 'result' list for each element in 'lst', which is not the intended behavior."
+    },
+    {
+      "faultyLine": 3,
+      "code": "for ele in lst:",
+      "explanation": "The line 'for ele in lst:' is potentially faulty because it iterates over 'lst' correctly. However, the subsequent code does not handle the iteration properly, leading to incorrect results."
+    }
+  ]
+}

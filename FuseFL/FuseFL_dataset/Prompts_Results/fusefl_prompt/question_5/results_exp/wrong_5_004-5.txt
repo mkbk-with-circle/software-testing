@@ -1,0 +1,1 @@
+Starting a for loop iterating over each element in 'lst'.

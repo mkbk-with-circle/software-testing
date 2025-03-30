@@ -1,0 +1,19 @@
+{
+  "faultLoc": [
+    {
+      "faultyLine": 4,
+      "code": "if i in lst[:i]:",
+      "explanation": "This line checks if the current element i is already present in the sublist lst[:i] (from the beginning up to the current index i). If it is, the code continues to the next iteration of the loop using the continue statement."
+    },
+    {
+      "faultyLine": 5,
+      "code": "continue",
+      "explanation": "The continue statement is used to skip the rest of the current iteration and move to the next iteration of the loop."
+    },
+    {
+      "faultyLine": 6,
+      "code": "result += [i]",
+      "explanation": "This line appends the current element i to the result list."
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "intentOfThisFunction": "Perform binary search to find the index for insertion into a sorted sequence",
+  "faultLocalization": [
+    {
+      "lineNumber": 3,
+      "codeContent": "if seq == () or seq == []:",
+      "reason": "Redundant check for an empty tuple"
+    },
+    {
+      "lineNumber": 5,
+      "codeContent": "elif x <= seq[0]:",
+      "reason": "Assumes the sequence is sorted in ascending order"
+    },
+    {
+      "lineNumber": 7,
+      "codeContent": "elif x >= seq[-1]:",
+      "reason": "Assumes the sequence is sorted in ascending order"
+    },
+    {
+      "lineNumber": 10,
+      "codeContent": "seq_enum = [i for i in enumerate(seq)]",
+      "reason": "Incorrect creation of seq_enum list"
+    },
+    {
+      "lineNumber": 12,
+      "codeContent": "for j in range(len(seq_enum) - 1):",
+      "reason": "Loop iteration doesn't process the last element"
+    }
+  ]
+}

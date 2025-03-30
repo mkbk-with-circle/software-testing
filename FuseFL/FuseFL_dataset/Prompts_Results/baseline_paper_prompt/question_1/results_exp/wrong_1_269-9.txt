@@ -1,0 +1,1 @@
+Condition should be moved outside the loop

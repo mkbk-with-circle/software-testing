@@ -1,0 +1,1 @@
+This line is not faulty. It returns the modified list 'lst' as the output of the function.

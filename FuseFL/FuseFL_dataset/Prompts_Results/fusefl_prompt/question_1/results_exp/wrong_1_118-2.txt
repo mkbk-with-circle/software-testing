@@ -1,0 +1,1 @@
+This line checks if seq is an empty list using the equality operator. However, the test case passes an empty tuple, not a list.

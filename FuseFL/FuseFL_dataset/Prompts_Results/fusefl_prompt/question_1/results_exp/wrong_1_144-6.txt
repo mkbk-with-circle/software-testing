@@ -1,0 +1,1 @@
+The condition `seq == () or []` is incorrect to check if the list is empty.

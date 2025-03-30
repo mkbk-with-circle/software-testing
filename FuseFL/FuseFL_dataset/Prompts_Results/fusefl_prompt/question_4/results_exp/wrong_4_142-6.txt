@@ -1,0 +1,1 @@
+This line checks if the age of the current element is less than the age of the current oldest element. If this comparison is incorrect, it can lead to incorrect sorting.

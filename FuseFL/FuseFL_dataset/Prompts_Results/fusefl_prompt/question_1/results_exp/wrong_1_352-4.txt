@@ -1,0 +1,1 @@
+This line assumes `seq` is not empty and tries to access its first element. However, if `seq` is empty, an `IndexError` will occur.

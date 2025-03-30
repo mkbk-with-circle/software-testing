@@ -1,0 +1,1 @@
+Returning lst.reverse() will always return None instead of the reversed list.

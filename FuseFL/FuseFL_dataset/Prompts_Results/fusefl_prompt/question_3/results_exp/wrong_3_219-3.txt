@@ -1,0 +1,1 @@
+The count method may not work correctly due to modifications in the list while iterating.

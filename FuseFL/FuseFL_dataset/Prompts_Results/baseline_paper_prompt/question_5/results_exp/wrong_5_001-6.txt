@@ -1,0 +1,1 @@
+This location is potentially faulty because it may not handle duplicate maximum values correctly.

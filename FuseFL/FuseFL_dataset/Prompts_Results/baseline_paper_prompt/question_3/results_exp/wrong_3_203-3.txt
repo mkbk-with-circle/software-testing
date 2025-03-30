@@ -1,0 +1,1 @@
+Potential infinite loop due to incorrect usage of lst.index(elem)

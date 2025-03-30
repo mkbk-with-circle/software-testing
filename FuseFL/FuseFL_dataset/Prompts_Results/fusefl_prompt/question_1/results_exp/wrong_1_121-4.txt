@@ -1,0 +1,1 @@
+This line checks if x is greater than or equal to the last element of the sequence. However, it should only return the length of the sequence when x is greater than or equal to the last element, not the length of the whole sequence.

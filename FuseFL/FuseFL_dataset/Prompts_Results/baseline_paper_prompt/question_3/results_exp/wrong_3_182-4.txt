@@ -1,0 +1,1 @@
+The loop condition assumes that the list is not empty, but it does not check if the list is empty before execution.

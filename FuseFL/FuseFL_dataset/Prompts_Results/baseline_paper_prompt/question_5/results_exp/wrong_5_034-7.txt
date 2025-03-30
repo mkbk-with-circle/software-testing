@@ -1,0 +1,1 @@
+This condition assumes that the input list 'lst' has at least k elements. If the length of 'lst' is less than k, an infinite loop may occur.

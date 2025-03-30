@@ -1,0 +1,1 @@
+The recursive call may result in an infinite recursion if the list is not properly handled.

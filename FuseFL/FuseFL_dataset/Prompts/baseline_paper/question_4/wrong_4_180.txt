@@ -1,0 +1,14 @@
+Please analyse the following code snippet for potential bugs. Return the results in JSON format, consisting of a single JSON object with two fields: “intentOfThisFunction” (describing the intended purpose of the function), and “faultLocalization” (an array of JSON objects). The “faultLocalization” array should contain up to five JSON objects, each with three fields: “lineNumber” (indicating the line number of the suspicious code), “codeContent” (showing the actual code), and “reason” (explaining why this location is identified as potentially faulty). Note: The codes in the “faultLocalization” array should be listed in descending order of suspicion.
+def sort_age(lst):
+    a = lst
+    sort = []
+    while a:
+        largest = a[0]
+        for item in a:
+            if item[1] >largest[1]:
+                largest = item
+        a.remove(largest)
+        sort.append(largest)
+        print(a)
+        print(sort)# Fill in your code here
+    

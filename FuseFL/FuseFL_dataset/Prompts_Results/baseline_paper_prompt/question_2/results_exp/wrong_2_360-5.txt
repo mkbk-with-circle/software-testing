@@ -1,0 +1,1 @@
+It should append the first element of 'possible_birthdays[i]' to 'count'.

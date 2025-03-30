@@ -1,0 +1,1 @@
+This line is not faulty. It initializes the counter variable before the loop.

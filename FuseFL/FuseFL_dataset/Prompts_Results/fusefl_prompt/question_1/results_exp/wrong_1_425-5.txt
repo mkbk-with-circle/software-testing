@@ -1,0 +1,1 @@
+This condition is correct and returns the expected result.

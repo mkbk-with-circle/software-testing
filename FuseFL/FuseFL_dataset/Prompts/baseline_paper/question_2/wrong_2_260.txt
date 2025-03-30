@@ -1,0 +1,18 @@
+Please analyse the following code snippet for potential bugs. Return the results in JSON format, consisting of a single JSON object with two fields: “intentOfThisFunction” (describing the intended purpose of the function), and “faultLocalization” (an array of JSON objects). The “faultLocalization” array should contain up to five JSON objects, each with three fields: “lineNumber” (indicating the line number of the suspicious code), “codeContent” (showing the actual code), and “reason” (explaining why this location is identified as potentially faulty). Note: The codes in the “faultLocalization” array should be listed in descending order of suspicion.
+def unique_day(date, possible_birthdays):
+    if int(date) in possible_birthdays[1]: 
+        return False
+    else:
+        return True
+
+def unique_month(month, possible_birthdays):
+    if month in possible_birthdays[0]:
+        return False
+    else:
+        return True
+
+def contains_unique_day(month, possible_birthdays):
+    if not unique_day and not unique_month: 
+        return False
+    else: 
+        return True 

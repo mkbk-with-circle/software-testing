@@ -1,0 +1,1 @@
+Comparing the second element of each item in the list assumes that all items have at least two elements. This may cause an IndexError if an item has fewer elements.

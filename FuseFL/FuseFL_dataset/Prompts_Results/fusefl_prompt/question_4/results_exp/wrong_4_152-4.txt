@@ -1,0 +1,1 @@
+The code compares the age of two people using lst[i][1] and lst[i+1][1]. However, the comparison should be in reverse order to sort the list in descending order of age. Changing the comparison to lst[i][1] > lst[i+1][1] will fix the sorting order.

@@ -1,0 +1,29 @@
+{
+  "faultLoc": [
+    {
+      "faultyLine": 10,
+      "code": "return holder+sort_age(lst[1:])",
+      "explanation": "Concatenating a tuple with the result of the recursive call to sort_age may cause a TypeError."
+    },
+    {
+      "faultyLine": 7,
+      "code": "holder=x",
+      "explanation": "The assignment of x to holder may not be correct as holder should store a tuple."
+    },
+    {
+      "faultyLine": 5,
+      "code": "for x in lst:",
+      "explanation": "Initializing holder with the first element of lst, but subsequent iterations do not update holder correctly."
+    },
+    {
+      "faultyLine": 6,
+      "code": "if holder==[]:",
+      "explanation": "Assuming holder will always be an empty list initially, but it may not be the case."
+    },
+    {
+      "faultyLine": 2,
+      "code": "holder=[]",
+      "explanation": "Initializing holder as an empty list, but it should store a tuple according to the task description."
+    }
+  ]
+}

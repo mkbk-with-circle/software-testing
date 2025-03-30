@@ -1,0 +1,1 @@
+The line tries to append 'x' to the 'new' list using the 'append' method. However, the 'append' method returns 'None', so assigning it to 'new' replaces the list with 'None'.

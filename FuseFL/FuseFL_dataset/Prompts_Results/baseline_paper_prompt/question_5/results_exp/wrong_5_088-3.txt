@@ -1,0 +1,1 @@
+The slicing operation '[:k-1]' should be '[:k]' to include the kth element.

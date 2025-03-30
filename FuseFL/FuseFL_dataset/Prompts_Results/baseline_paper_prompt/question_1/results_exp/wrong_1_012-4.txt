@@ -1,0 +1,1 @@
+This line may cause an IndexError if the loop iterates until the last element of the sequence. The return value should be adjusted to handle this case correctly.

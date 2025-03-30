@@ -1,0 +1,1 @@
+The line tries to concatenate an integer with the result of the remove() method, which returns None. This leads to a TypeError.

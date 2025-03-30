@@ -1,0 +1,1 @@
+Although initializing an empty list 'new' is the correct starting point, the subsequent logic fails to effectively remove repeated occurrences.

@@ -1,0 +1,1 @@
+The condition 'x >= max(seq)' will always be true when it reaches this point. Consider moving it outside the loop if it serves the intended purpose.

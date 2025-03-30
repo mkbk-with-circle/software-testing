@@ -1,0 +1,1 @@
+This line initializes the 'counter' variable, which is used to count the occurrences of a specific day or month.

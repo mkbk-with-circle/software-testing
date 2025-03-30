@@ -1,0 +1,25 @@
+{
+  "intentOfThisFunction": "Sort a list of tuples based on the second element of each tuple",
+  "faultLocalization": [
+    {
+      "lineNumber": 5,
+      "codeContent": "lst.remove(smallest)",
+      "reason": "Incorrect usage of remove() function"
+    },
+    {
+      "lineNumber": 6,
+      "codeContent": "sort.append(smallest)",
+      "reason": "Appending only the second element instead of the entire tuple"
+    },
+    {
+      "lineNumber": 7,
+      "codeContent": "sort.reverse(smallest)",
+      "reason": "Incorrect usage of reverse() function"
+    },
+    {
+      "lineNumber": 8,
+      "codeContent": "return sort",
+      "reason": "Returning prematurely inside the while loop"
+    }
+  ]
+}

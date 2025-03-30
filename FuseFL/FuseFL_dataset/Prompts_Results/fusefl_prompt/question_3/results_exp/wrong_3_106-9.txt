@@ -1,0 +1,1 @@
+This line adds the current element to the 'result' tuple. However, the code should be appending the element to the 'result' list instead of concatenating it to the tuple. This leads to incorrect results and an undesired tuple instead of a list.

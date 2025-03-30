@@ -1,0 +1,1 @@
+Initializing holder with the first element of lst, but subsequent iterations do not update holder correctly.

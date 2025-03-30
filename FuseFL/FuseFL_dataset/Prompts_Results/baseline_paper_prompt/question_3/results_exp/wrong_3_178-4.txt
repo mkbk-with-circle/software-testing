@@ -1,0 +1,1 @@
+This line of code is potentially faulty. It uses 'n' as the loop counter to iterate over the list, but there is no check to ensure that 'n' does not exceed the length of the list. This can lead to an IndexError when accessing elements of the list.

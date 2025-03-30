@@ -1,0 +1,1 @@
+The loop variable 'all_days' is reused from the outer loop, which can lead to incorrect behavior.

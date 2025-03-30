@@ -1,0 +1,1 @@
+Directly returning the result of the condition would be more readable.

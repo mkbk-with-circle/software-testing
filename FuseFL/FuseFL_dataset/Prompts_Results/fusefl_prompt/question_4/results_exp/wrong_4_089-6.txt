@@ -1,0 +1,1 @@
+Assuming holder will always be an empty list initially, but it may not be the case.

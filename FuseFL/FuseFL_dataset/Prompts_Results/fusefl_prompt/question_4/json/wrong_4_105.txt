@@ -1,0 +1,24 @@
+{
+  "faultLoc": [
+    {
+      "faultyLine": 4,
+      "code": "largest = lst[0][1]",
+      "explanation": "The initialization of 'largest' variable should store the entire tuple, not just the age."
+    },
+    {
+      "faultyLine": 6,
+      "code": "if i[1] > largest:",
+      "explanation": "The comparison should be updated to 'if i[1] > largest[1]'."
+    },
+    {
+      "faultyLine": 8,
+      "code": "lst.remove(i)",
+      "explanation": "The removal logic should be modified to remove 'largest' instead of 'i'."
+    },
+    {
+      "faultyLine": 9,
+      "code": "sort1.append(i)",
+      "explanation": "The append statement should be updated to append 'largest' instead of 'i'."
+    }
+  ]
+}

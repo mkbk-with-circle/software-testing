@@ -1,0 +1,1 @@
+The condition should check if the current element is greater than 'x' instead of greater than or equal to 'x'. This is because the function should return the index where 'x' should be inserted to maintain the sorted order.

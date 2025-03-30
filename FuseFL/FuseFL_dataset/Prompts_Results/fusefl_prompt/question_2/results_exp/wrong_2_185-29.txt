@@ -1,0 +1,1 @@
+Initializing days_in_month as an empty tuple is unnecessary and leads to incorrect usage later. This line should be removed.

@@ -1,0 +1,43 @@
+Faulty Code:
+```python
+def remove_extras(lst):
+    copy = lst.copy()
+    for i in copy:
+        if copy.count(i) > 1:
+            left = lst[:copy.index(i)+1]
+            right = lst[copy.index(i)+1:]
+            right.remove(i)
+            copy = left + right
+    return copy
+```
+
+Task Description:
+The function `remove_extras` takes in a list and returns a new list with all repeated occurrences of any element removed. This new list should maintain the same order as the input list. For example, remove_extras([5, 2, 1, 2, 3]) returns the list [5, 2, 1, 3].
+
+Test Results:
+The provided code is producing incorrect results. For example:
+- Running the function as follows `remove_extras([1, 1, 1, 2, 3])` yields `[1, 1, 2, 3]` instead of the expected `[1, 2, 3]`.
+- Running the function as follows `remove_extras([1, 5, 1, 1, 3, 2])` yields `[1, 5, 1, 3, 2]` instead of the expected `[1, 5, 3, 2]`.
+
+Spectrum-based Fault Localization (SBFL) Techniques Results:
+We have used SBFL techniques to identify potentially faulty lines. Here are the results of top-5 suspicious lines sorted in descending order of the score:
+1. Line 4 `if copy.count(i) > 1:`, Ochiai score: 0.223607
+2. Line 5 `left = lst[:copy.index(i)+1]`, Ochiai score: 0.223607
+3. Line 6 `right = lst[copy.index(i)+1:]`, Ochiai score: 0.223607
+4. Line 7 `right.remove(i)`, Ochiai score: 0.223607
+5. Line 8 `copy = left + right`, Ochiai score: 0.223607
+
+Analyze the provided code and utilize task description, test results, and SBFL techniques results to help in identifying potentially faulty lines. Provide the results following this JSON template:
+```json
+{
+  "faultLoc": [
+    {
+      "faultyLine": (indicating the line number of the suspicious code),
+      "code": (displaying the actual code),
+      "explanation": (step by step reasoning on why this location is considered potentially faulty)
+    },
+    ...
+  ]
+}
+```
+Ensure that the objects in the "faultLoc" array are sorted in descending order of suspicion.

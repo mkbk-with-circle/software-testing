@@ -1,0 +1,1 @@
+The condition should be 'if occur == len(possible_birthdays):' to check if the day/month is unique among all possible birthdays.

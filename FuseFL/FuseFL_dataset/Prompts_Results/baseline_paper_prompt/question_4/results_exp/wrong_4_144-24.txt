@@ -1,0 +1,1 @@
+The condition checks if the length of the input list 'lst' is less than 2 to determine the base case for the recursive 'merge_sort' function. However, it doesn't handle the case when 'lst' is an empty list, which could result in unexpected behavior.

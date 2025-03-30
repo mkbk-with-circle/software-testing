@@ -1,0 +1,14 @@
+{
+  "faultLoc": [
+    {
+      "faultyLine": 2,
+      "code": "for i in range(len(seq)):",
+      "explanation": "The line iterates over the sequence using the `range` function, but it should use the length of `seq` instead of `len` alone."
+    },
+    {
+      "faultyLine": 3,
+      "code": "if x < len[i]:",
+      "explanation": "This line attempts to access the `len` function as if it were a subscriptable object. It should compare `x` with `len(seq[i])` instead."
+    }
+  ]
+}

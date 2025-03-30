@@ -1,0 +1,1 @@
+This line returns the variable 'ans' without ensuring that it has been assigned a value. This can result in an 'UnboundLocalError' if the condition in the loop is not satisfied.

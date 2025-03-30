@@ -1,0 +1,1 @@
+Iterating over the indices of a sequence using 'range(len(seq))' is not the most Pythonic approach. Instead, it is recommended to use 'enumerate(seq)' to directly access both the index and the value in each iteration.

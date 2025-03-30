@@ -1,0 +1,1 @@
+Potential bug: The comparison may not work as expected if the structure of the possible_birthdays list is not consistent

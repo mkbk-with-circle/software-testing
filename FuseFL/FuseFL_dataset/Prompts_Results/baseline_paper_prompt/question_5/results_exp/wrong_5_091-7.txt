@@ -1,0 +1,1 @@
+This while loop may cause an infinite loop if the length of lst2 does not become equal to k.

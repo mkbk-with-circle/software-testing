@@ -1,0 +1,1 @@
+month_list should be initialized as a list

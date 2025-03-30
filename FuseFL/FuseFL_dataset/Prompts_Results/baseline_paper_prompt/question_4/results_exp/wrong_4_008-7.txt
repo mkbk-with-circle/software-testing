@@ -1,0 +1,1 @@
+Reassigning the lst variable within the loop can result in incorrect sorting. It may lead to duplicate or missing elements in the final sorted list.

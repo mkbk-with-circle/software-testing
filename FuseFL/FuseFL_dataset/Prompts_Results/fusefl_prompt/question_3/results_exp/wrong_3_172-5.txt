@@ -1,0 +1,1 @@
+Modifying the list while iterating over it can lead to unexpected behavior and errors. Instead of deleting elements from the list, we should create a new list and append the non-duplicate elements to it.

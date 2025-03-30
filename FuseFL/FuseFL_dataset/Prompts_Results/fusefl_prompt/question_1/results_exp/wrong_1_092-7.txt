@@ -1,0 +1,1 @@
+This line checks if the current element in the sequence seq is greater than x. If true, it returns the index i. This behavior is correct according to the task description.

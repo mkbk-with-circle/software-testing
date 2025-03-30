@@ -1,0 +1,1 @@
+The condition checks if x is less than or equal to the current element seq[i]. This assumes that the sequence is sorted in ascending order. If the sequence is not sorted, the function may return an incorrect position.

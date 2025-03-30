@@ -1,0 +1,1 @@
+This line is throwing an IndexError when seq is empty because it is trying to access seq[0] without checking if the sequence is empty first. This line should be modified to handle the case when the sequence is empty.

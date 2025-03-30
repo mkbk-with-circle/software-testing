@@ -1,0 +1,1 @@
+This loop iterates over the 'seq' list, but it does not handle the last element correctly. When 'i' reaches the last index, 'seq[i+1]' will result in an IndexError.

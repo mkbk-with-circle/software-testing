@@ -1,0 +1,1 @@
+The loop in line 5 iterates over the list 'lst'. However, the variable 'i' is used inconsistently in the loop. It should be replaced with a more meaningful variable name, such as 'person' or 'member', to improve code readability.

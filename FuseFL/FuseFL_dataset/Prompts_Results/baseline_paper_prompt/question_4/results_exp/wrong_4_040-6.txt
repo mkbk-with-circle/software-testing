@@ -1,0 +1,1 @@
+The code assumes that the input list `lst` is not empty. However, there is no check to ensure that the list is not empty before accessing the first element. If the list is empty, this line will raise an `IndexError`. It is recommended to add a check to handle this edge case.
