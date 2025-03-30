@@ -1,0 +1,1 @@
+The comparison 'x <= seq[i]' should be changed to 'x < seq[i]' to ensure correct positioning when 'x' is equal to 'seq[i]'.

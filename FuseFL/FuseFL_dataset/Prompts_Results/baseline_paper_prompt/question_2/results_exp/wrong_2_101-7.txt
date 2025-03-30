@@ -1,0 +1,1 @@
+This condition will never be reached because of the issue mentioned in the previous point. It should be placed before the return statement in line 7.

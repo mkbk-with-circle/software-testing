@@ -1,0 +1,19 @@
+{
+  "faultLoc": [
+    {
+      "faultyLine": 2,
+      "code": "if day == 18 or 19:",
+      "explanation": "The variable 'day' is not defined, causing a NameError. Additionally, the condition 'day == 18 or 19' is incorrect and should be modified to 'day == 18 or day == 19'."
+    },
+    {
+      "faultyLine": 6,
+      "code": "return",
+      "explanation": "The 'unique_month' function does not return any value. It should be modified to return a meaningful result based on the logic of the function."
+    },
+    {
+      "faultyLine": 9,
+      "code": "return",
+      "explanation": "The 'contains_unique_day' function does not return any value. It should be modified to return a meaningful result based on the logic of the function."
+    }
+  ]
+}

@@ -1,0 +1,1 @@
+This line is checking if seq is an empty tuple. However, the task description states that if seq is empty, the function should return 0. Comparing seq with an empty tuple is unnecessary and can be simplified.

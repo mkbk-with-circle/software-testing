@@ -1,0 +1,29 @@
+{
+  "faultLoc": [
+    {
+      "faultyLine": 2,
+      "code": "for i in seq:",
+      "explanation": "The loop might not execute if `seq` is empty."
+    },
+    {
+      "faultyLine": 3,
+      "code": "if x < i:",
+      "explanation": "Doesn't handle the case when `seq` is empty."
+    },
+    {
+      "faultyLine": 5,
+      "code": "elif x == i:",
+      "explanation": "Doesn't handle the case when `seq` is empty."
+    },
+    {
+      "faultyLine": 7,
+      "code": "elif x > seq[-1]:",
+      "explanation": "Doesn't handle the case when `seq` is empty."
+    },
+    {
+      "faultyLine": 8,
+      "code": "return (seq.index(seq[-1]))+1",
+      "explanation": "Doesn't handle the case when `seq` is empty."
+    }
+  ]
+}

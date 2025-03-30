@@ -1,0 +1,1 @@
+Not checking if each element in 'lst' is a tuple with at least two elements.

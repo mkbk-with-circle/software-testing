@@ -1,0 +1,1 @@
+The linear search used to check for duplicates in `new_list` can be inefficient for larger lists.

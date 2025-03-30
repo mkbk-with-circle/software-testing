@@ -1,0 +1,1 @@
+The counter variable might not be used or updated correctly.

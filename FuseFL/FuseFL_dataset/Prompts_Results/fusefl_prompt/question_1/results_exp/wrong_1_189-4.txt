@@ -1,0 +1,1 @@
+This line checks if x is less than 0. According to the task description, if x is negative, it should return 0. However, it should not terminate the function at this point.

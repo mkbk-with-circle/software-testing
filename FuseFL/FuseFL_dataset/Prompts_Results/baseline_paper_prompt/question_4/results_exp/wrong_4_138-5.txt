@@ -1,0 +1,1 @@
+This line assumes that each element in the 'lst' is a tuple with at least two elements, where the second element represents the age. If any element in the list doesn't have a second element, it will raise an IndexError. It would be good to add a check to ensure the element has at least two elements before accessing the second element.

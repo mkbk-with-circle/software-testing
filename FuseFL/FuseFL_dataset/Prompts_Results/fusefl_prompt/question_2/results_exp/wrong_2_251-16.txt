@@ -1,0 +1,1 @@
+This line checks if counter is less than or equal to 1. If the counter is not being incremented correctly, this condition might not correctly determine if the month or day is unique.

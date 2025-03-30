@@ -1,0 +1,1 @@
+The pop() method is used to remove an element from the list while iterating over it. This can cause the iteration to skip elements and lead to unexpected results.

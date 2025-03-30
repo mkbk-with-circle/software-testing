@@ -1,0 +1,1 @@
+This line does not handle the case when seq is empty, leading to an IndexError. It also returns the length of the sequence instead of the correct position when x is greater than or equal to the last element of seq.

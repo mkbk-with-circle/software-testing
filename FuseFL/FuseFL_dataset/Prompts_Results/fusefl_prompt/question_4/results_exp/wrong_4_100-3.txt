@@ -1,0 +1,1 @@
+The while loop may run indefinitely if the list is not initially sorted in descending order of age.

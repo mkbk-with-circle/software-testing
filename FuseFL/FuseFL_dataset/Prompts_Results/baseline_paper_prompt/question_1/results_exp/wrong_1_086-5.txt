@@ -1,0 +1,1 @@
+Increment should be inside the 'if' block.

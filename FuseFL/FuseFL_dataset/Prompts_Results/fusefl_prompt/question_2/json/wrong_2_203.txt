@@ -1,0 +1,14 @@
+{
+  "faultLoc": [
+    {
+      "faultyLine": 7,
+      "code": "        return true",
+      "explanation": "The code attempts to return the boolean value `true`, but Python is case-sensitive, so it should be `True` instead. This is likely the cause of the `NameError: name 'true' is not defined` error."
+    },
+    {
+      "faultyLine": 13,
+      "code": "    if counter<=1:\n        return True\n    else:\n        return False",
+      "explanation": "The `unique_month` function returns `True` when it should return `False` for the given test case."
+    }
+  ]
+}

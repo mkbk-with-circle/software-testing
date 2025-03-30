@@ -1,0 +1,1 @@
+This line compares the elements `j` and `i` to check for repeated occurrences. However, since the `lst1` list is empty, this condition will never be true. Hence, this line is potentially faulty.

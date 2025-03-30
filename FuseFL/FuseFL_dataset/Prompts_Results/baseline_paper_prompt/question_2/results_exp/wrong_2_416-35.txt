@@ -1,0 +1,1 @@
+Loop can be optimized by breaking out immediately after finding a match.

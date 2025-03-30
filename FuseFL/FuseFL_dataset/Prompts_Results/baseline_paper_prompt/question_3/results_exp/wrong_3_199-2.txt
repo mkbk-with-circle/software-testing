@@ -1,0 +1,1 @@
+This line assumes that the input list 'lst' is not empty. However, if the input list is empty, it will raise an IndexError when trying to access 'lst[0]'. This issue should be handled separately.

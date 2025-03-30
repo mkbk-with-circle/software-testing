@@ -1,0 +1,1 @@
+Initializing an empty list 'new' to store the non-repeated elements. This line is not likely to be the cause of the issues.

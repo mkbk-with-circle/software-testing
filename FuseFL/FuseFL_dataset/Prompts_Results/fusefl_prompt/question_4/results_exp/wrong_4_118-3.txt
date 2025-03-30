@@ -1,0 +1,1 @@
+The loop assumes that it will terminate when 'lst' is empty, which is not guaranteed and can lead to an infinite loop.

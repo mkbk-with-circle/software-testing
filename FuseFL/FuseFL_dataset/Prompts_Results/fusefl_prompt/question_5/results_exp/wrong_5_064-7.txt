@@ -1,0 +1,1 @@
+Popping elements from the list while iterating over it can lead to unexpected behavior and incorrect results. It is recommended to create a separate list of indices to be removed and then remove them after the loop.

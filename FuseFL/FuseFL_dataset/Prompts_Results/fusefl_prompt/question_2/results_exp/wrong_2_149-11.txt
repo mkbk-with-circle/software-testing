@@ -1,0 +1,1 @@
+The `count = 0` statement in the `unique_month` function should be placed before the loop to ensure it starts from 0 for each iteration.

@@ -1,0 +1,14 @@
+{
+  "faultLoc": [
+    {
+      "faultyLine": 13,
+      "code": "    return count\n",
+      "explanation": "The return statement on line 13 is unreachable and should be removed."
+    },
+    {
+      "faultyLine": 16,
+      "code": "    return\n",
+      "explanation": "The return statement on line 16 is unreachable and should be removed."
+    }
+  ]
+}

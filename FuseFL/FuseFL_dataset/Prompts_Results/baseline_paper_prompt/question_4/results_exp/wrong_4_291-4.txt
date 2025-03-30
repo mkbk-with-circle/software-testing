@@ -1,0 +1,1 @@
+Assuming the input list is not empty, IndexError may occur if the list is empty.

@@ -1,0 +1,1 @@
+The condition 'seq[i] < x' should be 'seq[i] <= x' to handle the case when x is equal to the current element

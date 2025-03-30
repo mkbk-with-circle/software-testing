@@ -1,0 +1,1 @@
+Not handling the case when 'length' is 0 or 1

@@ -1,0 +1,1 @@
+The loop iterates over the indices of lst, but the loop variable i is not used elsewhere, suggesting it might be unnecessary.

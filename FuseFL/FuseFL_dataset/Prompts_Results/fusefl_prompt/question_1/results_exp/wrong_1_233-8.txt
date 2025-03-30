@@ -1,0 +1,1 @@
+This line is unnecessary because it checks if `x` is greater than or equal to the last element of `seq`, which is already covered by the previous `if` condition. Removing this line would simplify the code.

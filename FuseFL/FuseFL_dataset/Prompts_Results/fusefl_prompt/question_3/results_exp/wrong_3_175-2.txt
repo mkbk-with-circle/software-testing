@@ -1,0 +1,1 @@
+The loop iterates over the indices of the list, attempting to compare each element with the remaining part of the list. However, the loop range is based on the length of the list, and as elements are removed, the length changes, which can lead to incorrect iteration or IndexError.

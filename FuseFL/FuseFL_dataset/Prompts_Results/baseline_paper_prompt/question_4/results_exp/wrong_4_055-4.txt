@@ -1,0 +1,1 @@
+Assuming the first element in 'lst' is the oldest person without handling the case when the list is empty.

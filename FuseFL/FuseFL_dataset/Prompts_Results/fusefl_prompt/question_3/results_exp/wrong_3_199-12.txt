@@ -1,0 +1,1 @@
+The line attempts to append ele to new_lst using square brackets instead of parentheses, resulting in a TypeError.

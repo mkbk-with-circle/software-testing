@@ -1,0 +1,1 @@
+Looping through each element in 'lst' is necessary for comparison.

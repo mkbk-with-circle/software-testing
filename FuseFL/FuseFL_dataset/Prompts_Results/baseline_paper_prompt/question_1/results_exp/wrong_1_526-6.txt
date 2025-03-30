@@ -1,0 +1,1 @@
+If the condition is not met for any element, the function will exit the loop without returning a value.

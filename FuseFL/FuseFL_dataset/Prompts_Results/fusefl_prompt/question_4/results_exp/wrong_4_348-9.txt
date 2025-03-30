@@ -1,0 +1,1 @@
+The line concatenates the current tuple `i` with the existing `tup` tuple. However, the order of concatenation is incorrect. It should be `tup = (i,) + tup` to ensure the older people are at the front of the list.

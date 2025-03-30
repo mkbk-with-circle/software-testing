@@ -1,0 +1,1 @@
+It should call 'unique_day' with 'count' as an argument.

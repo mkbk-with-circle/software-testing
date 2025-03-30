@@ -1,0 +1,1 @@
+The 'newlist' variable is initialized inside the loop instead of before the loop. This will result in re-initializing the list for each iteration, leading to incorrect results.

@@ -1,0 +1,1 @@
+The line initializes an empty list 'new', which is used to store the elements without repetitions from the input 'lst'.

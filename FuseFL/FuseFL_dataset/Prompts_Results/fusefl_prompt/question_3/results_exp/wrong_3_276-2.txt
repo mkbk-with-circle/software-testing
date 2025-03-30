@@ -1,0 +1,1 @@
+Accessing lst[0] without checking if the list is empty, causing an IndexError.

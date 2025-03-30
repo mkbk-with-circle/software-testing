@@ -1,0 +1,1 @@
+This line assumes that the elements in `seq` are sorted, which may not always be the case.

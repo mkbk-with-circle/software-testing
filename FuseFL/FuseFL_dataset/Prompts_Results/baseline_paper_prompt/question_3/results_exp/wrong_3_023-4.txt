@@ -1,0 +1,1 @@
+The current implementation uses linear search for membership check, resulting in O(n) time complexity. Consider using a set for efficient membership check.

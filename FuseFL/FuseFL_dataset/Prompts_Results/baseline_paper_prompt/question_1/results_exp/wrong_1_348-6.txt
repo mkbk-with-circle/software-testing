@@ -1,0 +1,1 @@
+The comparison is incorrect. It should be 'if x < seq[i-1]:' since 'i' is the index, and 'seq[i]' should be compared with the previous element to maintain sorted order.

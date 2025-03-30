@@ -1,0 +1,29 @@
+{
+  "faultLoc": [
+    {
+      "faultyLine": 4,
+      "code": "if lst.count(i) == 1:",
+      "explanation": "The logic is incorrect as it appends the element to the original list `lst` instead of the new list `new_lst`."
+    },
+    {
+      "faultyLine": 5,
+      "code": "lst.append(i)",
+      "explanation": "The element should be appended to the new list `new_lst` instead of the original list `lst`."
+    },
+    {
+      "faultyLine": 2,
+      "code": "new_lst = []",
+      "explanation": "No issue found with this line."
+    },
+    {
+      "faultyLine": 3,
+      "code": "for i in lst:",
+      "explanation": "No issue found with this line."
+    },
+    {
+      "faultyLine": 6,
+      "code": "return new_lst",
+      "explanation": "No issue found with this line."
+    }
+  ]
+}

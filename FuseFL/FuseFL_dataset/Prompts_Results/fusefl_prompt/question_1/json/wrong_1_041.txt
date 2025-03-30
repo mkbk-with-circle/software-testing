@@ -1,0 +1,24 @@
+{
+  "faultLoc": [
+    {
+      "faultyLine": 7,
+      "code": "return i",
+      "explanation": "The 'i' variable may not be assigned a value if the loop is not executed (e.g., when the sequence is empty). This can lead to an UnboundLocalError. Modify the line to handle this case and return 0 as specified in the task description."
+    },
+    {
+      "faultyLine": 2,
+      "code": "for i in range(1, len(seq)+1):",
+      "explanation": "The loop iterates from 1 to len(seq)+1, which exceeds the valid range of indices for the seq sequence. Modify the line to iterate from 0 to len(seq) to avoid an IndexError."
+    },
+    {
+      "faultyLine": 5,
+      "code": "elif seq[i-1]<x<=seq[i]:",
+      "explanation": "The line assumes that seq[i] exists without performing proper boundary checks. This can lead to an IndexError when i reaches the last index of seq. Modify the condition to elif seq[i-1]<x and (i==len(seq) or x<=seq[i]) to handle the last element of seq correctly."
+    },
+    {
+      "faultyLine": 3,
+      "code": "if x < seq[i-1]:",
+      "explanation": "The line assumes that seq[i-1] exists without performing proper boundary checks. This can lead to an IndexError when i is 0. Modify the condition to if i==0 or x < seq[i-1] to handle this case correctly."
+    }
+  ]
+}

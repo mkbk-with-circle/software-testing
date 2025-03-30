@@ -1,0 +1,29 @@
+{
+  "faultLoc": [
+    {
+      "faultyLine": 25,
+      "code": "return",
+      "explanation": "The function always returns None, regardless of the input."
+    },
+    {
+      "faultyLine": 2,
+      "code": "counter = 0",
+      "explanation": "The counter variable might not be used or updated correctly."
+    },
+    {
+      "faultyLine": 3,
+      "code": "for dates in possible_birthdays:",
+      "explanation": "The loop might not function as intended or the iteration logic is incorrect."
+    },
+    {
+      "faultyLine": 4,
+      "code": "if day == dates[1]:",
+      "explanation": "The condition might not be evaluated correctly or the comparison is incorrect."
+    },
+    {
+      "faultyLine": 7,
+      "code": "if counter == 1:",
+      "explanation": "The counter variable might not be updated correctly or the condition is not properly evaluated."
+    }
+  ]
+}

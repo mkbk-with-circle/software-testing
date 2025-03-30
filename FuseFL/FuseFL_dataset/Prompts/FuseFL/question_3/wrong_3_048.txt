@@ -1,0 +1,46 @@
+Faulty Code:
+```python
+def remove_extras(lst):
+    new = []
+    for x in lst:
+        if lst.count(x) > 1:
+            new += []
+        else:
+            new = new.append(x)
+    return new
+    pass
+```
+
+Task Description:
+The function `remove_extras` takes in a list and returns a new list with all repeated occurrences of any element removed. This new list should maintain the same order as the input list. For example, remove_extras([5, 2, 1, 2, 3]) returns the list [5, 2, 1, 3].
+
+Test Results:
+The provided code is producing incorrect results. For example:
+- Running the function as follows `remove_extras([1, 1, 1, 2, 3])` generate an `AttributeError: 'NoneType' object has no attribute 'append'` in line 7 `new = new.append(x)`.
+- Running the function as follows `remove_extras([1, 5, 1, 1, 3, 2])` generate a `TypeError: unsupported operand type(s) for +=: 'NoneType' and 'list'` in line 5 `new += []`.
+- Running the function as follows `remove_extras([3, 4, 5, 1, 3])` generate an `AttributeError: 'NoneType' object has no attribute 'append'` in line 7 `new = new.append(x)`.
+- Running the function as follows `remove_extras([3, 4, 5, 1, 3])` generate an `AttributeError: 'NoneType' object has no attribute 'append'` in line 7 `new = new.append(x)`.
+- Running the function as follows `remove_extras([3, 4, 5, 1, 3])` generate an `AttributeError: 'NoneType' object has no attribute 'append'` in line 7 `new = new.append(x)`.
+
+Spectrum-based Fault Localization (SBFL) Techniques Results:
+We have used SBFL techniques to identify potentially faulty lines. Here are the results of top-5 suspicious lines sorted in descending order of the score:
+1. Line 4 `if lst.count(x) > 1:`, Ochiai score: 0.447214
+2. Line 5 `new += []`, Ochiai score: 0.447214
+3. Line 7 `new = new.append(x)`, Ochiai score: 0.447214
+4. Line 2 `new = []`, Ochiai score: 0.408248
+5. Line 3 `for x in lst:`, Ochiai score: 0.408248
+
+Analyze the provided code and utilize task description, test results, and SBFL techniques results to help in identifying potentially faulty lines. Provide the results following this JSON template:
+```json
+{
+  "faultLoc": [
+    {
+      "faultyLine": (indicating the line number of the suspicious code),
+      "code": (displaying the actual code),
+      "explanation": (step by step reasoning on why this location is considered potentially faulty)
+    },
+    ...
+  ]
+}
+```
+Ensure that the objects in the "faultLoc" array are sorted in descending order of suspicion.

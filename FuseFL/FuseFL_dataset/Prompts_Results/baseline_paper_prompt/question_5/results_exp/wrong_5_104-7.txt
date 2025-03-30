@@ -1,0 +1,1 @@
+This line only removes the first occurrence of maxi, which may lead to incorrect results if the list has duplicate maximum values.

@@ -1,0 +1,1 @@
+The 'largest' variable is initialized with the first element of the list, assuming it is the largest. However, if the list is empty, it will cause an IndexError. A check for an empty list should be added before this line.

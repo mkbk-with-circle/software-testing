@@ -1,0 +1,1 @@
+The use of '+=' operator to append a single element to the list is inefficient. Use 'append' method instead.

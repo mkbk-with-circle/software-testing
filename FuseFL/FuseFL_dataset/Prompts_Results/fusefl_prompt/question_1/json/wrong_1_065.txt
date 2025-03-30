@@ -1,0 +1,24 @@
+{
+  "faultLoc": [
+    {
+      "faultyLine": 2,
+      "code": "for i in range(0,len(seq)):",
+      "explanation": "The loop iterates over the sequence, but it should start from index 0 and go up to len(seq)-1."
+    },
+    {
+      "faultyLine": 3,
+      "code": "if x<seq[i]:",
+      "explanation": "This condition checks if x is less than seq[i], but it should actually check if x is less than or equal to seq[i]."
+    },
+    {
+      "faultyLine": 6,
+      "code": "return print(len(seq))",
+      "explanation": "This line returns the length of the sequence instead of the index position. It should return i instead."
+    },
+    {
+      "faultyLine": 4,
+      "code": "return print(i)",
+      "explanation": "This line returns the index position immediately without checking the remaining elements. It should only return i if the condition in line 3 is not satisfied."
+    }
+  ]
+}

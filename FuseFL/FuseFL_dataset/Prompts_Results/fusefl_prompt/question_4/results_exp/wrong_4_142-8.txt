@@ -1,0 +1,1 @@
+This line removes the oldest element from the list. If there is an issue with this line, it may result in removing the wrong element or disrupting the sorting process.

@@ -1,0 +1,1 @@
+Although this line is initializing an empty list `result`, it doesn't seem to be causing the incorrect results.

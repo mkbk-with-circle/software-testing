@@ -1,0 +1,1 @@
+This line iterates over the elements of the sequence and assigns the index i. It seems correct, but it has a lower score in the SBFL technique.

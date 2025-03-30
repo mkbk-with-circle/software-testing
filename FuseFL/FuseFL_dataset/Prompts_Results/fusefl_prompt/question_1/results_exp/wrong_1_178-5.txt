@@ -1,0 +1,1 @@
+This condition checks if x is greater than the current element of the sequence.

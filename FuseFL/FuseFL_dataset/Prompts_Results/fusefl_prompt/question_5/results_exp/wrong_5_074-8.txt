@@ -1,0 +1,1 @@
+This line increments the 'counter' variable by 1. However, it should only be incremented when a maximum value is appended to the 'results' list. This line should be moved inside the 'if' statement after appending the maximum value to 'results'.

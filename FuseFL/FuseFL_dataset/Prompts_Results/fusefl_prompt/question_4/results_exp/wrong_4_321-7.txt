@@ -1,0 +1,1 @@
+This line assigns the value of `n` to `big`, which is intended to keep track of the oldest person in the list. However, this assignment is incorrect because `n` is not necessarily the oldest person in the list. It only compares the age of `n` with the current maximum age (`big[1]`) and updates `big` if `n` is older.

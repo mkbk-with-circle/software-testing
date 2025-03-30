@@ -1,0 +1,1 @@
+The loop iterates over the indices of the 'seq' sequence, which is the expected behavior.

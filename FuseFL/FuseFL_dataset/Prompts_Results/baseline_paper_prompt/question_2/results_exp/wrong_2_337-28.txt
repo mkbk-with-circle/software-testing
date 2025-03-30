@@ -1,0 +1,1 @@
+The variable 'month_list' is initialized as an empty tuple '()'. It should be initialized as an empty list '[]' to allow appending of elements.

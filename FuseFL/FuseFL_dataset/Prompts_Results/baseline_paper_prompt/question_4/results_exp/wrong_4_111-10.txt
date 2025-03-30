@@ -1,0 +1,1 @@
+This line prints the sorted list. No issues found, but it might be better to return the sorted list instead of printing it.

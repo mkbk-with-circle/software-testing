@@ -1,0 +1,1 @@
+This line initializes the variable 'first' with the age of the first person in the list. However, if the list is empty, an IndexError will occur.

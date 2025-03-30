@@ -1,0 +1,1 @@
+This condition is placed incorrectly within the loop. It should be outside the loop to check if 'x' is greater than all elements in 'seq'.

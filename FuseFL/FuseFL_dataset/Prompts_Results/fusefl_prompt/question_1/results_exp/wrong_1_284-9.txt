@@ -1,0 +1,1 @@
+This line is comparing x with the last element of the sequence seq, but it doesn't handle the case when seq is empty. It should be modified to handle the empty sequence case separately.

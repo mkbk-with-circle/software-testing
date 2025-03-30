@@ -1,0 +1,1 @@
+This line checks if the day of the current birthday matches the given day and is less likely to be faulty.

@@ -1,0 +1,1 @@
+The comparison 'list(seq) == []' is unnecessary. You can directly use 'if seq == []:' instead.

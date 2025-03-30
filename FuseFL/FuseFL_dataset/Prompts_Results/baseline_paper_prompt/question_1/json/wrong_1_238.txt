@@ -1,0 +1,25 @@
+{
+  "intentOfThisFunction": "The function is intended to search for the position of an element in a given sequence.",
+  "faultLocalization": [
+    {
+      "lineNumber": 4,
+      "codeContent": "if list(seq) == []:",
+      "reason": "Unnecessary conversion of seq to a list"
+    },
+    {
+      "lineNumber": 7,
+      "codeContent": "return list(seq).index(element)",
+      "reason": "Unnecessary conversion of seq to a list"
+    },
+    {
+      "lineNumber": 9,
+      "codeContent": "return (list(seq).index(element))-1",
+      "reason": "Unnecessary conversion of seq to a list"
+    },
+    {
+      "lineNumber": 11,
+      "codeContent": "return (list(seq).index(max(seq)))+1",
+      "reason": "Unnecessary conversion of seq to a list"
+    }
+  ]
+}

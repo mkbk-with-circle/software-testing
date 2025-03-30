@@ -1,0 +1,1 @@
+The condition `j != i` is comparing an element `j` with the entire nested list `i`. This comparison is unlikely to yield the intended result of removing duplicate elements.

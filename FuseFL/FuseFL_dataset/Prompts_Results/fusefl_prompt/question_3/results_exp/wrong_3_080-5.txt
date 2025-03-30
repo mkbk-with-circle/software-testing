@@ -1,0 +1,1 @@
+This line will always execute due to the faulty line 4, resulting in duplicate elements being added to new_lst.

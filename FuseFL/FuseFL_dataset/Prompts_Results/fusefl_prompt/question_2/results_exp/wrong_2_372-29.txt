@@ -1,0 +1,1 @@
+The 'month' variable is a string, while 'i' is a tuple. Comparing 'month' with 'i[0]' (the month part of the tuple) will fix the TypeError.

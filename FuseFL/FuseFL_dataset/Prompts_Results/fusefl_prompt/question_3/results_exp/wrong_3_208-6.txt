@@ -1,0 +1,1 @@
+Removing an element during iteration can cause skipped elements.

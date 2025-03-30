@@ -1,0 +1,1 @@
+This line starts a `while` loop, but it is not clear how it fits into the sorting logic. It might be a mistake or unnecessary.

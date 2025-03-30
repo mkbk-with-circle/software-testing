@@ -1,0 +1,1 @@
+This line returns the index of the found element. It is not likely to be faulty, but included for completeness.

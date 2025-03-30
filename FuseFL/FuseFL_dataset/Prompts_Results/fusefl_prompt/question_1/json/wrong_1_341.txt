@@ -1,0 +1,14 @@
+{
+  "faultLoc": [
+    {
+      "faultyLine": 2,
+      "code": "for i in range(len(seq)):",
+      "explanation": "There might be an issue with the loop iteration or index calculation."
+    },
+    {
+      "faultyLine": 3,
+      "code": "if x > seq[-1]:",
+      "explanation": "The condition doesn't consider the case when the sequence is empty."
+    }
+  ]
+}

@@ -1,0 +1,27 @@
+def top_k(lst, k):
+    results = []
+    counter = 0
+    while counter < k:
+        for i in range(-len(lst),-1):
+            if lst[i] == max(lst):
+                results.append(lst.pop(i))
+                counter += 1
+    return results
+    pass
+
+The `top_k` function takes in a list of integers as the input and returns the greatest k number of values as a list, with its elements sorted in descending order. 
+
+The provided code is producing incorrect results. Analyze the provided code and utilize task description, test results, and SBFL techniques results to help in identifying potentially faulty lines. Provide the results following this JSON template:
+```json
+{
+  "faultLoc": [
+    {
+      "faultyLine": (indicating the line number of the suspicious code),
+      "code": (displaying the actual code),
+      "explanation": (step by step reasoning on why this location is considered potentially faulty)
+    },
+    ...
+  ]
+}
+```
+Ensure that the objects in the "faultLoc" array are sorted in descending order of suspicion.

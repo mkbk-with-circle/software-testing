@@ -1,0 +1,1 @@
+Unnecessary 'else' block with 'j = j'

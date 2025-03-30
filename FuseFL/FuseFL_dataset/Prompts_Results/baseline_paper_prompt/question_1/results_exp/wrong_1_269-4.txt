@@ -1,0 +1,1 @@
+Condition should handle empty sequences properly

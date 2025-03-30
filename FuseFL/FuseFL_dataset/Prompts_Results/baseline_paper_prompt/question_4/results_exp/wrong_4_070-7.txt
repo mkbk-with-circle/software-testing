@@ -1,0 +1,1 @@
+Removing the oldest element from the 'lst' list while iterating over it may lead to unexpected behavior. It is generally not recommended to modify a list while iterating over it.

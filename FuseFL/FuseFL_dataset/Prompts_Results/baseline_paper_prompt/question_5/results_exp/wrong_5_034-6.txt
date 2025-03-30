@@ -1,0 +1,1 @@
+This line only removes the first occurrence of the maximum element. If duplicate elements are present, it may not behave as intended.

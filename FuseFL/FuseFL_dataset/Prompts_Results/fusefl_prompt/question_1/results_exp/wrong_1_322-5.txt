@@ -1,0 +1,1 @@
+This line is faulty because it incorrectly checks if x is greater than the maximum element in the sequence. The condition should be x >= max(seq) to handle the case when x is greater than all elements in the sequence.

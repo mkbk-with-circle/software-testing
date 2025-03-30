@@ -1,0 +1,1 @@
+The variable name 'sort' conflicts with the built-in Python function `sorted()`. It's better to choose a different variable name to avoid confusion.

@@ -1,0 +1,1 @@
+The condition variable is being overwritten in each iteration, so it only reflects the uniqueness of the last month_day tuple. We need to modify the code to consider all the tuples and return True if any of them have a unique day for the given month.

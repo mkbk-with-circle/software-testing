@@ -1,0 +1,1 @@
+Potential cause of incorrect results due to not handling duplicate maximum values correctly.

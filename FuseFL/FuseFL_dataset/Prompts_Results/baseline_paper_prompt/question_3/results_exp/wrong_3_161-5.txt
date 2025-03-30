@@ -1,0 +1,1 @@
+Extending the list with individual elements instead of appending nested lists.

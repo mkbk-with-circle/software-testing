@@ -1,0 +1,1 @@
+This line assumes that the first element of the list is the biggest, but it doesn't handle the case when the list is empty. It would be better to add a check for an empty list before this line to handle such cases.

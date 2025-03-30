@@ -1,0 +1,1 @@
+Initial assignment of an empty tuple is unnecessary

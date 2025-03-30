@@ -1,0 +1,1 @@
+This line returns the length of the list `lst` minus 1. If the code block within the loop is faulty, it can result in an incorrect length of `lst` and, consequently, an incorrect return value.

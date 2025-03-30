@@ -1,0 +1,1 @@
+The condition should be modified to if seq[i] <= x <= seq[i+1] or x == seq[-1] to handle the case where the element is equal to the last element in the sequence.

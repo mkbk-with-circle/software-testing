@@ -1,0 +1,1 @@
+This line handles the case where the value `x` is greater than the last element of the sequence. However, if the sequence is empty, an `IndexError` will occur because there is no element at index -1. This causes the code to produce incorrect results when the sequence is empty.

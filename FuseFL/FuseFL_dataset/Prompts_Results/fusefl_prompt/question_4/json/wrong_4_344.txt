@@ -1,0 +1,29 @@
+{
+  "faultLoc": [
+    {
+      "faultyLine": 2,
+      "code": "current=0",
+      "explanation": "The variable 'current' is initialized to 0, which assumes the minimum age is 0."
+    },
+    {
+      "faultyLine": 3,
+      "code": "tup=()",
+      "explanation": "The variable 'tup' is initialized as an empty tuple, but it should be a list to store the sorted results."
+    },
+    {
+      "faultyLine": 4,
+      "code": "for i in lst:",
+      "explanation": "The loop iterates over the input list, but the subsequent logic has issues that prevent correct sorting."
+    },
+    {
+      "faultyLine": 10,
+      "code": "return tup",
+      "explanation": "The function returns 'tup', which is a tuple, but the expected output is a list."
+    },
+    {
+      "faultyLine": 5,
+      "code": "if i[1]>current:",
+      "explanation": "The condition checks if the current person's age is greater than 'current', but the logic is incorrect."
+    }
+  ]
+}

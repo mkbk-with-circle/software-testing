@@ -1,0 +1,1 @@
+Potential bug: The condition checks if 'day' is present in 'birthday', but it should check if 'day' is equal to 'birthday'.

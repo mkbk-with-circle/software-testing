@@ -1,0 +1,1 @@
+This line removes the current element from the list.

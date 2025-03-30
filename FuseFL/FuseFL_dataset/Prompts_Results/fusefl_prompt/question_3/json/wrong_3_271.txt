@@ -1,0 +1,14 @@
+{
+  "faultLoc": [
+    {
+      "faultyLine": 4,
+      "code": "if i not in s:",
+      "explanation": "The condition on this line doesn't handle the case when an element is already present in the `s` list."
+    },
+    {
+      "faultyLine": 5,
+      "code": "s.append(i)",
+      "explanation": "This line doesn't handle the case when an element is already present in the `s` list."
+    }
+  ]
+}

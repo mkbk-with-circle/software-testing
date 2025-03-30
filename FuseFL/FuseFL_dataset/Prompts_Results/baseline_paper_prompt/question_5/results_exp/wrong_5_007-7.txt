@@ -1,0 +1,1 @@
+Infinite loop condition due to list modification within the loop.

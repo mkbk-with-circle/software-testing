@@ -1,0 +1,1 @@
+Suspicious because it checks if the sequence seq is empty. Redundant since the previous line already covers this case.

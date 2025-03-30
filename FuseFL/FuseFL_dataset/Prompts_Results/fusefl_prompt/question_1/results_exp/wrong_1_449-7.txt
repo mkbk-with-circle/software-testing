@@ -1,0 +1,1 @@
+The code assumes that seq is a list and tries to compare x with its elements. However, it doesn't handle the case when i is the index of the last element in seq.

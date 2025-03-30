@@ -1,0 +1,1 @@
+The append and remove operations should be outside the if statement to ensure all elements are processed

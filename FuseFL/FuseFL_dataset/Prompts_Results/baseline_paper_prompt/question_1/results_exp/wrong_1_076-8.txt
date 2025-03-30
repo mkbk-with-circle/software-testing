@@ -1,0 +1,1 @@
+If seq is empty, the function should return -1 to indicate that the element was not found in the sequence. Returning seq itself is incorrect.

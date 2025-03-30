@@ -1,0 +1,1 @@
+Incorrect condition, it should only check if `x` is greater than the maximum element. Unnecessary computations inside the loop.

@@ -1,0 +1,1 @@
+The line iterates over the range from 0 to k-2 (inclusive). This range is incorrect because it should iterate over the range from 0 to k-1 (inclusive) to include the k-th greatest value. As a result, the function may not return the correct number of values.

@@ -1,0 +1,1 @@
+This condition will always evaluate to 'False' as 'seq' cannot be equal to both an empty tuple and an empty list simultaneously.

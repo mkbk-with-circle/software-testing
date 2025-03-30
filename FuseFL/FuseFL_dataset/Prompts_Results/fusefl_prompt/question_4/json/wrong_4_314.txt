@@ -1,0 +1,14 @@
+{
+  "faultLoc": [
+    {
+      "faultyLine": 2,
+      "code": "lst.sort(key=lambda x: x[1])",
+      "explanation": "The code is sorting the list based on the second element of each tuple, which is incorrect according to the task description."
+    },
+    {
+      "faultyLine": 3,
+      "code": "return lst",
+      "explanation": "This line is not faulty. It simply returns the sorted list."
+    }
+  ]
+}

@@ -1,0 +1,1 @@
+The condition should be `if count >= 1` to handle the case when there is only one occurrence of the day.

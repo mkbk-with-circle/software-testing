@@ -1,0 +1,1 @@
+The logic of incrementing x is incorrect. It should only increment x if the day matches.

@@ -1,0 +1,1 @@
+This line updates the input list 'lst' by removing the first element. It might lead to unexpected behavior if the original list needs to be preserved.

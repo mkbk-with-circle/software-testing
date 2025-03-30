@@ -1,0 +1,1 @@
+This line doesn't handle the case when x is equal to the current element. It should return the first possible position in that case.

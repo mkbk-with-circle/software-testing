@@ -1,0 +1,1 @@
+Doesn't handle the case when 'lst' has only one element.

@@ -1,0 +1,14 @@
+{
+  "faultLoc": [
+    {
+      "faultyLine": 3,
+      "code": "for number in list:",
+      "explanation": "The loop is iterating over the incorrect variable 'list'. It should be 'lst', which is the input parameter of the function."
+    },
+    {
+      "faultyLine": 2,
+      "code": "new_list = []",
+      "explanation": "Although it seems harmless, initializing an empty list 'new_list' as the first line of code could potentially cause issues if not handled properly later on."
+    }
+  ]
+}

@@ -1,0 +1,1 @@
+The function should return 0 when the sequence is empty, as specified in the task description.

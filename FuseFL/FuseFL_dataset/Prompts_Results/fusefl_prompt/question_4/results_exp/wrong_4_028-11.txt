@@ -1,0 +1,1 @@
+This line attempts to call the `reverse` method on the result of `for_age(lst)`, but since `for_age` doesn't return anything explicitly, it leads to an `AttributeError: 'NoneType' object has no attribute 'reverse'`.

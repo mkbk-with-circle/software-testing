@@ -1,0 +1,1 @@
+Assigning the current element of the list 'lst' to the variable 'curr'. This line is not likely to be the cause of the issues.

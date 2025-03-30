@@ -1,0 +1,1 @@
+The loop is not properly indented, causing it to only execute once and return immediately.

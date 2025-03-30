@@ -1,0 +1,1 @@
+Unnecessary check for an empty tuple and can be simplified to if seq == [] or x <= seq[0]:

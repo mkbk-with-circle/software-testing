@@ -1,0 +1,1 @@
+If the input list is empty, this line will cause an IndexError. It should be handled by adding proper input validation.

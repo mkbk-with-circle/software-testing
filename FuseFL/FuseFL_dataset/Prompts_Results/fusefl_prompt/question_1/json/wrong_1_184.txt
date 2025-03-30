@@ -1,0 +1,24 @@
+{
+  "faultLoc": [
+    {
+      "faultyLine": 2,
+      "code": "for i in seq:",
+      "explanation": "This line assumes that the elements in `seq` are sorted, which may not always be the case."
+    },
+    {
+      "faultyLine": 3,
+      "code": "if x > i:",
+      "explanation": "This line assumes that the value `x` should be inserted after the current element `i` to maintain the sorted order, which may not always be true."
+    },
+    {
+      "faultyLine": 4,
+      "code": "continue",
+      "explanation": "This line skips the rest of the loop and moves to the next iteration without considering other elements in the sequence."
+    },
+    {
+      "faultyLine": 6,
+      "code": "return ((seq).index(i))-1",
+      "explanation": "This line assumes that the index of the current element `i` represents the correct position to insert the value `x`, which may not always be the case."
+    }
+  ]
+}

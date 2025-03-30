@@ -1,0 +1,29 @@
+{
+  "faultLoc": [
+    {
+      "faultyLine": 17,
+      "code": "return",
+      "explanation": "The 'contains_unique_day' function is missing the return value, causing it to return None. Modify the code to return the appropriate value based on the logic implemented."
+    },
+    {
+      "faultyLine": 13,
+      "code": "return True",
+      "explanation": "The 'unique_day' function returns True as soon as it finds a match in the possible birthdays. However, it should only return True after checking all possible birthdays. Move this line outside the loop to fix the issue."
+    },
+    {
+      "faultyLine": 9,
+      "code": "for dates in possible_birthdays:",
+      "explanation": "The 'unique_month' function iterates over the possible birthdays, but it returns False as soon as it finds a match. It should only return False after checking all possible birthdays. Move the return statement outside the loop to fix the issue."
+    },
+    {
+      "faultyLine": 10,
+      "code": "if month in dates:",
+      "explanation": "The 'unique_month' function checks if the given month is in the current date being iterated. However, it should check for the month, not the entire date. Modify the condition to 'if month == dates[0]:' to fix the issue."
+    },
+    {
+      "faultyLine": 2,
+      "code": "for x in possible_birthdays:",
+      "explanation": "The 'unique_day' function iterates over the possible birthdays, but it returns False as soon as it doesn't find a match. It should only return False after checking all possible birthdays. Move the return statement outside the loop to fix the issue."
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "faultLoc": [
+    {
+      "faultyLine": 5,
+      "code": "return (x,)",
+      "explanation": "The code returns a tuple `(x,)` when the sequence is empty, but it should return 0 according to the task description."
+    },
+    {
+      "faultyLine": 2,
+      "code": "counter = 0",
+      "explanation": "No issue found with this line."
+    },
+    {
+      "faultyLine": 3,
+      "code": "new_seq = list(seq)",
+      "explanation": "No issue found with this line."
+    },
+    {
+      "faultyLine": 4,
+      "code": "if seq == ():",
+      "explanation": "No major issue found with this line, but it's more pythonic to use `if not seq:` instead."
+    },
+    {
+      "faultyLine": 6,
+      "code": "for element in seq:",
+      "explanation": "No issue found with this line."
+    }
+  ]
+}

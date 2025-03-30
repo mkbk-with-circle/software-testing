@@ -1,0 +1,29 @@
+{
+  "faultLoc": [
+    {
+      "faultyLine": 6,
+      "code": "males = males + [lst[0],]",
+      "explanation": "The line should use the append method to add an element to the males list. Modify the line to males.append(lst[0])."
+    },
+    {
+      "faultyLine": 15,
+      "code": "if left[0][0] < right[0][0]:",
+      "explanation": "The comparison should be based on the second element of the tuples (age), not the first element (gender). Modify the line to if left[0][1] < right[0][1]:."
+    },
+    {
+      "faultyLine": 18,
+      "code": "results.append(right.pop(0))",
+      "explanation": "The line should append the first element of the right list, which is a tuple. Modify the line to results.append(right.pop(0)[0])."
+    },
+    {
+      "faultyLine": 26,
+      "code": "mid = len(lst) // 2",
+      "explanation": "The line should calculate the middle index based on the second element of the tuples (age), not the first element (gender). Modify the line to mid = len(lst) // 2."
+    },
+    {
+      "faultyLine": 27,
+      "code": "left = merge_sort(lst[:mid])",
+      "explanation": "The line should sort the list based on the second element of the tuples (age), not the first element (gender). Modify the line to left = merge_sort(lst[:mid])."
+    }
+  ]
+}

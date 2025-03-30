@@ -1,0 +1,1 @@
+This line does not handle the case when seq is empty, leading to an incorrect result.

@@ -1,0 +1,10 @@
+{
+  "intentOfThisFunction": "Takes in a value x and a sorted sequence seq, and returns the position that x should go to such that the sequence remains sorted",
+  "faultLocalization": [
+    {
+      "lineNumber": 6,
+      "codeContent": "return i + 1",
+      "reason": "Assumes insertion at last index without handling the case when x is greater than all elements in seq"
+    }
+  ]
+}

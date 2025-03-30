@@ -1,0 +1,1 @@
+The code initializes an empty list `sort_lst` to store the sorted elements. However, there is no check to ensure that the input list `lst` is not empty. If the input list is empty, the function will return an empty list without performing any sorting. It is recommended to add a check to handle this edge case.

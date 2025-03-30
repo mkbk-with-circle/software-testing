@@ -1,0 +1,1 @@
+Incorrect syntax. Should be lst.pop(i) instead of lst.pop[i].

@@ -1,0 +1,29 @@
+{
+  "faultLoc": [
+    {
+      "faultyLine": 6,
+      "code": "if lst[i]==lst[i-1]:",
+      "explanation": "Removing an element during iteration can cause skipped elements."
+    },
+    {
+      "faultyLine": 7,
+      "code": "lst.remove(lst[i])",
+      "explanation": "Removing an element during iteration can cause skipped elements."
+    },
+    {
+      "faultyLine": 9,
+      "code": "i += 1",
+      "explanation": "Incrementing 'i' after removing an element can cause skipped elements."
+    },
+    {
+      "faultyLine": 10,
+      "code": "n = len(lst)",
+      "explanation": "Updating 'n' is unnecessary since the length is recalculated in each iteration."
+    },
+    {
+      "faultyLine": 2,
+      "code": "lst.sort()",
+      "explanation": "Sorting the list is not required by the task and changes the original order."
+    }
+  ]
+}

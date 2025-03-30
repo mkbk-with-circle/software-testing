@@ -1,0 +1,14 @@
+{
+  "faultLoc": [
+    {
+      "faultyLine": 9,
+      "code": "sort.append(i)",
+      "explanation": "The line should be 'sort.append(largest)' instead of 'sort.append(i)' to append the largest element to the sorted list."
+    },
+    {
+      "faultyLine": 10,
+      "code": "return sort[:k-1]",
+      "explanation": "The line should be 'return sort[:k]' to include the kth largest element in the result."
+    }
+  ]
+}

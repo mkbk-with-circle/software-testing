@@ -1,0 +1,1 @@
+Suspicious because it returns the index of the maximum element in seq plus 1. Doesn't align with the task description, which requires returning the position where x should be inserted.

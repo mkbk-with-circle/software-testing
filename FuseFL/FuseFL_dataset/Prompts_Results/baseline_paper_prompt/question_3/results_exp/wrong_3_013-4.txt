@@ -1,0 +1,1 @@
+This condition checks if the current element is not already in the result list. However, the list comparison can be inefficient for large lists. It would be better to use a set for faster membership testing, like 'if i not in set(result):'.

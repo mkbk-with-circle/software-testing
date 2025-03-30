@@ -1,0 +1,1 @@
+This 'else' statement is unnecessary and can be removed, as it will never execute. The previous 'if' condition covers all possible cases.

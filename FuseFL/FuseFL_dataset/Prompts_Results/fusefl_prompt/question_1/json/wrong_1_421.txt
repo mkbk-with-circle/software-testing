@@ -1,0 +1,29 @@
+{
+  "faultLoc": [
+    {
+      "faultyLine": 2,
+      "code": "for i in range (len(seq)):",
+      "explanation": "The loop won't execute if seq is empty, which results in incorrect behavior."
+    },
+    {
+      "faultyLine": 3,
+      "code": "if x <= seq[i]:",
+      "explanation": "This line doesn't handle the case when seq is empty, resulting in incorrect behavior."
+    },
+    {
+      "faultyLine": 5,
+      "code": "elif x > seq[len(seq)-1]:",
+      "explanation": "This line doesn't handle the case when seq is empty, resulting in incorrect behavior."
+    },
+    {
+      "faultyLine": 6,
+      "code": "return len(seq)",
+      "explanation": "This line doesn't handle the case when seq is empty, resulting in incorrect behavior."
+    },
+    {
+      "faultyLine": 4,
+      "code": "return i",
+      "explanation": "This line doesn't handle the case when seq is empty, resulting in incorrect behavior."
+    }
+  ]
+}

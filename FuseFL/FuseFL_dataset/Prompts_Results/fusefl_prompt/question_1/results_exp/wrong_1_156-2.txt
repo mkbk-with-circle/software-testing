@@ -1,0 +1,1 @@
+This line seems to be correct as it iterates over the sequence using the 'enumerate' function, providing both the index 'a' and value 'b' of each element.

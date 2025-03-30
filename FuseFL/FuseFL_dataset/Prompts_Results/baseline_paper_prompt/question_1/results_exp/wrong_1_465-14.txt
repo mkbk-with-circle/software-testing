@@ -1,0 +1,1 @@
+The loop `for i in range(len(seq))` iterates over the indices of `seq`. However, in the last iteration, `seq[i+1]` will raise an `IndexError` because there is no element at index `i+1`. To fix this, change the loop condition to `for i in range(len(seq)-1)`.

@@ -1,0 +1,1 @@
+This line initializes an empty list to store the top k values.

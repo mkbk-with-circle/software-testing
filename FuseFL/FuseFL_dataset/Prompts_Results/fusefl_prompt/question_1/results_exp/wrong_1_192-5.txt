@@ -1,0 +1,1 @@
+This line increments the count variable in each iteration of the while loop, and there doesn't seem to be any issue with it.

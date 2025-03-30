@@ -1,0 +1,25 @@
+{
+  "intentOfThisFunction": "Sort a list of tuples based on the second element of each tuple in descending order.",
+  "faultLocalization": [
+    {
+      "lineNumber": 6,
+      "codeContent": "tpl = ()",
+      "reason": "Empty tuple `tpl` is assigned but never used or modified."
+    },
+    {
+      "lineNumber": 8,
+      "codeContent": "j = tpl",
+      "reason": "Incorrect assignment of `tpl` to `j`."
+    },
+    {
+      "lineNumber": 9,
+      "codeContent": "lst.remove(tpl)",
+      "reason": "Empty tuple `tpl` does not match any tuples in `lst` for removal."
+    },
+    {
+      "lineNumber": 13,
+      "codeContent": "new.append(tpl)",
+      "reason": "Empty tuple `tpl` is appended to `new` list without modification."
+    }
+  ]
+}

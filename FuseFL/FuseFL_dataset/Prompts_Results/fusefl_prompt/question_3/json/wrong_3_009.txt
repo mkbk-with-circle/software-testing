@@ -1,0 +1,9 @@
+{
+  "faultLoc": [
+    {
+      "faultyLine": 2,
+      "code": "for i in range(lst):",
+      "explanation": "The code tries to iterate over the 'lst' variable, which is a list, instead of an integer. This causes a TypeError."
+    }
+  ]
+}

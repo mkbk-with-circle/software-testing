@@ -1,0 +1,1 @@
+Iterating over the length of the list using range(len(lst)) is inefficient. It is better to iterate directly over the list elements using 'for item in lst'.

@@ -1,0 +1,29 @@
+{
+  "faultLoc": [
+    {
+      "faultyLine": 8,
+      "code": "return lst.remove(int(extra))",
+      "explanation": "The line attempts to remove an element from the list using the `remove` method. However, the `int(extra)` part is causing a `TypeError` because `extra` is a list, not an integer. This line needs to be modified to remove the element properly."
+    },
+    {
+      "faultyLine": 7,
+      "code": "extra += i",
+      "explanation": "The line tries to concatenate `i` to the `extra` list. However, it seems that the intention is to add `i` as a single element to the `extra` list. The correct syntax should be `extra.append(i)` to add `i` as an element to the list."
+    },
+    {
+      "faultyLine": 4,
+      "code": "if i not in lst:",
+      "explanation": "The line checks if `i` is not in `lst`. However, this condition will always evaluate to `False` because `i` is an element of `lst` (due to the loop). It seems that the intention is to check if `i` occurs more than once in `lst`. To achieve this, we need to modify the code to count the occurrences of `i` and check if the count is greater than 1."
+    },
+    {
+      "faultyLine": 2,
+      "code": "extra = []",
+      "explanation": "The line initializes an empty list `extra`. There doesn't seem to be any issue with this line."
+    },
+    {
+      "faultyLine": 3,
+      "code": "for i in lst:",
+      "explanation": "The line starts a loop iterating over each element `i` in `lst`. There doesn't seem to be any issue with this line."
+    }
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "faultLoc": [
+    {
+      "faultyLine": 7,
+      "code": "return true",
+      "explanation": "The keyword 'true' should be replaced with 'True'"
+    },
+    {
+      "faultyLine": 5,
+      "code": "if counter<=1:",
+      "explanation": "No apparent issue found, but included due to the same Ochiai score as line 2, 3, and 4"
+    }
+  ]
+}

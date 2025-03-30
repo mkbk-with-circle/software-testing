@@ -1,0 +1,1 @@
+This line assumes that the elements in the `out` list are comparable using the `<` operator. If the elements are not of a comparable type, such as strings or custom objects, it may raise a `TypeError`.

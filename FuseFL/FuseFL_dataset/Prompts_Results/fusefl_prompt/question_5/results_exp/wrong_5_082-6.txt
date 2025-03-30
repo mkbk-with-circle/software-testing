@@ -1,0 +1,1 @@
+This line is not necessary for the functionality of the code and can be removed. It removes the maximum value from lst but doesn't return any value.

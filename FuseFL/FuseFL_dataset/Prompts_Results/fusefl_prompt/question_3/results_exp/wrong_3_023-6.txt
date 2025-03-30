@@ -1,0 +1,1 @@
+This line correctly returns the new list 'list1'.

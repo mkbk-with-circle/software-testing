@@ -1,0 +1,1 @@
+The condition 'seq == ()' suggests that the intention is to check if the sequence is empty. However, the comparison should be 'seq == []' instead of 'seq == ()'.

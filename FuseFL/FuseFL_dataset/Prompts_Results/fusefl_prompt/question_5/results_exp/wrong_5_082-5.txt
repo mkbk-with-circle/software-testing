@@ -1,0 +1,1 @@
+The maximum value of lst is being appended to sotsot without removing it from lst. This can result in the same maximum value being added multiple times.

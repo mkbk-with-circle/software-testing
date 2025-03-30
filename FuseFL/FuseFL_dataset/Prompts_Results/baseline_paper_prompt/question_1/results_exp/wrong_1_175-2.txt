@@ -1,0 +1,1 @@
+Redundant condition, `seq == ()` already checks if the sequence is empty.

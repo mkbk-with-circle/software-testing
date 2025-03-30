@@ -1,0 +1,1 @@
+Middle element is not included for odd-length input list

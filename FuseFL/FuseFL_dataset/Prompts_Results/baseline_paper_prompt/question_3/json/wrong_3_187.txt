@@ -1,0 +1,20 @@
+{
+  "intentOfThisFunction": "The intended purpose of this function is to remove duplicate elements from a list.",
+  "faultLocalization": [
+    {
+      "lineNumber": 5,
+      "codeContent": "if elem not in new:",
+      "reason": "Variable 'new' is not defined."
+    },
+    {
+      "lineNumber": 6,
+      "codeContent": "new_list += new.append(elem)",
+      "reason": "Incorrect usage of '+=' operator and 'append()' method."
+    },
+    {
+      "lineNumber": 8,
+      "codeContent": "new_list",
+      "reason": "Unused statement."
+    }
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "faultLoc": [
+    {
+      "faultyLine": 3,
+      "code": "for i in lst and not result:",
+      "explanation": "The line is causing a TypeError because it attempts to iterate over `lst` and `not result`, which is a boolean value."
+    },
+    {
+      "faultyLine": 2,
+      "code": "result = []",
+      "explanation": "Although this line is initializing an empty list `result`, it doesn't seem to be causing the incorrect results."
+    }
+  ]
+}

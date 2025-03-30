@@ -1,0 +1,1 @@
+Unclear variable 'current' and its initialization.

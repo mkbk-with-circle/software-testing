@@ -1,0 +1,1 @@
+This line removes the maximum value from the list `lst`.

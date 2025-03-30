@@ -1,0 +1,1 @@
+This line compares the current element with the element at the corresponding index in the 'result' tuple. However, if the 'result' tuple doesn't have enough elements to match the index, it will raise an 'IndexError: tuple index out of range' error.

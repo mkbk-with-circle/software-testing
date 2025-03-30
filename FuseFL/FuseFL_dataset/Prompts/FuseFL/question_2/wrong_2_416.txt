@@ -1,0 +1,76 @@
+Faulty Code:
+```python
+def unique_day(day, possible_birthdays):
+    
+    tupleofdays = ()
+    for i in possible_birthdays:
+        tupleofdays += (i[1],)
+
+    count = 0
+    for i in tupleofdays:
+        if day == i:
+            count += 1
+
+    return count == 1
+
+def unique_month(month, possible_birthdays):
+    tupleofmonths = ()
+    for i in possible_birthdays:
+        tupleofmonths += (i[0],)
+
+    count = 0
+
+    for i in tupleofmonths:
+        if month == i:
+            count += 1
+
+    return count ==1
+
+def contains_unique_day(month, possible_birthdays):
+##    """Your solution here"""
+
+    for i in possible_birthdays:
+        if unique_day(i[1], possible_birthdays) == True:
+            ans = False
+            if i[0] == month:
+                ans = True
+                break
+            else:
+                continue
+        else:
+            continue
+
+    return ans
+```
+
+Task Description:
+The `unique_day` function takes a day (provided as a string) and a list of possible_birthdays (represented as tuples containing month and day) as input. It checks if a given day is unique within the list of possible birthdays.
+The `unique_month` function takes a month (provided as a string) and a list of possible_birthdays (represented as tuples containing month and day) as input. It checks if a given month is unique within the list of possible birthdays.
+The `contains_unique_day` function takes a month (provided as a string) and a list of possible_birthdays (represented as tuples containing month and day) as input. It checks if there exists a birthday with a unique day within the list for a specific month.
+
+Test Results:
+The provided code is producing incorrect results. For example:
+- Running the function as follows `contains_unique_day("January", (("January","1"),("February","1")))` generate an `UnboundLocalError: local variable 'ans' referenced before assignment` in line 41 `return ans`.
+
+Spectrum-based Fault Localization (SBFL) Techniques Results:
+We have used SBFL techniques to identify potentially faulty lines. Here are the results of top-5 suspicious lines sorted in descending order of the score:
+1. Line 39 `continue`, Ochiai score: 0.144338
+2. Line 30 `for i in possible_birthdays:`, Ochiai score: 0.129099
+3. Line 31 `if unique_day(i[1], possible_birthdays) == True:`, Ochiai score: 0.129099
+4. Line 41 `return ans`, Ochiai score: 0.129099
+5. Line 10 `count += 1`, Ochiai score: 0.087039
+
+Analyze the provided code and utilize task description, test results, and SBFL techniques results to help in identifying potentially faulty lines. Provide the results following this JSON template:
+```json
+{
+  "faultLoc": [
+    {
+      "faultyLine": (indicating the line number of the suspicious code),
+      "code": (displaying the actual code),
+      "explanation": (step by step reasoning on why this location is considered potentially faulty)
+    },
+    ...
+  ]
+}
+```
+Ensure that the objects in the "faultLoc" array are sorted in descending order of suspicion.

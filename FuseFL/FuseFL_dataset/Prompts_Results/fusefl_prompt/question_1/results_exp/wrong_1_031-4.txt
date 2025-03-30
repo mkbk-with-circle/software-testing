@@ -1,0 +1,1 @@
+The condition is incorrectly placed within the loop. It should be moved outside the loop to avoid unnecessary checks.

@@ -1,0 +1,1 @@
+The condition checks if the current person's age is greater than 'current', but the logic is incorrect.

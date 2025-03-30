@@ -1,0 +1,1 @@
+The line assigns the new largest value, but it should be lst[j] instead of largest. The correct assignment should be largest = lst[j].

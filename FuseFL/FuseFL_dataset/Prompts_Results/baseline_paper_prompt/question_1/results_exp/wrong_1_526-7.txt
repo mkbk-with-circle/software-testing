@@ -1,0 +1,1 @@
+If the loop is never executed because the sequence is empty, this line will raise an UnboundLocalError.

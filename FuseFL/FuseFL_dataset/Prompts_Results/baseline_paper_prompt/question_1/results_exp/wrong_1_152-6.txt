@@ -1,0 +1,1 @@
+Assumes the last element of 'seq' is greater than 'x'.

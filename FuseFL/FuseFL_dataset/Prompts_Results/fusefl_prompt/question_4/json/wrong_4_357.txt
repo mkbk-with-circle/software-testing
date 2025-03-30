@@ -1,0 +1,9 @@
+{
+  "faultLoc": [
+    {
+      "faultyLine": 8,
+      "code": "                newlst.append(i)\n                lst.remove(i)",
+      "explanation": "The append and remove operations should be outside the if statement to ensure all elements are processed"
+    }
+  ]
+}

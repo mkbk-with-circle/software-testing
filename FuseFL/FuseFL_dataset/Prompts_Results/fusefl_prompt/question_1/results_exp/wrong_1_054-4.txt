@@ -1,0 +1,1 @@
+This line checks if x is less than or equal to the current value in the iteration. It is not incorrect, but it is unnecessary for the given task.

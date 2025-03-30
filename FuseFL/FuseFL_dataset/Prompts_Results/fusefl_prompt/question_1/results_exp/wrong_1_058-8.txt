@@ -1,0 +1,1 @@
+This line is unnecessary and can be removed. The loop condition already ensures that x is greater than seq[num], so this condition will always be true.

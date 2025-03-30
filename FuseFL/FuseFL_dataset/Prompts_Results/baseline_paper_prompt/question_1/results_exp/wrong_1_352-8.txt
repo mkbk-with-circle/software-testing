@@ -1,0 +1,1 @@
+This condition is unnecessary because the loop already checks for all the elements in 'seq'. The code can be simplified by removing this condition and returning 'len(seq)' after the loop.

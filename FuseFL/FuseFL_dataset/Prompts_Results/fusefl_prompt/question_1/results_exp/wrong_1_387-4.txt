@@ -1,0 +1,1 @@
+This line is unnecessary because the continue statement is redundant. It can be removed.

@@ -1,0 +1,1 @@
+Should use 'if not lst:' instead of 'lst == []' to check for an empty list.

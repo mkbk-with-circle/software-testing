@@ -1,0 +1,1 @@
+This line is used to skip the remaining code in the loop if the condition seq[i] < x is true. However, since the loop only contains the continue statement and no other code, this line is redundant.

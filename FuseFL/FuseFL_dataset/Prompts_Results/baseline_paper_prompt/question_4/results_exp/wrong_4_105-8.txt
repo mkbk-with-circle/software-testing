@@ -1,0 +1,1 @@
+Incorrect removal of elements from the list

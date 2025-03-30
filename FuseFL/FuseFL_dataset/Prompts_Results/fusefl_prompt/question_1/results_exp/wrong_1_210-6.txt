@@ -1,0 +1,1 @@
+This line checks if seq is empty. If it is, it should return 0. However, it should be placed before the previous condition, as an empty seq will cause an IndexError in the previous condition.

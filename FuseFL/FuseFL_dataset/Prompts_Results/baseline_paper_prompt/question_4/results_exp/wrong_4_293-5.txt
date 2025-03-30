@@ -1,0 +1,1 @@
+The loop variable 'i' is used outside the loop scope, which may lead to incorrect results. It should be moved inside the loop.

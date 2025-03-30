@@ -1,0 +1,1 @@
+The swapping logic is incorrect. This line should swap elements if lst[i] < lst[i+1] to sort the list in descending order.

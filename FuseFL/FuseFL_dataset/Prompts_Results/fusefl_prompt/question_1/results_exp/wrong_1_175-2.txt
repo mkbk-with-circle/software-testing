@@ -1,0 +1,1 @@
+Suspicious because it checks if the sequence seq is empty by converting it to a list and comparing it to an empty tuple. Redundant since the next line already covers this case.

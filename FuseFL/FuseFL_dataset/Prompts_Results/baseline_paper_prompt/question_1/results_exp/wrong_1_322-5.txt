@@ -1,0 +1,1 @@
+The condition will always return True, comparing x with the maximum value in seq, instead of checking if x is greater than all elements in seq

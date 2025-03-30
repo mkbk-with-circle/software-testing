@@ -1,0 +1,1 @@
+This line checks if there is only one occurrence of the element left in the list after removal.

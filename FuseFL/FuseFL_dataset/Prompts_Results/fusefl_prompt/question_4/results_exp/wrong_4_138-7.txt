@@ -1,0 +1,1 @@
+The line 'lst.remove(smallest)' is potentially faulty because it modifies 'lst' while iterating over it. This can lead to unexpected behavior and incorrect results. A different approach should be used to avoid modifying the list during iteration.

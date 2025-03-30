@@ -1,0 +1,1 @@
+The loop only iterates once and returns either True or False based on the first value in days(). It doesn't check all the days in the month.

@@ -1,0 +1,1 @@
+Using seq.index(i) to find the index of i is inefficient and may not return the correct index for insertion.

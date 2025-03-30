@@ -1,0 +1,1 @@
+The condition is checking the truthiness of the functions themselves, rather than calling them with proper arguments.

@@ -1,0 +1,24 @@
+{
+  "faultLoc": [
+    {
+      "faultyLine": 4,
+      "code": "if elem not in new:",
+      "explanation": "This line generates a NameError because the variable 'new' is not defined. It should be 'new_list' instead."
+    },
+    {
+      "faultyLine": 2,
+      "code": "new_list = []",
+      "explanation": "This line initializes an empty list called 'new_list', which is used to store the non-repeated elements."
+    },
+    {
+      "faultyLine": 3,
+      "code": "for elem in lst:",
+      "explanation": "This line starts a loop that iterates over the elements in the input list 'lst'."
+    },
+    {
+      "faultyLine": 8,
+      "code": "return new_list",
+      "explanation": "This line returns the 'new_list', which should contain all the non-repeated elements in the original list."
+    }
+  ]
+}

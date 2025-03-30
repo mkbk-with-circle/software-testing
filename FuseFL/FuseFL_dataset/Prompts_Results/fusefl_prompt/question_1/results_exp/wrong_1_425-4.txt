@@ -1,0 +1,1 @@
+The loop iterates over the length of the sequence, but it should iterate over the elements of the sequence. The correct way to iterate is 'for i in range(len(seq)):'

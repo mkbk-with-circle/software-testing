@@ -1,0 +1,1 @@
+This line is considered suspicious because it checks if the sequence is an empty list `[]`. Similar to the previous line, this condition should be modified to check if the sequence is empty, rather than specifically checking for an empty list.

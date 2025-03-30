@@ -1,0 +1,1 @@
+Line 4 attempts to remove the current element elem from the list lst. However, after removing an element, the index of other elements may change, leading to incorrect results.

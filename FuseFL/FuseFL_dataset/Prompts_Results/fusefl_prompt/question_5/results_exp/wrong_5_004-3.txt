@@ -1,0 +1,1 @@
+Starting a while loop that continues until 'lst' is empty.

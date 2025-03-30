@@ -1,0 +1,1 @@
+The code assumes 'bday' is a tuple or list without handling other cases.

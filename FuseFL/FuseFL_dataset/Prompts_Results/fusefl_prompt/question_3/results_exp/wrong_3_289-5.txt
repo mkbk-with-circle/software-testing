@@ -1,0 +1,1 @@
+This line starts a nested loop iterating over the indices up to 'i'. It is considered potentially faulty because it might not handle all elements correctly.

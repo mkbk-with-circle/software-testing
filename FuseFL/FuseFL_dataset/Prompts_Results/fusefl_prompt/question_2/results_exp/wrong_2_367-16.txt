@@ -1,0 +1,1 @@
+The variable 'counter' is not defined. It should be 'i' since 'i' is used to count the occurrences.

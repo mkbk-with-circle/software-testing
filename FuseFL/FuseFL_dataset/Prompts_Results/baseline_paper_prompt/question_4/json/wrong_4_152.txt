@@ -1,0 +1,20 @@
+{
+  "intentOfThisFunction": "The intended purpose of this function is to sort a list of elements based on the second element of each sublist.",
+  "faultLocalization": [
+    {
+      "lineNumber": 5,
+      "codeContent": "lst.extend([lst[i]])",
+      "reason": "The use of 'extend' here is unnecessary and could lead to unexpected behavior. 'append' should be used instead."
+    },
+    {
+      "lineNumber": 6,
+      "codeContent": "lst.pop(lst[i])",
+      "reason": "The 'pop' method expects the index as an argument, not the element itself. It should be fixed to 'lst.pop(i)'."
+    },
+    {
+      "lineNumber": 4,
+      "codeContent": "if lst[i][1]<lst[i+1][1]:",
+      "reason": "The code does not handle cases where the elements are equal. If the intention is to sort in descending order, the condition should be modified to 'if lst[i][1] > lst[i+1][1]'."
+    }
+  ]
+}

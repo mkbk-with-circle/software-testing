@@ -1,0 +1,25 @@
+{
+  "intentOfThisFunction": "Sorting a list of tuples based on the second element of each tuple",
+  "faultLocalization": [
+    {
+      "lineNumber": 5,
+      "codeContent": "while lst:",
+      "reason": "Infinite loop due to incorrect while loop condition"
+    },
+    {
+      "lineNumber": 6,
+      "codeContent": "largest = lst[0][1]",
+      "reason": "Possible IndexError when initializing 'largest' with the first element's second value"
+    },
+    {
+      "lineNumber": 9,
+      "codeContent": "if i[1] > largest:",
+      "reason": "Possible IndexError when comparing elements of 'lst' assuming they are tuples with at least two elements"
+    },
+    {
+      "lineNumber": 10,
+      "codeContent": "lst.remove(i)",
+      "reason": "Incorrect removal of elements from the list"
+    }
+  ]
+}

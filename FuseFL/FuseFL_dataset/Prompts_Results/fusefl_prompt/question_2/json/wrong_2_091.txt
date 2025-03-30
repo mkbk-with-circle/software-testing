@@ -1,0 +1,29 @@
+{
+  "faultLoc": [
+    {
+      "faultyLine": 96,
+      "code": "for days in August_days:",
+      "explanation": "This line is suspicious because it is inside the loop that iterates over the days in August. There might be an issue with how the days in August are being processed or compared with other months."
+    },
+    {
+      "faultyLine": 78,
+      "code": "elif month == 'July':",
+      "explanation": "This line is suspicious because it is inside the conditional block for the month of July. There might be an issue with how the days in July are being processed or compared with other months."
+    },
+    {
+      "faultyLine": 28,
+      "code": "May_days = ()",
+      "explanation": "This line is suspicious because it initializes an empty tuple for May days. There might be an issue with how the days in May are being stored or used later in the code."
+    },
+    {
+      "faultyLine": 29,
+      "code": "June_days = ()",
+      "explanation": "This line is suspicious because it initializes an empty tuple for June days. There might be an issue with how the days in June are being stored or used later in the code."
+    },
+    {
+      "faultyLine": 30,
+      "code": "July_days = ()",
+      "explanation": "This line is suspicious because it initializes an empty tuple for July days. There might be an issue with how the days in July are being stored or used later in the code."
+    }
+  ]
+}

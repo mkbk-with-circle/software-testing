@@ -1,0 +1,1 @@
+The loop may not terminate if the input list has fewer than k elements

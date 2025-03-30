@@ -1,0 +1,29 @@
+{
+  "faultLoc": [
+    {
+      "faultyLine": 24,
+      "code": "elif count <= 1:",
+      "explanation": "The condition is incorrect as count should only be 0 or 1. Change it to 'elif count == 1:'"
+    },
+    {
+      "faultyLine": 25,
+      "code": "return True",
+      "explanation": "The return statement should be placed inside the 'elif count == 1:' block"
+    },
+    {
+      "faultyLine": 11,
+      "code": "elif count <= 1:",
+      "explanation": "The condition is incorrect as count should only be 0 or 1. Change it to 'elif count == 1:'"
+    },
+    {
+      "faultyLine": 12,
+      "code": "return True",
+      "explanation": "The return statement should be placed inside the 'elif count == 1:' block"
+    },
+    {
+      "faultyLine": 21,
+      "code": "count = count",
+      "explanation": "This line doesn't serve any purpose and can be safely removed"
+    }
+  ]
+}

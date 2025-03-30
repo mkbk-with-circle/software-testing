@@ -1,0 +1,1 @@
+If the 'days' list is empty, the loop might not execute as intended, and the function won't return any value.

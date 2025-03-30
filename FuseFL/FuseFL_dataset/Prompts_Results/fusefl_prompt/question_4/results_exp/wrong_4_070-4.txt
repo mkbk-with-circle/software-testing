@@ -1,0 +1,1 @@
+Starts a loop assuming that 'lst' has at least two elements, but it can produce incorrect results if the list has only one element.

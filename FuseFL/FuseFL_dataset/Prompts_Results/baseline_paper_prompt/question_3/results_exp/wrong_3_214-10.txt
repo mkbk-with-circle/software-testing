@@ -1,0 +1,1 @@
+The code is missing parentheses after 'copy', which means the 'copy' method is not being called. This will result in the 'lst' variable not being updated correctly, leading to an infinite loop.

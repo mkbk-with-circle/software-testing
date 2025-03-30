@@ -1,0 +1,1 @@
+This line checks if x is greater than the last element of the sequence. If true, it returns len(seq), which is incorrect according to the task description.

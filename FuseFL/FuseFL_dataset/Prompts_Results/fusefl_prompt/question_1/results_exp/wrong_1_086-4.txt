@@ -1,0 +1,1 @@
+The index count is not updated correctly within the loop, resulting in incorrect comparisons. It should use the loop variable i instead.

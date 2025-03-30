@@ -1,0 +1,1 @@
+This line starts a loop that continues until either lst1 or lst2 becomes empty. This loop is used to merge the two sorted halves of the list. It appears to be a crucial part of the sorting algorithm.

@@ -1,0 +1,1 @@
+The variable 'count' should be initialized as an empty list '[]' instead of an empty tuple.

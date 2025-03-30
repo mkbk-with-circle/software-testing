@@ -1,0 +1,1 @@
+Iterating over the entire list for each call to unique_day or unique_month may impact performance unnecessarily.

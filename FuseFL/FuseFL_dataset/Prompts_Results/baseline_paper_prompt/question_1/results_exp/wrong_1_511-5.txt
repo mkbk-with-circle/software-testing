@@ -1,0 +1,1 @@
+This condition is redundant because it will always be true when reached. It can be removed.

@@ -1,0 +1,1 @@
+Checking if x is less than the first element of seq can raise an IndexError if seq is empty.

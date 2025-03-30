@@ -1,0 +1,9 @@
+{
+  "faultLoc": [
+    {
+      "faultyLine": 10,
+      "code": "print(new_lst)",
+      "explanation": "The line should be modified to return `new_lst` instead of printing it."
+    }
+  ]
+}

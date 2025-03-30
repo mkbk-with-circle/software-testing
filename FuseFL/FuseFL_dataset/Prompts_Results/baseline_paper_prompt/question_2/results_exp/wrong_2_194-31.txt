@@ -1,0 +1,1 @@
+The function unique_day is called with the same list 'possible_birthdays' for each iteration of the loop, which is inefficient. It can be optimized by passing 'y' as an argument instead.

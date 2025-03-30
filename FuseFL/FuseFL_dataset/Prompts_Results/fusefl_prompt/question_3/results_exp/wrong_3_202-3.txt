@@ -1,0 +1,1 @@
+Checking if the input list is empty, which is not directly causing the issue.

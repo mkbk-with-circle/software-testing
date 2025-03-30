@@ -1,0 +1,1 @@
+The loop iterates over the original length of the list, but the list new_lst is modified within the loop.

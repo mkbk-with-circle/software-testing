@@ -1,0 +1,1 @@
+The condition assumes that if x is greater than the last element in seq, it should be placed at the end. However, this might not hold true if x is less than or equal to the first element in seq.

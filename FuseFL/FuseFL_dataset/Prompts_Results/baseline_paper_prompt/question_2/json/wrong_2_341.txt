@@ -1,0 +1,34 @@
+{
+  "intentOfThisFunction": {
+    "unique_day": "Check if a given day is unique among possible birthdays",
+    "unique_month": "Check if a given month is unique among possible birthdays",
+    "contains_unique_day": "Check if there is at least one unique day in a given month among possible birthdays"
+  },
+  "faultLocalization": [
+    {
+      "lineNumber": 4,
+      "codeContent": "for birthdays in possible_birthdays:",
+      "reason": "No validation for the format of possible_birthdays"
+    },
+    {
+      "lineNumber": 5,
+      "codeContent": "if birthdays[1] == day:",
+      "reason": "Assumes each birthdays entry has at least two elements"
+    },
+    {
+      "lineNumber": 9,
+      "codeContent": "return result == 1",
+      "reason": "Redundant if-else statement"
+    },
+    {
+      "lineNumber": 12,
+      "codeContent": "return ",
+      "reason": "Function body is empty"
+    },
+    {
+      "lineNumber": 14,
+      "codeContent": "return ",
+      "reason": "Function body is empty"
+    }
+  ]
+}

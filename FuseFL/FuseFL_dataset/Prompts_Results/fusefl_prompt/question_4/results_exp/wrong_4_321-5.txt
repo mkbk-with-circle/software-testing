@@ -1,0 +1,1 @@
+This line starts a loop to iterate over each person in the list. It seems valid, but the faulty line 7 modifies the list during the loop, which can lead to unexpected behavior. Removing elements from the list while iterating over it can cause skipped or repeated elements in subsequent iterations.

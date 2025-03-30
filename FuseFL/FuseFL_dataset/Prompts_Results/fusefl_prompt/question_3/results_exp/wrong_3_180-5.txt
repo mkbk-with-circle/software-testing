@@ -1,0 +1,1 @@
+This condition is not relevant to the task description. Removing this line would allow the loop to continue until the end of the list.

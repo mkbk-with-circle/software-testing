@@ -1,0 +1,11 @@
+Please analyse the following code snippet for potential bugs. Return the results in JSON format, consisting of a single JSON object with two fields: “intentOfThisFunction” (describing the intended purpose of the function), and “faultLocalization” (an array of JSON objects). The “faultLocalization” array should contain up to five JSON objects, each with three fields: “lineNumber” (indicating the line number of the suspicious code), “codeContent” (showing the actual code), and “reason” (explaining why this location is identified as potentially faulty). Note: The codes in the “faultLocalization” array should be listed in descending order of suspicion.
+def top_k(lst, k):
+    i=0
+    while i+1<len(lst):
+        if lst[i]<lst[i+1]:
+            lst.extend([i])
+            lst.pop(i)
+            i=0
+        else:
+            i+=1
+    return lst[:k+1]

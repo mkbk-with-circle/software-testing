@@ -1,0 +1,1 @@
+This line initializes a loop to iterate over the elements of seq. However, it should iterate over the indices of seq instead of the elements. Therefore, it should be changed to 'for num in range(len(seq)):' instead of 'for num in seq:'.

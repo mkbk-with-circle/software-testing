@@ -1,0 +1,29 @@
+{
+  "faultLoc": [
+    {
+      "faultyLine": 6,
+      "code": "lst.remove(element)",
+      "explanation": "The line removes the wrong element from the list. It should remove the 'biggest' element instead."
+    },
+    {
+      "faultyLine": 7,
+      "code": "sort.append(element)",
+      "explanation": "The line appends the wrong element to the 'sort' list. It should append the 'biggest' element instead."
+    },
+    {
+      "faultyLine": 2,
+      "code": "sort = []",
+      "explanation": "The 'sort' list is initialized but not used correctly in the code."
+    },
+    {
+      "faultyLine": 3,
+      "code": "while lst:",
+      "explanation": "The condition of the while loop is incorrect. It should check if the 'lst' list is not empty."
+    },
+    {
+      "faultyLine": 4,
+      "code": "biggest = lst[0]",
+      "explanation": "The 'biggest' variable is not correctly initialized. It should be set to the first element of the 'lst' list."
+    }
+  ]
+}

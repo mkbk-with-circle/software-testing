@@ -1,0 +1,1 @@
+This line is incorrect because it returns 0 unconditionally. According to the task description, if the sequence is empty, it should return 0. However, in this code, it returns 0 regardless of whether the sequence is empty or not. This line should be moved inside the condition on line 2, so it only returns 0 when the sequence is empty.

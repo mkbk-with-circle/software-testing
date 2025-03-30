@@ -1,0 +1,1 @@
+The 'i' variable is assigned the actual element instead of its index, causing a TypeError.

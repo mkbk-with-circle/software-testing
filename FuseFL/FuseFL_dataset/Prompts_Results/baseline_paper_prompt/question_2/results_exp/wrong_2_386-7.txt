@@ -1,0 +1,1 @@
+Returning True or False directly based on the condition is more concise and readable than using an if-else statement.

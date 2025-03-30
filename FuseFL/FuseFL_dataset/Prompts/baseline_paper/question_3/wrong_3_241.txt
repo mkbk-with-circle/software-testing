@@ -1,0 +1,9 @@
+Please analyse the following code snippet for potential bugs. Return the results in JSON format, consisting of a single JSON object with two fields: “intentOfThisFunction” (describing the intended purpose of the function), and “faultLocalization” (an array of JSON objects). The “faultLocalization” array should contain up to five JSON objects, each with three fields: “lineNumber” (indicating the line number of the suspicious code), “codeContent” (showing the actual code), and “reason” (explaining why this location is identified as potentially faulty). Note: The codes in the “faultLocalization” array should be listed in descending order of suspicion.
+def remove_extras(lst):
+    new_lst = []
+    if lst == []:
+        return new_lst
+    elif lst[0] not in lst:
+        new_lst += lst[0] + remove_extras(lst[1:])
+    else:
+        new_lst += remove_extras(lst[1:])

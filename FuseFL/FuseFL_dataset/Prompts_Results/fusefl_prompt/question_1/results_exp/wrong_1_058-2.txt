@@ -1,0 +1,1 @@
+The condition in this line is incorrect. It should be 'if seq == () or seq == []:' instead of 'if seq == () or []:'. Currently, it only checks if seq is equal to (), but fails to check if seq is equal to [] as well.

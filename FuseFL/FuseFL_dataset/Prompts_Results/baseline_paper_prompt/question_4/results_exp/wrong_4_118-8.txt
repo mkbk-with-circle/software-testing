@@ -1,0 +1,1 @@
+Removing elements from 'lst' while iterating over it can cause incorrect results and unexpected behavior. It is generally not recommended to modify the list being iterated.

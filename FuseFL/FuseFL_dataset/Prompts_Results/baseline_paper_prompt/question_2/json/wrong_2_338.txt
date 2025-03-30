@@ -1,0 +1,30 @@
+{
+  "intentOfThisFunction": "Check for uniqueness of days and months within a list of possible birthdays",
+  "faultLocalization": [
+    {
+      "lineNumber": 6,
+      "codeContent": "count = count + 1",
+      "reason": "Count is not incremented correctly"
+    },
+    {
+      "lineNumber": 9,
+      "codeContent": "break",
+      "reason": "Unreachable code"
+    },
+    {
+      "lineNumber": 14,
+      "codeContent": "count = count + 1",
+      "reason": "Count is not incremented correctly"
+    },
+    {
+      "lineNumber": 17,
+      "codeContent": "break",
+      "reason": "Unreachable code"
+    },
+    {
+      "lineNumber": 5,
+      "codeContent": "month_list = ()",
+      "reason": "month_list should be initialized as a list"
+    }
+  ]
+}

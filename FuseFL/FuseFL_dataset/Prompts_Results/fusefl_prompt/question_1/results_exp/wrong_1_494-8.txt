@@ -1,0 +1,1 @@
+This line is not faulty, it correctly checks if `x` is greater than the last element of the sequence.

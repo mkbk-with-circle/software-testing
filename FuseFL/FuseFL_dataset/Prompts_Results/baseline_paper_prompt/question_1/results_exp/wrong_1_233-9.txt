@@ -1,0 +1,1 @@
+Should return the length of `seq` plus 1 instead of just the length.

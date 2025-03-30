@@ -1,0 +1,14 @@
+{
+  "faultLoc": [
+    {
+      "faultyLine": 8,
+      "code": "                lst.remove(largest)",
+      "explanation": "The code is removing the largest value from the list within the loop. This modification of the list while iterating over it can lead to unexpected behavior and incorrect results."
+    },
+    {
+      "faultyLine": 5,
+      "code": "        largest = lst[0]",
+      "explanation": "The code initializes 'largest' with the first element of the list, assuming it to be the largest. However, this assumption may not always hold true, and it can result in incorrect results."
+    }
+  ]
+}

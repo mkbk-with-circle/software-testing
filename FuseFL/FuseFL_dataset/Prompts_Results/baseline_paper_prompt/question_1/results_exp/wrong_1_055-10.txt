@@ -1,0 +1,1 @@
+The counter variable should be initialized with -1 instead of 0.

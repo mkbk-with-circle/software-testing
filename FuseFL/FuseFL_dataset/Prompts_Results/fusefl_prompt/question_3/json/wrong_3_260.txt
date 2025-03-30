@@ -1,0 +1,19 @@
+{
+  "faultLoc": [
+    {
+      "faultyLine": 3,
+      "code": "if count(element) > 1:",
+      "explanation": "The code attempts to call a non-existent function 'count(element)' to check if the element appears more than once. This line should be modified to use the 'count()' method available for lists in Python."
+    },
+    {
+      "faultyLine": 2,
+      "code": "for element in lst:",
+      "explanation": "This line is considered potentially faulty because it loops through the elements of the input list 'lst'. However, the issue lies in the incorrect usage of 'count(element)' in line 3."
+    },
+    {
+      "faultyLine": 5,
+      "code": "return lst",
+      "explanation": "This line is not faulty. It returns the modified list 'lst' as the output of the function."
+    }
+  ]
+}

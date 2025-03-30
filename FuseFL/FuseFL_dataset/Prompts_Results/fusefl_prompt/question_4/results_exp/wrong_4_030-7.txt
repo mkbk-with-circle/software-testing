@@ -1,0 +1,1 @@
+This line calculates the midpoint of the list. It seems to be a correct calculation and not the cause of the incorrect results.

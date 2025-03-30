@@ -1,0 +1,1 @@
+The line appends the i-th element of the sorted list 'lst' to the 'new' list. Since the function should return the greatest k number of values in descending order, this line is potentially faulty because it appends elements in ascending order instead of descending.

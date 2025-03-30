@@ -1,0 +1,1 @@
+It should return len(seq) - 1 instead, as the function is supposed to return the index of the last element in the sequence when x is greater than all elements.

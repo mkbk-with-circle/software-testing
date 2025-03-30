@@ -1,0 +1,30 @@
+{
+  "intentOfThisFunction": "To sort a list of tuples based on the second element of each tuple",
+  "faultLocalization": [
+    {
+      "lineNumber": 4,
+      "codeContent": "    if len(lst) == 0:\n        return []",
+      "reason": "Returning an empty list does not match the intended purpose of sorting"
+    },
+    {
+      "lineNumber": 6,
+      "codeContent": "    elif len(lst) == 1:\n        return lst",
+      "reason": "Unnecessary recursive sorting when the list is already sorted"
+    },
+    {
+      "lineNumber": 10,
+      "codeContent": "    mid = len(lst) // 2",
+      "reason": "Middle element is not included for odd-length input list"
+    },
+    {
+      "lineNumber": 17,
+      "codeContent": "            if lst1[0][1] < lst2[0][1]:",
+      "reason": "Comparing elements without guarantee of sorted lists"
+    },
+    {
+      "lineNumber": 19,
+      "codeContent": "            result.append(lst1.pop())",
+      "reason": "Incorrect usage of pop() method without specifying an index"
+    }
+  ]
+}

@@ -1,0 +1,1 @@
+The line doesn't correctly compare the given month with the month in the current possible_birthdays entry.

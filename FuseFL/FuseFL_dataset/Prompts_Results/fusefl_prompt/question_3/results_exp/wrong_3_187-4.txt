@@ -1,0 +1,1 @@
+This line generates a NameError because the variable 'new' is not defined. It should be 'new_list' instead.

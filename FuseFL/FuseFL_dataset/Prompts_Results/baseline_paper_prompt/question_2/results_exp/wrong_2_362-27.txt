@@ -1,0 +1,1 @@
+The condition 'occur == 1' should be changed to 'occur > 0' to handle the case where the given month doesn't occur at all.

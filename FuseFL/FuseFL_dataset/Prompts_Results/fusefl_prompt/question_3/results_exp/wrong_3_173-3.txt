@@ -1,0 +1,1 @@
+The use of slicing lst[1:] instead of lst[i+1:] might cause incorrect indices and comparisons.

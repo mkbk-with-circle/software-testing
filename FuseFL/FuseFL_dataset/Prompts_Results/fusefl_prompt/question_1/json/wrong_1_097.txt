@@ -1,0 +1,14 @@
+{
+  "faultLoc": [
+    {
+      "faultyLine": 4,
+      "code": "if seq==() or x<=seq[0]:",
+      "explanation": "The condition `seq==()` should be modified to `seq == []` to correctly check if the list is empty."
+    },
+    {
+      "faultyLine": 10,
+      "code": "if x>elem and (i == len(seq) - 2 or x <= seq[i+1]):",
+      "explanation": "The condition should be modified to handle the last element in `seq` correctly."
+    }
+  ]
+}

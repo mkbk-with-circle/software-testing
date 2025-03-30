@@ -1,0 +1,1 @@
+Similar to the previous issue, the code doesn't handle the case when b.count(month) is not equal to 1. It should have an else statement to handle other cases.

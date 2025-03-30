@@ -1,0 +1,1 @@
+The comparison condition in this line is incorrect. It should be 'x >= seq[-1]' instead of 'x > seq[-1]'. Currently, if x is greater than the last element in seq, it returns the length of seq, which is incorrect according to the task description.

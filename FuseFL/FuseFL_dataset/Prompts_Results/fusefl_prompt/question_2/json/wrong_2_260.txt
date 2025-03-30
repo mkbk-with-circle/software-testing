@@ -1,0 +1,29 @@
+{
+  "faultLoc": [
+    {
+      "faultyLine": 2,
+      "code": "if int(date) in possible_birthdays[1]:",
+      "explanation": "The line checks if the given day (`date`) is present in the second element of `possible_birthdays` (which represents the days). The test results indicate that this line produces incorrect results for the `unique_day` function."
+    },
+    {
+      "faultyLine": 5,
+      "code": "return True",
+      "explanation": "This line is part of the `unique_day` function and returns `True` when the day is not found in the list of possible birthdays. The test results indicate that this line produces incorrect results for the `unique_day` function."
+    },
+    {
+      "faultyLine": 11,
+      "code": "return True",
+      "explanation": "This line is part of the `unique_month` function and returns `True` when the month is not found in the list of possible birthdays. The test results indicate that this line produces incorrect results for the `unique_month` function."
+    },
+    {
+      "faultyLine": 8,
+      "code": "if month in possible_birthdays[0]:",
+      "explanation": "The line checks if the given month is present in the first element of `possible_birthdays` (which represents the months). The test results indicate that this line produces incorrect results for the `unique_month` function."
+    },
+    {
+      "faultyLine": 14,
+      "code": "if not unique_day and not unique_month:",
+      "explanation": "This line is part of the `contains_unique_day` function and checks if both `unique_day` and `unique_month` functions return `False`. The test results indicate that this line produces incorrect results for the `contains_unique_day` function."
+    }
+  ]
+}

@@ -1,0 +1,1 @@
+Checking if the sequence is empty should be done before accessing seq[0].

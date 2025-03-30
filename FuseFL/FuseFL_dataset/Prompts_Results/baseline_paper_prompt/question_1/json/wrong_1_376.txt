@@ -1,0 +1,30 @@
+{
+  "intentOfThisFunction": "To search for the position where a value x should be inserted in a sorted sequence seq",
+  "faultLocalization": [
+    {
+      "lineNumber": 3,
+      "codeContent": "for i in range(len(seq)):",
+      "reason": "No issues found on this line"
+    },
+    {
+      "lineNumber": 4,
+      "codeContent": "if seq[i] < x:",
+      "reason": "No issues found on this line"
+    },
+    {
+      "lineNumber": 5,
+      "codeContent": "continue",
+      "reason": "No issues found on this line"
+    },
+    {
+      "lineNumber": 6,
+      "codeContent": "else:",
+      "reason": "No issues found on this line"
+    },
+    {
+      "lineNumber": 7,
+      "codeContent": "return i",
+      "reason": "No issues found on this line"
+    }
+  ]
+}

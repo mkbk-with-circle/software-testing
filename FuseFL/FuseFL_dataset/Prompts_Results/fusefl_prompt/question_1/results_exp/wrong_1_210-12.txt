@@ -1,0 +1,1 @@
+This line checks if x is between the current element at index i and the next element. However, it should be checking if x is greater than or equal to the current element and smaller than the next element, as it should return the first possible position for x.

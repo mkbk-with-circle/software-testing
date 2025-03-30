@@ -1,0 +1,1 @@
+The iteration is performed directly on the 'lst' list, but elements are being removed from the list inside the loop. This can lead to skipping elements or an infinite loop. It is recommended to iterate over a copy of the list instead.

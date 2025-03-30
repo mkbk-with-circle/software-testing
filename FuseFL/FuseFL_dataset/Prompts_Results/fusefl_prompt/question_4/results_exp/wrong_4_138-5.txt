@@ -1,0 +1,1 @@
+The condition 'if element[1] < smallest[1]:' is potentially faulty because it assumes that both 'element' and 'smallest' are tuples with at least two elements. However, when the input list is empty, this condition will raise errors. This needs to be handled properly.

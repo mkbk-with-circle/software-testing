@@ -1,0 +1,1 @@
+This line returns the position variable, which is not always assigned a value. It causes an UnboundLocalError when the loop never executes.

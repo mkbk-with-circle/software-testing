@@ -1,0 +1,52 @@
+Faulty Code:
+```python
+def top_k(lst, k):
+    result = []
+    while lst:
+        biggest = lst[0]
+        for elem in lst:
+            if elem > biggest:
+                biggest = elem
+        lst.remove(biggest)
+        result.append(biggest)
+    
+    return result[:3]
+
+    # Fill in your code here
+    pass
+
+
+```
+
+Task Description:
+The `top_k` function takes in a list of integers as the input and returns the greatest k number of values as a list, with its elements sorted in descending order. 
+
+Test Results:
+The provided code is producing incorrect results. For example:
+- Running the function as follows `top_k([9, 9, 4, 9, 7, 9, 3, 1, 6], 5)` yields `[9, 9, 9]` instead of the expected `[9, 9, 9, 9, 7]`.
+- Running the function as follows `top_k([9, 8, 4, 5, 7, 2, 3, 1, 6], 5)` yields `[9, 8, 7]` instead of the expected `[9, 8, 7, 6, 5]`.
+- Running the function as follows `top_k([4, 5, 2, 3, 1, 6], 6)` yields `[6, 5, 4]` instead of the expected `[6, 5, 4, 3, 2, 1]`.
+- Running the function as follows `top_k([4, 5, 2, 3, 1, 6], 0)` yields `[6, 5, 4]` instead of the expected `[]`.
+
+Spectrum-based Fault Localization (SBFL) Techniques Results:
+We have used SBFL techniques to identify potentially faulty lines. Here are the results of top-5 suspicious lines sorted in descending order of the score:
+1. Line 2 `result = []`, Ochiai score: 0.298142
+2. Line 3 `while lst:`, Ochiai score: 0.298142
+3. Line 4 `biggest = lst[0]`, Ochiai score: 0.298142
+4. Line 11 `return result[:3]`, Ochiai score: 0.298142
+5. Line 5 `for elem in lst:`, Ochiai score: 0.298142
+
+Analyze the provided code and utilize task description, test results, and SBFL techniques results to help in identifying potentially faulty lines. Provide the results following this JSON template:
+```json
+{
+  "faultLoc": [
+    {
+      "faultyLine": (indicating the line number of the suspicious code),
+      "code": (displaying the actual code),
+      "explanation": (step by step reasoning on why this location is considered potentially faulty)
+    },
+    ...
+  ]
+}
+```
+Ensure that the objects in the "faultLoc" array are sorted in descending order of suspicion.

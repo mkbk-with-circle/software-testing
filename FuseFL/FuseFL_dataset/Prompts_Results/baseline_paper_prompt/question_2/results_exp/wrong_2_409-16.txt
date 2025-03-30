@@ -1,0 +1,1 @@
+The variable 'temp' should be initialized as a list instead of a tuple.

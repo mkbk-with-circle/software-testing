@@ -1,0 +1,29 @@
+{
+  "faultLoc": [
+    {
+      "faultyLine": 2,
+      "code": "if seq == () or []:",
+      "explanation": "The condition should be 'if seq == () or seq == []:' to check if the sequence is empty."
+    },
+    {
+      "faultyLine": 5,
+      "code": "for i, element in enumerate(seq):",
+      "explanation": "Iterating over seq and incrementing i inside the loop may lead to incorrect results."
+    },
+    {
+      "faultyLine": 6,
+      "code": "for element in seq:",
+      "explanation": "Unnecessary nested loop that doesn't serve any purpose."
+    },
+    {
+      "faultyLine": 7,
+      "code": "if x > element:",
+      "explanation": "Doesn't handle the case when x is equal to element."
+    },
+    {
+      "faultyLine": 9,
+      "code": "return i",
+      "explanation": "Placed inside the inner loop, causing premature return and incorrect behavior."
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "faultLoc": [
+    {
+      "faultyLine": 13,
+      "code": "    return count\n",
+      "explanation": "The line is unreachable and will never be executed."
+    },
+    {
+      "faultyLine": 16,
+      "code": "    return",
+      "explanation": "The line is unreachable and will never be executed."
+    },
+    {
+      "faultyLine": 5,
+      "code": "        count += 1",
+      "explanation": "The line increments 'count' without checking if it is already 1."
+    },
+    {
+      "faultyLine": 2,
+      "code": "    count = 0",
+      "explanation": "The line initializes 'count' to 0, which seems correct."
+    },
+    {
+      "faultyLine": 3,
+      "code": "    for i in possible_birthdays:",
+      "explanation": "The line iterates over 'possible_birthdays', which seems correct."
+    }
+  ]
+}

@@ -1,0 +1,1 @@
+Using seq.index(seq[-1]) will always return the index of the last element in the sequence, which is incorrect. Instead, it should return len(seq) to indicate that x should be inserted at the end of the sequence.

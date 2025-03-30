@@ -1,0 +1,34 @@
+{
+  "faultLoc": [
+    {
+      "faultyLine": 12,
+      "code": "lst1.remove(biggest)",
+      "explanation": "The `remove` method is causing a `ValueError` when trying to remove an element that is not in the list."
+    },
+    {
+      "faultyLine": 2,
+      "code": "lst1 = []",
+      "explanation": "The `lst1` list is initialized here, but there is no issue with this line."
+    },
+    {
+      "faultyLine": 3,
+      "code": "for i in lst:",
+      "explanation": "This line starts a loop to iterate over the elements of `lst`, but there is no issue with this line."
+    },
+    {
+      "faultyLine": 4,
+      "code": "if i >= k:",
+      "explanation": "This line checks if the current element is greater than or equal to `k`, but there is no issue with this line."
+    },
+    {
+      "faultyLine": 6,
+      "code": "sort = []",
+      "explanation": "The `sort` list is initialized here, but there is no issue with this line."
+    },
+    {
+      "faultyLine": 5,
+      "code": "lst1.append(i)",
+      "explanation": "This line appends the current element to `lst1`, but there is no issue with this line."
+    }
+  ]
+}

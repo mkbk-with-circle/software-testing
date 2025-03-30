@@ -1,0 +1,1 @@
+This condition checks if 'x' is equal to the 'i'-th element of 'lst2'. However, it should be 'if x == lst2[i+1]:' since the index 'i' is already used to insert 'x' at the correct position.

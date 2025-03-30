@@ -1,0 +1,1 @@
+Creating a new list 'new_seq' from 'seq' is unnecessary and redundant. It can be removed.

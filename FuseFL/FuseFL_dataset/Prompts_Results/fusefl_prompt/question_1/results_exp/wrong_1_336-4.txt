@@ -1,0 +1,1 @@
+The check for an empty sequence is incorrect, causing an IndexError when the sequence is empty. Replace the condition with 'if seq == ():'.

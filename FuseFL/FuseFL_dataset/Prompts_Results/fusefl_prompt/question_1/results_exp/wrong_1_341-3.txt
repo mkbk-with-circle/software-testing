@@ -1,0 +1,1 @@
+The condition doesn't consider the case when the sequence is empty.

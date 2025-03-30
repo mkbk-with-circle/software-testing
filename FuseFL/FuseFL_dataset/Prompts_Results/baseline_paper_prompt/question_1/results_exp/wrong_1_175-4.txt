@@ -1,0 +1,1 @@
+Redundant condition, it is already checked in the previous `if` statement.

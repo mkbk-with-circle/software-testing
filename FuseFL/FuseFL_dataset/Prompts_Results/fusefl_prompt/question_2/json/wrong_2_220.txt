@@ -1,0 +1,9 @@
+{
+  "faultLoc": [
+    {
+      "faultyLine": 26,
+      "code": "return",
+      "explanation": "The 'contains_unique_day' function is not returning any value. It should return the result of calling the 'unique_day' function with the given month and possible_birthdays."
+    }
+  ]
+}

@@ -1,0 +1,1 @@
+This line can raise an IndexError if the list is empty.

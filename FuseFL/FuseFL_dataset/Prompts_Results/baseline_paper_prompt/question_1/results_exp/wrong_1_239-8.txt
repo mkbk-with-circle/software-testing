@@ -1,0 +1,1 @@
+The condition 'x == element' is redundant since it is already checked in the previous 'if' statement.

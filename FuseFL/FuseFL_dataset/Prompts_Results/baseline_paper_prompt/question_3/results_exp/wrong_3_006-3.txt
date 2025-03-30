@@ -1,0 +1,1 @@
+The variable 'list' used in the for loop should be replaced with 'lst', which is the parameter of the function.

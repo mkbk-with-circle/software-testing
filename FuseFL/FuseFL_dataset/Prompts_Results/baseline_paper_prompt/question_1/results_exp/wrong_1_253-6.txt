@@ -1,0 +1,1 @@
+The current condition doesn't account for the case when 'x' is greater than the last element of 'seq'.

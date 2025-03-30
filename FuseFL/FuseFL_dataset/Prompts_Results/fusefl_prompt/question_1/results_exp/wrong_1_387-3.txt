@@ -1,0 +1,1 @@
+This condition checks if the current element is less than x. It seems to be correct.

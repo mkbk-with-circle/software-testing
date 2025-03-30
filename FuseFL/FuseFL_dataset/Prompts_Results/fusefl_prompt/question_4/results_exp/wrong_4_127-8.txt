@@ -1,0 +1,1 @@
+The variable 'biggest' is not defined in the code. It seems there is a typo in line 8, where 'biggest' should be replaced with 'oldest', which is the correct variable representing the oldest person.

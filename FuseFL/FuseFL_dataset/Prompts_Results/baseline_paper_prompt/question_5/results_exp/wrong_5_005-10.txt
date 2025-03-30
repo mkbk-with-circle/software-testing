@@ -1,0 +1,1 @@
+The `element` being appended to the `sort` list is not the current biggest element. It should be changed to `sort.append(biggest)` to append the current biggest element.

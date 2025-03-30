@@ -1,0 +1,1 @@
+This line appends the element `ele` to the end of the `out` list if it hasn't been inserted yet. However, it fails to consider the case when `out` is already at its maximum capacity (if there is any limit). This may lead to unexpected behavior or a memory error.

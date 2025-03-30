@@ -1,0 +1,1 @@
+The condition doesn't handle the case when x is equal to seq[i-1], resulting in incorrect positioning of x in the sequence.

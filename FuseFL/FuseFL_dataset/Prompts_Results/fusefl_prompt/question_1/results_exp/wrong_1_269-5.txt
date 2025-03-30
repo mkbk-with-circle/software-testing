@@ -1,0 +1,1 @@
+The code returns a tuple `(x,)` when the sequence is empty, but it should return 0 according to the task description.

@@ -1,0 +1,1 @@
+This line assumes that the input list lst is not empty. If an empty list is passed as an argument, this line will raise an IndexError since there is no element at index 0.

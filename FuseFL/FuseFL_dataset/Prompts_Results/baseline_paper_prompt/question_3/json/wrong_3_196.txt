@@ -1,0 +1,15 @@
+{
+  "intentOfThisFunction": "To remove duplicate elements from a list",
+  "faultLocalization": [
+    {
+      "lineNumber": 5,
+      "codeContent": "new_lst = new_lst + i",
+      "reason": "Concatenating a list with an element instead of appending the element"
+    },
+    {
+      "lineNumber": 7,
+      "codeContent": "continue",
+      "reason": "Redundant 'continue' statement"
+    }
+  ]
+}

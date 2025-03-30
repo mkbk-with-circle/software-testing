@@ -1,0 +1,1 @@
+This line extends the list by appending the value of i at the end, potentially causing incorrect results.

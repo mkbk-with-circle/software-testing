@@ -1,0 +1,30 @@
+def sort_age(lst):
+    # Fill in your code here
+    newlst=[]
+    while lst:
+        maximum = lst[0][1]
+        for i in lst:
+            if i[1]>maximum:
+                maximum = i[1]
+                newlst.append(i)
+                lst.remove(i)
+
+    return newlst
+
+Given a list of people that is represented using a tuple (<gender>, <age>), function `sort_age` sorts the people and return a list in an order such that the older people are at the front of the list. An example of the list of people is [("M", 23), ("F", 19), ("M", 30)]. The sorted list would look like [("M", 30), ("M", 23), ("F", 19)]. You may assume that no two members of the list of people are of the same age.
+
+
+The provided code is producing incorrect results. Analyze the provided code and utilize task description, test results, and SBFL techniques results to help in identifying potentially faulty lines. Provide the results following this JSON template:
+```json
+{
+  "faultLoc": [
+    {
+      "faultyLine": (indicating the line number of the suspicious code),
+      "code": (displaying the actual code),
+      "explanation": (step by step reasoning on why this location is considered potentially faulty)
+    },
+    ...
+  ]
+}
+```
+Ensure that the objects in the "faultLoc" array are sorted in descending order of suspicion.

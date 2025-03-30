@@ -1,0 +1,1 @@
+This line initializes the variable i outside the loop, causing incorrect behavior when seq is empty. It should be handled separately if seq is empty.

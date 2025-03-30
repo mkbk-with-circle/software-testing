@@ -1,0 +1,1 @@
+Potential index out of range error due to assuming a previous element when starting the loop from i = 1.

@@ -1,0 +1,1 @@
+The line tries to access the third element of each tuple in `possible_birthdays`, but the tuples only have two elements (month and day).

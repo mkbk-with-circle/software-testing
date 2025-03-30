@@ -1,0 +1,25 @@
+{
+  "intentOfThisFunction": "Search for an element in a sequence and return its index",
+  "faultLocalization": [
+    {
+      "lineNumber": 4,
+      "codeContent": "if lst1 == []:",
+      "reason": "Using 'if lst1 == []:' instead of 'if not lst1:'"
+    },
+    {
+      "lineNumber": 10,
+      "codeContent": "elif x > seq[length - 1]:",
+      "reason": "Not handling the case when 'seq' is empty"
+    },
+    {
+      "lineNumber": 13,
+      "codeContent": "for i in range(0, length):",
+      "reason": "Not handling the case when 'length' is 0 or 1"
+    },
+    {
+      "lineNumber": 18,
+      "codeContent": "for i in range(len(lst2)):",
+      "reason": "Not handling the case when 'lst2' is empty"
+    }
+  ]
+}

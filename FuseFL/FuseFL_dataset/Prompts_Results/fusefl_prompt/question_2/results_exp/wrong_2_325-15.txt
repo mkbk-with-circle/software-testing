@@ -1,0 +1,1 @@
+This line is not faulty. The issue lies in the indentation of the subsequent lines.

@@ -1,0 +1,1 @@
+Incorrect index retrieval, it should return the index of the first occurrence of `x` instead.

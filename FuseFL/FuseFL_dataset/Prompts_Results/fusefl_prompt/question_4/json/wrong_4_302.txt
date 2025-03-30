@@ -1,0 +1,29 @@
+{
+  "faultLoc": [
+    {
+      "faultyLine": 5,
+      "code": "lst[j][1],lst[j+1][1] = lst[j+1][1],lst[j][1]",
+      "explanation": "The code tries to swap the ages of two people, but tuples are immutable and cannot be modified. We need to convert the tuples to lists, perform the swap, and then convert them back to tuples."
+    },
+    {
+      "faultyLine": 3,
+      "code": "for j in range(len(lst)-i):",
+      "explanation": "The loop range should be len(lst)-i-1 instead of len(lst)-i to avoid an index out of range error."
+    },
+    {
+      "faultyLine": 4,
+      "code": "if lst[j][1] < lst[j+1][1]:",
+      "explanation": "The condition is correct, but the subsequent code fails due to the tuple immutability issue."
+    },
+    {
+      "faultyLine": 2,
+      "code": "for i in range(len(lst)-1):",
+      "explanation": "The loop range should be len(lst)-1 instead of len(lst) to avoid unnecessary iterations."
+    },
+    {
+      "faultyLine": 7,
+      "code": "continue",
+      "explanation": "The 'continue' statement is unnecessary as the loop will naturally continue to the next iteration."
+    }
+  ]
+}

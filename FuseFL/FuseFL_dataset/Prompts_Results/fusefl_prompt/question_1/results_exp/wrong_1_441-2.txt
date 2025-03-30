@@ -1,0 +1,1 @@
+This line initializes the variable i which is later used in the loop. If the loop is not executed due to an empty seq, it could result in an UnboundLocalError.

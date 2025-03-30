@@ -1,0 +1,1 @@
+The code compares seq to an empty tuple, but it might be intended to check for an empty sequence.

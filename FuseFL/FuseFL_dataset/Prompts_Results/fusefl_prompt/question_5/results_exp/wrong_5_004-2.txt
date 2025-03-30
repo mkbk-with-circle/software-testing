@@ -1,0 +1,1 @@
+Initializing an empty list called 'sort'.

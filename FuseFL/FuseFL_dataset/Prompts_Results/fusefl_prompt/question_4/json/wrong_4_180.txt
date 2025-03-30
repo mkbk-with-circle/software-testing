@@ -1,0 +1,14 @@
+{
+  "faultLoc": [
+    {
+      "faultyLine": 5,
+      "code": "largest = a[0]",
+      "explanation": "The line assumes the first element is the largest, which is incorrect. The sorting logic needs to be modified."
+    },
+    {
+      "faultyLine": 6,
+      "code": "for item in a:",
+      "explanation": "The loop structure seems correct and doesn't appear to be the cause of the incorrect results."
+    }
+  ]
+}

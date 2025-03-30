@@ -1,0 +1,1 @@
+The function should return i instead of i+1 to correctly indicate the index where the element 'x' should be inserted.

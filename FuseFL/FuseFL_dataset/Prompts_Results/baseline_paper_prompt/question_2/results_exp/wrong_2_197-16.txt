@@ -1,0 +1,1 @@
+Potential bug: The condition checks if 'x' is greater than 1, but it should check if 'x' is greater than or equal to 2 to account for the current 'month'.

@@ -1,0 +1,1 @@
+Returning the input list as is when it's empty.

@@ -1,0 +1,9 @@
+{
+  "faultLoc": [
+    {
+      "faultyLine": 2,
+      "code": "seq = (lst[0],)",
+      "explanation": "The line initializes `seq` with the first element of `lst`. However, if `lst` is empty, it will raise an `IndexError` because there are no elements in `lst`."
+    }
+  ]
+}

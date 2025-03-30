@@ -1,0 +1,1 @@
+The variable 'day' is not defined in the code, causing a 'NameError' when the condition is checked.

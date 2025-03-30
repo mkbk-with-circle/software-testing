@@ -1,0 +1,29 @@
+{
+  "faultLoc": [
+    {
+      "faultyLine": 2,
+      "code": "result = [lst[0],]",
+      "explanation": "Accessing lst[0] without checking if the list is empty, causing an IndexError."
+    },
+    {
+      "faultyLine": 3,
+      "code": "for e in lst:",
+      "explanation": "No issue found in this line."
+    },
+    {
+      "faultyLine": 4,
+      "code": "if e not in result:",
+      "explanation": "No issue found in this line."
+    },
+    {
+      "faultyLine": 8,
+      "code": "return result",
+      "explanation": "No issue found in this line."
+    },
+    {
+      "faultyLine": 5,
+      "code": "result.append(e)",
+      "explanation": "No issue found in this line."
+    }
+  ]
+}

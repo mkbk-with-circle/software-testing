@@ -1,0 +1,1 @@
+The code should append elements to the 'result' list instead of creating a new tuple.

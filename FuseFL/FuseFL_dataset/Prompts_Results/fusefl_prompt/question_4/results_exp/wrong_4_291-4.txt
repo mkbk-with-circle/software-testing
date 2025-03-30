@@ -1,0 +1,1 @@
+The variable 'biggest' is initialized with the age value of the first person in the list. However, this line doesn't consider the gender information, which is necessary for sorting the list correctly.

@@ -1,0 +1,1 @@
+This line appears to be redundant because it iterates over 'seq' again, which is already being iterated in the outer loop. Removing this line should not affect the functionality of the code.

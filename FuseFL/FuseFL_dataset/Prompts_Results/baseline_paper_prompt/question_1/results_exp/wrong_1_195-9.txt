@@ -1,0 +1,1 @@
+Accessing the last element of 'seq' using len(seq)-1 instead of directly using [-1]

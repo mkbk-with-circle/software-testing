@@ -1,0 +1,1 @@
+Redundant 'else' branch, same as the 'if' branch.

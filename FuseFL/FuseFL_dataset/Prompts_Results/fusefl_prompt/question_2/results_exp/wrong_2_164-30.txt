@@ -1,0 +1,1 @@
+The condition checking the month of a birthday tuple is not clear in relation to the goal of collecting the days in a specific month. It suggests a potential issue with the logic.

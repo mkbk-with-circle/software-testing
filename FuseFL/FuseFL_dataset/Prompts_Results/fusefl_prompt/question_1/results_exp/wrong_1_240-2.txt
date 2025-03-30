@@ -1,0 +1,1 @@
+Calculates the length of the sequence 'seq'. It seems to be functioning correctly and does not appear to be faulty.

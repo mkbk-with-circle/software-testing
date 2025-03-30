@@ -1,0 +1,1 @@
+This line should return len(seq) - 1 instead of len(seq) to get the correct position.

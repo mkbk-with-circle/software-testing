@@ -1,0 +1,1 @@
+The condition checks if the variable 'days' is equal to 1, but 'days' is not correctly updated anywhere in the code. This condition will always evaluate to 'False' since 'days' is always 0.

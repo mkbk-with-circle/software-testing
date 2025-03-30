@@ -1,0 +1,1 @@
+Removing the 'youngest' element from the list 'lst' will cause the loop to miss other elements with the same value. It should remove the 'elem' instead.

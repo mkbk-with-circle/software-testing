@@ -1,0 +1,1 @@
+Removing elements from a list while iterating over it can lead to unexpected behavior. It's generally not recommended to modify a list you are actively iterating over.

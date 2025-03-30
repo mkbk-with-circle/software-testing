@@ -1,0 +1,1 @@
+This condition returns the index of the maximum element plus one, instead of the index where 'x' should be inserted.

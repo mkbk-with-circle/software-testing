@@ -1,0 +1,49 @@
+Faulty Code:
+```python
+def sort_age(lst):
+    holder=[]
+    if lst==[]:
+        return []
+    for x in lst:
+        if holder==[]:
+            holder=x
+        elif x[1]>holder[1]:
+            holder=x
+    return [holder]+sort_age(lst.remove(holder))
+
+```
+
+Task Description:
+Given a list of people that is represented using a tuple (<gender>, <age>), function `sort_age` sorts the people and return a list in an order such that the older people are at the front of the list. An example of the list of people is [("M", 23), ("F", 19), ("M", 30)]. The sorted list would look like [("M", 30), ("M", 23), ("F", 19)]. You may assume that no two members of the list of people are of the same age.
+
+
+Test Results:
+The provided code is producing incorrect results. For example:
+- Running the function as follows `sort_age([("F", 19)])` generate a `TypeError: 'NoneType' object is not iterable` in line 5 `for x in lst:`.
+- Running the function as follows `sort_age([("M", 35), ("F", 18), ("M", 23), ("F", 19), ("M", 30), ("M", 17)])` generate a `TypeError: 'NoneType' object is not iterable` in line 5 `for x in lst:`.
+- Running the function as follows `sort_age([("F", 18), ("M", 23), ("F", 19), ("M", 30), ("M", 17)])` generate a `TypeError: 'NoneType' object is not iterable` in line 5 `for x in lst:`.
+- Running the function as follows `sort_age([("F", 18), ("M", 23), ("F", 19), ("M", 30)])` generate a `TypeError: 'NoneType' object is not iterable` in line 5 `for x in lst:`.
+- Running the function as follows `sort_age([("M", 23), ("F", 19), ("M", 30)])` generate a `TypeError: 'NoneType' object is not iterable` in line 5 `for x in lst:`.
+
+Spectrum-based Fault Localization (SBFL) Techniques Results:
+We have used SBFL techniques to identify potentially faulty lines. Here are the results of top-5 suspicious lines sorted in descending order of the score:
+1. Line 5 `for x in lst:`, Ochiai score: 0.367607
+2. Line 6 `if holder==[]:`, Ochiai score: 0.367607
+3. Line 10 `return [holder]+sort_age(lst.remove(holder))`, Ochiai score: 0.367607
+4. Line 7 `holder=x`, Ochiai score: 0.367607
+5. Line 2 `holder=[]`, Ochiai score: 0.335578
+
+Analyze the provided code and utilize task description, test results, and SBFL techniques results to help in identifying potentially faulty lines. Provide the results following this JSON template:
+```json
+{
+  "faultLoc": [
+    {
+      "faultyLine": (indicating the line number of the suspicious code),
+      "code": (displaying the actual code),
+      "explanation": (step by step reasoning on why this location is considered potentially faulty)
+    },
+    ...
+  ]
+}
+```
+Ensure that the objects in the "faultLoc" array are sorted in descending order of suspicion.

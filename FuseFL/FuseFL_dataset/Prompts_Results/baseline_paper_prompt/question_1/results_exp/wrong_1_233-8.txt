@@ -1,0 +1,1 @@
+Condition should be placed outside the loop since it doesn't depend on the loop variable.

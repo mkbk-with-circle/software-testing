@@ -1,0 +1,14 @@
+{
+  "faultLoc": [
+    {
+      "faultyLine": 12,
+      "code": "return sort_lst.reverse()",
+      "explanation": "The `reverse()` method reverses the list in-place and returns `None`. We should modify this line to `return sort_lst[::-1]` to return the reversed list."
+    },
+    {
+      "faultyLine": 3,
+      "code": "sort_lst = []",
+      "explanation": "This line initializes an empty list `sort_lst` which is used to store the sorted elements. There doesn't seem to be any issue with this line."
+    }
+  ]
+}

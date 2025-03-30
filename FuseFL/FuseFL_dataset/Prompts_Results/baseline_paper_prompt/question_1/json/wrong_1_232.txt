@@ -1,0 +1,25 @@
+{
+  "intentOfThisFunction": "Implement a binary search algorithm to find the position where an element should be inserted into a sorted sequence.",
+  "faultLocalization": [
+    {
+      "lineNumber": 2,
+      "codeContent": "if seq == () or seq == []:",
+      "reason": "Redundant condition. Checking for both empty tuple and empty list is unnecessary."
+    },
+    {
+      "lineNumber": 4,
+      "codeContent": "elif x <= seq[0]:",
+      "reason": "Does not handle the case where x is smaller than all elements in the sequence."
+    },
+    {
+      "lineNumber": 6,
+      "codeContent": "elif x >= seq[len(seq)-1]:",
+      "reason": "Does not handle the case where x is larger than all elements in the sequence."
+    },
+    {
+      "lineNumber": 9,
+      "codeContent": "for i, elem in enumerate(seq):",
+      "reason": "Potential IndexError when x is larger than all elements in the sequence."
+    }
+  ]
+}

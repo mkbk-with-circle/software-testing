@@ -1,0 +1,1 @@
+This condition is incorrect because it assumes that seq[len(seq)-1] is the largest element in the sequence.

@@ -1,0 +1,29 @@
+{
+  "faultLoc": [
+    {
+      "faultyLine": 4,
+      "code": "if i not in list1:",
+      "explanation": "The condition should check if the element is not already present in the new list, not in the initial empty list."
+    },
+    {
+      "faultyLine": 5,
+      "code": "list1 += i",
+      "explanation": "The '+=' operator is used for concatenating two lists, not for appending a single element. Use the 'append()' method instead."
+    },
+    {
+      "faultyLine": 2,
+      "code": "list1 = []",
+      "explanation": "This line correctly initializes an empty list 'list1'."
+    },
+    {
+      "faultyLine": 3,
+      "code": "for i in lst:",
+      "explanation": "This line correctly iterates over the elements in the input list 'lst'."
+    },
+    {
+      "faultyLine": 6,
+      "code": "return list1",
+      "explanation": "This line correctly returns the new list 'list1'."
+    }
+  ]
+}

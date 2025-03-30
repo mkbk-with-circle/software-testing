@@ -1,0 +1,1 @@
+Should return 'a + 1' to indicate the index where 'x' should be inserted

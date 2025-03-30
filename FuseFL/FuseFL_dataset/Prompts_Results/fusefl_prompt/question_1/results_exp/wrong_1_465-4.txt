@@ -1,0 +1,1 @@
+The condition is incorrect because the task description states that if the sequence is empty, it should return 0. This line should be removed.

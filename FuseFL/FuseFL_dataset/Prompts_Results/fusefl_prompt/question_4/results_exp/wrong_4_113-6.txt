@@ -1,0 +1,1 @@
+This line compares the current element of 'out' with 'ele'. However, if 'out' is empty, an IndexError will occur since there are no elements in the list.

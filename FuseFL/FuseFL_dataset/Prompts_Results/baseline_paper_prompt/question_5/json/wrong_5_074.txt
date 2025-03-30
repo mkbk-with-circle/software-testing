@@ -1,0 +1,30 @@
+{
+  "intentOfThisFunction": "To return the top k elements from a given list in descending order",
+  "faultLocalization": [
+    {
+      "lineNumber": 6,
+      "codeContent": "for i in range(-len(lst),0):",
+      "reason": "Using negative indices with range function"
+    },
+    {
+      "lineNumber": 7,
+      "codeContent": "if lst[i] == max(lst):",
+      "reason": "Comparing value at index i with maximum value of the list"
+    },
+    {
+      "lineNumber": 8,
+      "codeContent": "results.append(lst.pop(i))",
+      "reason": "Modifying the list while iterating over it"
+    },
+    {
+      "lineNumber": 9,
+      "codeContent": "counter += 1",
+      "reason": "Incrementing the counter without checking if desired number of elements added"
+    },
+    {
+      "lineNumber": 10,
+      "codeContent": "",
+      "reason": "No handling for length of lst < k"
+    }
+  ]
+}

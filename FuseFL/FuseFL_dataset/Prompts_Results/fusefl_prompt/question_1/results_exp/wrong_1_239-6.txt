@@ -1,0 +1,1 @@
+Returns index of the first occurrence of x, not the first possible position

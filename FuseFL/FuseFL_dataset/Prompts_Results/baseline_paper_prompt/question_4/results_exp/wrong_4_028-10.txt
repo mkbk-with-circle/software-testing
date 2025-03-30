@@ -1,0 +1,1 @@
+This line sets i to 0, which immediately terminates the while loop. However, it should break out of the inner loop and continue with the outer loop.

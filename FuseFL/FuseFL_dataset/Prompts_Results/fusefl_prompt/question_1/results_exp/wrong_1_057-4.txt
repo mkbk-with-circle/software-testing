@@ -1,0 +1,1 @@
+This line is considered potentially faulty because it assumes that the sequence is not empty before accessing the last element using seq[-1]. However, the code does not handle the case when the sequence is empty, resulting in an IndexError in line 4.

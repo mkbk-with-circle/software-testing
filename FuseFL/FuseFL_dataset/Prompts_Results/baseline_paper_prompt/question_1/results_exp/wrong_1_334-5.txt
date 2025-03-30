@@ -1,0 +1,1 @@
+The 'else' block is incorrectly placed, causing the function to return prematurely after checking the first element of the sequence. This results in incorrect behavior as it should continue searching through the remaining elements.

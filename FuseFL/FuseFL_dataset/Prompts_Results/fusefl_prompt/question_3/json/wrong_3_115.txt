@@ -1,0 +1,9 @@
+{
+  "faultLoc": [
+    {
+      "faultyLine": 3,
+      "code": "return list(set(lst))",
+      "explanation": "The line uses a set to remove duplicate elements from the input list. However, sets do not maintain the order of elements. So, when converting the set back to a list, the order of elements is not preserved, resulting in an incorrect output."
+    }
+  ]
+}

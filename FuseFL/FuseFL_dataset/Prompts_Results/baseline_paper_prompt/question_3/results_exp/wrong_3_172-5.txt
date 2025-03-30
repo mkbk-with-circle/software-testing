@@ -1,0 +1,1 @@
+Deleting elements from a list while iterating over it can cause index errors and unexpected behavior. It's recommended to create a new list and append non-duplicate elements to it instead of modifying the original list.

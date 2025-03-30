@@ -1,0 +1,1 @@
+The condition is incorrect. It should be 'if lst[i] > lst[i+1]' to sort the list correctly.

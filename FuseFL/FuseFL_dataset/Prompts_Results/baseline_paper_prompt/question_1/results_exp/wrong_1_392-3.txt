@@ -1,0 +1,1 @@
+This condition will never be true as lst1 is always assigned a value in line 2.

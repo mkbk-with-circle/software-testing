@@ -1,0 +1,1 @@
+The comparison should be based on the second element of the tuples (age), not the first element (gender). Modify the line to if left[0][1] < right[0][1]:.

@@ -1,0 +1,29 @@
+{
+  "faultLoc": [
+    {
+      "faultyLine": 6,
+      "code": "if lst.count(i) > 1:",
+      "explanation": "The line incorrectly checks the count of the current element in the original list instead of the updated list."
+    },
+    {
+      "faultyLine": 7,
+      "code": "result.remove(i)",
+      "explanation": "Removing elements from the list while iterating over it can lead to unexpected behavior."
+    },
+    {
+      "faultyLine": 8,
+      "code": "continue",
+      "explanation": "The 'continue' statement skips necessary steps to correctly remove all repeated occurrences of an element."
+    },
+    {
+      "faultyLine": 3,
+      "code": "result = lst",
+      "explanation": "The line assigns the original list to the variable instead of creating a new list."
+    },
+    {
+      "faultyLine": 4,
+      "code": "for i in result:",
+      "explanation": "The line contributes to the issues in the subsequent lines."
+    }
+  ]
+}

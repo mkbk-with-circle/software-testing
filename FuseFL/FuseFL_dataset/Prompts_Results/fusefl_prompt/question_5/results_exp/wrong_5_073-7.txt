@@ -1,0 +1,1 @@
+The pop operation inside the loop modifies the list while iterating, which can lead to incorrect results. It should store the maximum value in a separate variable and append it to results after the loop.

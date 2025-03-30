@@ -1,0 +1,29 @@
+{
+  "faultLoc": [
+    {
+      "faultyLine": 5,
+      "code": "while lst.count(item) != 1:",
+      "explanation": "The condition only removes duplicates if they occur more than once, leading to incorrect results."
+    },
+    {
+      "faultyLine": 6,
+      "code": "lst.remove(item)",
+      "explanation": "Modifying the list while iterating can lead to unexpected behavior and incorrect results."
+    },
+    {
+      "faultyLine": 3,
+      "code": "lst.reverse()",
+      "explanation": "Reversing the list is unnecessary for removing duplicates and can be removed."
+    },
+    {
+      "faultyLine": 7,
+      "code": "print(lst)",
+      "explanation": "Debugging statement left in the code, not affecting the correctness."
+    },
+    {
+      "faultyLine": 4,
+      "code": "for item in lst:",
+      "explanation": "No issue with this line, but modifying the list while iterating can lead to unexpected behavior."
+    }
+  ]
+}

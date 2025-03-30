@@ -1,0 +1,1 @@
+There is no check to ensure that bdaylist is not empty before accessing its first element, leading to a potential IndexError.

@@ -1,0 +1,1 @@
+This line compares the 'month' variable with the first element of the 'bday' tuple. It seems to be functioning correctly.

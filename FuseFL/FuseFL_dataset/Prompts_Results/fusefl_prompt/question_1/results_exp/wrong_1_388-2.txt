@@ -1,0 +1,1 @@
+Converting seq into lst1 is necessary, but doing it every time the function is called seems inefficient.

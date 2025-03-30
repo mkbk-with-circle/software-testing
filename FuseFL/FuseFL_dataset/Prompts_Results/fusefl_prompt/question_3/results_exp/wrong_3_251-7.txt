@@ -1,0 +1,1 @@
+Removing elements from the list while iterating over it can lead to unexpected behavior.

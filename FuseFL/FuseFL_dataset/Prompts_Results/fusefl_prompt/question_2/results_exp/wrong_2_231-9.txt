@@ -1,0 +1,1 @@
+The return statement always returns True without considering the condition of having more than one result. It should be modified to return False if len(result) > 1.

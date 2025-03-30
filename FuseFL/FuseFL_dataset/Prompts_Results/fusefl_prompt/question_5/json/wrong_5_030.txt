@@ -1,0 +1,29 @@
+{
+  "faultLoc": [
+    {
+      "faultyLine": 4,
+      "code": "largest = lst[0]",
+      "explanation": "The largest variable is not correctly updated or removed from the lst list."
+    },
+    {
+      "faultyLine": 5,
+      "code": "for i in lst:",
+      "explanation": "The largest number is not correctly removed from the lst list."
+    },
+    {
+      "faultyLine": 2,
+      "code": "sort, output = [], []",
+      "explanation": "Unnecessary initialization of sort and output lists."
+    },
+    {
+      "faultyLine": 3,
+      "code": "while lst:",
+      "explanation": "No issue detected in this line."
+    },
+    {
+      "faultyLine": 10,
+      "code": "for j in sort:",
+      "explanation": "No issue detected in this line."
+    }
+  ]
+}

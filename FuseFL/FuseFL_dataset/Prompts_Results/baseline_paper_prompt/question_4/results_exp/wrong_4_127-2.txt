@@ -1,0 +1,1 @@
+The variable 'sort' is assigned an empty list but not used later in the code.

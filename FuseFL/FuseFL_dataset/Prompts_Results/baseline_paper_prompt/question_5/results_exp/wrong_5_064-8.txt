@@ -1,0 +1,1 @@
+The counter variable is not incremented when a maximum value is found and appended to the results. It should be placed inside the if statement.

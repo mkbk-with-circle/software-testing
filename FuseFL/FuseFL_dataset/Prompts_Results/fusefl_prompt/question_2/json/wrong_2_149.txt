@@ -1,0 +1,29 @@
+{
+  "faultLoc": [
+    {
+      "faultyLine": 20,
+      "code": "    return",
+      "explanation": "The return statement in the `contains_unique_day` function is returning `None` instead of the expected boolean value."
+    },
+    {
+      "faultyLine": 17,
+      "code": "        return True",
+      "explanation": "The `return True` statement in the `unique_month` function always returns `True`, regardless of the count value. It should return `False` when the count exceeds 1."
+    },
+    {
+      "faultyLine": 8,
+      "code": "        return True",
+      "explanation": "The `return True` statement in the `unique_day` function always returns `True`, regardless of the count value. It should return `False` when the count exceeds 1."
+    },
+    {
+      "faultyLine": 11,
+      "code": "        count = 0",
+      "explanation": "The `count = 0` statement in the `unique_month` function should be placed before the loop to ensure it starts from 0 for each iteration."
+    },
+    {
+      "faultyLine": 12,
+      "code": "        for birthday in possible_birthdays:",
+      "explanation": "The `for birthday in possible_birthdays:` loop in the `unique_month` function is not incrementing the count variable. The count should be incremented within the loop to correctly count the occurrences of the given month."
+    }
+  ]
+}

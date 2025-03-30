@@ -1,0 +1,1 @@
+Doesn't consider cases where the current element occurs more than twice, resulting in incorrect output.

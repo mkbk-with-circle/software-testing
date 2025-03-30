@@ -1,0 +1,1 @@
+The variable 'new_lst' is not defined in the code. It should be 'new_list' instead.

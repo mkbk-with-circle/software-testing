@@ -1,0 +1,1 @@
+This condition assumes that 'seq' is sorted in ascending order, but there is no check or guarantee for that.

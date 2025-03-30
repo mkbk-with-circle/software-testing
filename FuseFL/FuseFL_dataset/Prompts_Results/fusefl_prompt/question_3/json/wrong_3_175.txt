@@ -1,0 +1,24 @@
+{
+  "faultLoc": [
+    {
+      "faultyLine": 3,
+      "code": "if lst[i] in lst[i+1:]:",
+      "explanation": "The line checks if the current element is present in the remaining part of the list (lst[i+1:]). If it is found, it means the element is a duplicate and should be removed. However, this line is causing an IndexError because the range of the sublist lst[i+1:] is incorrect when i is the last index of the list."
+    },
+    {
+      "faultyLine": 4,
+      "code": "lst.pop(i)",
+      "explanation": "This line is responsible for removing the duplicate element from the list. However, it is executed inside the loop, which can cause the loop to skip elements or result in an IndexError when the list is modified during iteration."
+    },
+    {
+      "faultyLine": 2,
+      "code": "for i in range(len(lst)):",
+      "explanation": "The loop iterates over the indices of the list, attempting to compare each element with the remaining part of the list. However, the loop range is based on the length of the list, and as elements are removed, the length changes, which can lead to incorrect iteration or IndexError."
+    },
+    {
+      "faultyLine": 5,
+      "code": "return lst",
+      "explanation": "This line returns the modified list after removing duplicates. It appears to be correct and is not causing any errors, but it is listed as potentially faulty because it has a lower SBFL score compared to other lines."
+    }
+  ]
+}

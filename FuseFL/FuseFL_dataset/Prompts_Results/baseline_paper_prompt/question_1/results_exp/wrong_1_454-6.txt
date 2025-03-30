@@ -1,0 +1,1 @@
+The 'return' statement is placed inside the 'else' block, causing the function to return prematurely. This will result in the function always returning the length of the sequence, regardless of the condition being satisfied or not.

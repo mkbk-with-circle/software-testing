@@ -1,0 +1,1 @@
+The condition `if seq[0] < x:` is incorrect because it returns `0` when `seq[0]` is less than `x`. However, based on the intention of the function, it should return `1` in this case. To fix this, change the condition to `if seq[0] > x:`.

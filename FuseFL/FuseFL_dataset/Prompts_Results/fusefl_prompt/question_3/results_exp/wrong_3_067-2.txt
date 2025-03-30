@@ -1,0 +1,1 @@
+The use of set() changes the order of elements, which is not desired according to the task description. We need to modify the code to remove duplicates while preserving the original order of elements.

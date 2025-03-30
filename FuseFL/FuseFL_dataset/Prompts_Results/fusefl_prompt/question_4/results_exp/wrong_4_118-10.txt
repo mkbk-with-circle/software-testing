@@ -1,0 +1,1 @@
+The 'biggest' element is being appended to 'sort' outside the for loop, causing duplication of the element in the final list.

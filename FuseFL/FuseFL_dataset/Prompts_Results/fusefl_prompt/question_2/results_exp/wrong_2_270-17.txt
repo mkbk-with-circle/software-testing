@@ -1,0 +1,1 @@
+The condition should check for an exact match (==) instead of using the assignment operator (=).

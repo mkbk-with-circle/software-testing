@@ -1,0 +1,15 @@
+{
+  "intentOfThisFunction": "To remove duplicate elements from the input list and return a new list with only unique elements.",
+  "faultLocalization": [
+    {
+      "lineNumber": 4,
+      "codeContent": "pst.extend(list(i))",
+      "reason": "Extending the list with individual elements instead of appending nested lists."
+    },
+    {
+      "lineNumber": 3,
+      "codeContent": "if i not in pst:",
+      "reason": "Linear search through the list for duplicate checking."
+    }
+  ]
+}

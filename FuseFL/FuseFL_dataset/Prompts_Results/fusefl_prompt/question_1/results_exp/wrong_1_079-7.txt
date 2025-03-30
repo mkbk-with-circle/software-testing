@@ -1,0 +1,1 @@
+This line does not consider the condition x <= ele. If x is smaller than all the elements in seq, this loop will execute unnecessarily. It should only be executed if x is greater than the maximum element in seq.

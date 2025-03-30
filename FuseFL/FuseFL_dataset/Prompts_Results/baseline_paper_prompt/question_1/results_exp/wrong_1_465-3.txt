@@ -1,0 +1,1 @@
+The condition `if seq == [] or ():` is incorrect and will raise a `SyntaxError`. The empty tuple `()` is not a valid condition. It seems like the intention here is to check if the `seq` is empty. To fix this, change the condition to `if seq == []:`.

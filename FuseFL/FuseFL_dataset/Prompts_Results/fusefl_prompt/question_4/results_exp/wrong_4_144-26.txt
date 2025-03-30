@@ -1,0 +1,1 @@
+The line should calculate the middle index based on the second element of the tuples (age), not the first element (gender). Modify the line to mid = len(lst) // 2.

@@ -1,0 +1,14 @@
+{
+  "faultLoc": [
+    {
+      "faultyLine": 11,
+      "code": "return result[:3]",
+      "explanation": "The code returns only the first three elements of the `result` list, instead of the top k elements. This is incorrect and needs to be fixed."
+    },
+    {
+      "faultyLine": 4,
+      "code": "biggest = lst[0]",
+      "explanation": "This line initializes the variable `biggest` with the first element of `lst`. There doesn't seem to be any issue with this line, but it may need modifications to correctly update the `biggest` variable."
+    }
+  ]
+}

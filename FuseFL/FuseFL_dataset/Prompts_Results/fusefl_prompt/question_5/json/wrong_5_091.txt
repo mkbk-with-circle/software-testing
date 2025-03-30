@@ -1,0 +1,29 @@
+{
+  "faultLoc": [
+    {
+      "faultyLine": 8,
+      "code": "lst2.append(max)",
+      "explanation": "This line is inside the `while` loop, which means it will keep appending `max` to `lst2` until its length becomes equal to `k`. However, it should only append the maximum value once."
+    },
+    {
+      "faultyLine": 2,
+      "code": "lst2 = []",
+      "explanation": "This line initializes an empty list `lst2`. It is not necessarily faulty, but it is included in the results because it has the same Ochiai score as lines 3 and 4."
+    },
+    {
+      "faultyLine": 3,
+      "code": "max = lst[0]",
+      "explanation": "This line initializes the variable `max` with the first element of the input list `lst`. It is not necessarily faulty, but it is included in the results because it has the same Ochiai score as lines 2 and 4."
+    },
+    {
+      "faultyLine": 4,
+      "code": "for i in lst:",
+      "explanation": "This line starts a loop that iterates over each element `i` in the input list `lst`. It is not necessarily faulty, but it is included in the results because it has the same Ochiai score as lines 2 and 3."
+    },
+    {
+      "faultyLine": 5,
+      "code": "if i > max:",
+      "explanation": "This line checks if the current element `i` is greater than the current maximum value `max`. It is not necessarily faulty, but it is included in the results because it has the same Ochiai score as lines 2, 3, and 4."
+    }
+  ]
+}

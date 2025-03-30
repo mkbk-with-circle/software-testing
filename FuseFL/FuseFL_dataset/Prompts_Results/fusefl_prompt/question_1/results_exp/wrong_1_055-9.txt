@@ -1,0 +1,1 @@
+This line is not faulty, but it is not correctly implemented. We need to iterate over the indices of the sequence, not the elements themselves. We'll fix this by using the range function to iterate over the indices.

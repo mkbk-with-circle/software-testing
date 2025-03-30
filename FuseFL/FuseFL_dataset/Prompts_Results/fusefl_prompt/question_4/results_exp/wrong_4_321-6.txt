@@ -1,0 +1,1 @@
+This line compares the age of the current person (`n`) with the current maximum age (`big[1]`). If `n` is older, it updates `big` with the value of `n`. However, since line 7 assigns `big=n` unconditionally, this comparison becomes redundant and unnecessary.

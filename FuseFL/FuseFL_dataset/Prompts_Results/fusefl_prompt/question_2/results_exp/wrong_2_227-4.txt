@@ -1,0 +1,1 @@
+This line correctly checks if the given 'day' matches the second element (day) of the 'date' tuple.

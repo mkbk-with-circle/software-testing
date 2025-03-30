@@ -1,0 +1,1 @@
+The line attempts to remove an element from the list using the `remove` method. However, the `int(extra)` part is causing a `TypeError` because `extra` is a list, not an integer. This line needs to be modified to remove the element properly.

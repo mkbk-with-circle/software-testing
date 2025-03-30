@@ -1,0 +1,1 @@
+Suspicious because it checks if x is greater than or equal to the maximum element in seq. Faulty logic in the subsequent line to return the index.

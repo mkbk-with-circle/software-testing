@@ -1,0 +1,1 @@
+If no element is found, it should return len(seq) instead of i+1.

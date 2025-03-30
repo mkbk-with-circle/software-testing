@@ -1,0 +1,29 @@
+{
+  "faultLoc": [
+    {
+      "faultyLine": 20,
+      "code": "    return True",
+      "explanation": "The function should return False if the counter is greater than 1, but it returns True unconditionally."
+    },
+    {
+      "faultyLine": 15,
+      "code": "    counter = 0",
+      "explanation": "The counter should be initialized to 1 since the current birthday itself should be counted."
+    },
+    {
+      "faultyLine": 16,
+      "code": "    for birthday in possible_birthdays:",
+      "explanation": "Iterating over the entire list for each call to unique_day or unique_month may impact performance unnecessarily."
+    },
+    {
+      "faultyLine": 17,
+      "code": "        if birthday[0] == month:",
+      "explanation": "The condition should check for an exact match (==) instead of using the assignment operator (=)."
+    },
+    {
+      "faultyLine": 19,
+      "code": "    if counter <= 1:",
+      "explanation": "The condition should check if the counter is exactly equal to 1 to determine uniqueness."
+    }
+  ]
+}

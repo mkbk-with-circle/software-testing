@@ -1,0 +1,29 @@
+{
+  "faultLoc": [
+    {
+      "faultyLine": 4,
+      "code": "if x not in new_lst:",
+      "explanation": "The line mistakenly checks for the presence of x in new_lst instead of appending x to new_lst."
+    },
+    {
+      "faultyLine": 5,
+      "code": "new_lst += [x]",
+      "explanation": "This line will always execute due to the faulty line 4, resulting in duplicate elements being added to new_lst."
+    },
+    {
+      "faultyLine": 6,
+      "code": "return lst",
+      "explanation": "The line mistakenly returns the original list lst instead of the expected new list new_lst."
+    },
+    {
+      "faultyLine": 2,
+      "code": "new_lst = []",
+      "explanation": "This line initializes an empty list new_lst to store the unique elements."
+    },
+    {
+      "faultyLine": 3,
+      "code": "for x in lst:",
+      "explanation": "This line iterates over each element x in the input list lst."
+    }
+  ]
+}

@@ -1,0 +1,1 @@
+The iteration syntax is incorrect. It should be 'for i, x in enumerate(seq):'.

@@ -1,0 +1,1 @@
+The condition should check if 'birthday[1]' is not in 'days', but currently, it checks if 'birthday[1]' is not equal to 'day'.

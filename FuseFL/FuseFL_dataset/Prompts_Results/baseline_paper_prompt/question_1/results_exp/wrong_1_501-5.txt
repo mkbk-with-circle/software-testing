@@ -1,0 +1,1 @@
+The return statement is not indented properly and is outside the for loop, causing the function to always return len(seq) instead of returning the correct index

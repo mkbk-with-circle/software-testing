@@ -1,0 +1,1 @@
+The condition is unnecessary since subsequent conditions handle the case where the list is empty.

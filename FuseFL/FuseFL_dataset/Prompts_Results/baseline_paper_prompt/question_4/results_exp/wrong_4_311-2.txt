@@ -1,0 +1,1 @@
+The parentheses are misplaced, causing an incorrect calculation of the length of the list.

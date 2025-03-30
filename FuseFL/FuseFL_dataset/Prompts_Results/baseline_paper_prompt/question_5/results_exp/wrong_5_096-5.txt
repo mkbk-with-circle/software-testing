@@ -1,0 +1,1 @@
+The function returns the first k elements, but there is no guarantee they are the top k elements. The list should be sorted before returning the top k elements.

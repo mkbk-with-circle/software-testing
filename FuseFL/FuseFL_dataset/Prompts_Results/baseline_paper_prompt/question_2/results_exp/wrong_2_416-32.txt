@@ -1,0 +1,1 @@
+Variable 'ans' should be initialized before the loop.

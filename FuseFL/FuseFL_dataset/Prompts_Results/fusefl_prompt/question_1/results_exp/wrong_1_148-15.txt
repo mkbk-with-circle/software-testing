@@ -1,0 +1,1 @@
+This line compares the value 'val' with each element 'item' in the 'seq' sequence. It assumes that 'seq' is not empty, causing an IndexError if 'seq' is empty.

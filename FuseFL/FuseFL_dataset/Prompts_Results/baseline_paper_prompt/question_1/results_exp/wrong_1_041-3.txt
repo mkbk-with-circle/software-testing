@@ -1,0 +1,1 @@
+The condition should be 'x <= seq[i-1]' instead of 'x < seq[i-1]' to handle the case when 'x' is equal to the current element.

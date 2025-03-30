@@ -1,0 +1,1 @@
+Similar to the previous issue, the 'result' variable should be initialized as an empty list instead of an empty tuple.

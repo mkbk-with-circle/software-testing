@@ -1,0 +1,1 @@
+The variable 'i' is initialized with the first element of 'lst', but it is not used in the subsequent code.

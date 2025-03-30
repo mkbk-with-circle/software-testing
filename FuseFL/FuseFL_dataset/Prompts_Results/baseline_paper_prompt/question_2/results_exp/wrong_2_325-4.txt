@@ -1,0 +1,1 @@
+The condition should check if `date` is equal to `possible_birthdays[i][1]` instead of `possible_birthdays[i][0]`.

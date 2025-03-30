@@ -1,0 +1,1 @@
+The loop iterates over the indices of the input list 'lst'. However, it would be more efficient and clearer to iterate directly over the elements of the list using 'for a in lst:'.

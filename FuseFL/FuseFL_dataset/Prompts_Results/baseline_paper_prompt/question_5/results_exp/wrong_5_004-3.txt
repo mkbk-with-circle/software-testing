@@ -1,0 +1,1 @@
+The while loop condition can lead to an infinite loop if the list 'lst' is not empty initially.

@@ -1,0 +1,1 @@
+The index [1] is used to access the day in the possible_birthdays list. It might be more readable to use a named tuple or a dictionary instead of indexing.

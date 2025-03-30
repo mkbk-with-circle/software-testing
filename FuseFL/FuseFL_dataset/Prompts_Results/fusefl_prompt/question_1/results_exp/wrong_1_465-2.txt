@@ -1,0 +1,1 @@
+This condition is unnecessary as the task description does not mention anything about handling empty tuples. This line should be removed.

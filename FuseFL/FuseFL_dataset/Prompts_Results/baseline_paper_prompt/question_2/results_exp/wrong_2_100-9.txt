@@ -1,0 +1,1 @@
+The 'else' statement is unnecessary and can be removed.

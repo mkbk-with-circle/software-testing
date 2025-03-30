@@ -1,0 +1,29 @@
+{
+  "faultLoc": [
+    {
+      "faultyLine": 12,
+      "code": "return",
+      "explanation": "The 'contains_unique_day' function is returning None without any computation or logic. It needs to be implemented properly."
+    },
+    {
+      "faultyLine": 9,
+      "code": "return",
+      "explanation": "The 'unique_month' function is returning None without any computation or logic. It needs to be implemented properly."
+    },
+    {
+      "faultyLine": 2,
+      "code": "counter=0",
+      "explanation": "This line correctly initializes the 'counter' variable to 0."
+    },
+    {
+      "faultyLine": 3,
+      "code": "for date in possible_birthdays:",
+      "explanation": "This line correctly starts a loop that iterates over the 'possible_birthdays' list."
+    },
+    {
+      "faultyLine": 4,
+      "code": "if day == date[1]:",
+      "explanation": "This line correctly checks if the given 'day' matches the second element (day) of the 'date' tuple."
+    }
+  ]
+}

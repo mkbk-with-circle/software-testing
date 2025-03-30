@@ -1,0 +1,1 @@
+This condition might lead to an infinite loop if the 'lst' list is never empty.

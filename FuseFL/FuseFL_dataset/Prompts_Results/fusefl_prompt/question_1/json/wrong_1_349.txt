@@ -1,0 +1,19 @@
+{
+  "faultLoc": [
+    {
+      "faultyLine": 6,
+      "code": "if x < seq[i]:",
+      "explanation": "The comparison is incorrect due to the reassignment of x in the loop header."
+    },
+    {
+      "faultyLine": 5,
+      "code": "for i, x in enumerate(seq):",
+      "explanation": "The reassignment of x in the loop header leads to the faulty comparison."
+    },
+    {
+      "faultyLine": 8,
+      "code": "return len(seq)",
+      "explanation": "The function should return 0 when the sequence is empty, as specified in the task description."
+    }
+  ]
+}

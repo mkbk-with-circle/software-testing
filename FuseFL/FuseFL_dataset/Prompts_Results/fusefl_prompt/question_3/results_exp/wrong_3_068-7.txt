@@ -1,0 +1,1 @@
+The line tries to concatenate `i` to the `extra` list. However, it seems that the intention is to add `i` as a single element to the `extra` list. The correct syntax should be `extra.append(i)` to add `i` as an element to the list.

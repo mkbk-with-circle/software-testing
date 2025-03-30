@@ -1,0 +1,14 @@
+{
+  "faultLoc": [
+    {
+      "faultyLine": 5,
+      "code": "pst.extend(list(i))",
+      "explanation": "The line tries to extend the list with an element that is not iterable (an integer). This causes a TypeError."
+    },
+    {
+      "faultyLine": 4,
+      "code": "if i not in pst:",
+      "explanation": "This line alone doesn't seem to be the cause of the error, but it is related to the faulty line 5."
+    }
+  ]
+}

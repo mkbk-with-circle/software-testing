@@ -1,0 +1,1 @@
+The condition checks if the current element is equal to the maximum value of the entire list, which is incorrect. It should compare the current element with the maximum value found so far.

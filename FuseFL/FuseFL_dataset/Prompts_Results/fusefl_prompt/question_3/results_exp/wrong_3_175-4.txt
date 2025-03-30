@@ -1,0 +1,1 @@
+This line is responsible for removing the duplicate element from the list. However, it is executed inside the loop, which can cause the loop to skip elements or result in an IndexError when the list is modified during iteration.

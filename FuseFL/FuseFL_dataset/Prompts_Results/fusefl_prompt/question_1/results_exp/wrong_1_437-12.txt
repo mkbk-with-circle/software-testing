@@ -1,0 +1,1 @@
+Similar to the previous line, this condition checks if the type of `seq` is a list. However, it is unnecessary and not mentioned in the task description. This condition can also lead to incorrect results.

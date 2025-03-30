@@ -1,0 +1,15 @@
+{
+  "intentOfThisFunction": "To find the top k elements from the input list in descending order.",
+  "faultLocalization": [
+    {
+      "lineNumber": 5,
+      "codeContent": "lst.remove(max(lst))",
+      "reason": "Modifying the input list without returning any value."
+    },
+    {
+      "lineNumber": 6,
+      "codeContent": "return sotsot",
+      "reason": "Incorrect placement of the return statement."
+    }
+  ]
+}

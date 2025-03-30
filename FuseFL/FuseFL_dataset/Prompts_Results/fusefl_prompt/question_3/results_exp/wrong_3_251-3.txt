@@ -1,0 +1,1 @@
+The line assigns the original list to the variable instead of creating a new list.

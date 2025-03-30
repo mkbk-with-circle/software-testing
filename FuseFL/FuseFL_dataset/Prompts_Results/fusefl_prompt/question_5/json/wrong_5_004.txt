@@ -1,0 +1,29 @@
+{
+  "faultLoc": [
+    {
+      "faultyLine": 6,
+      "code": "if ele > biggest:",
+      "explanation": "The variable 'ele' is not defined, causing a NameError when executed. It should be replaced with 'element'."
+    },
+    {
+      "faultyLine": 2,
+      "code": "sort = []",
+      "explanation": "Initializing an empty list called 'sort'."
+    },
+    {
+      "faultyLine": 3,
+      "code": "while lst:",
+      "explanation": "Starting a while loop that continues until 'lst' is empty."
+    },
+    {
+      "faultyLine": 4,
+      "code": "biggest = lst[0]",
+      "explanation": "Initializing the variable 'biggest' with the first element of 'lst'."
+    },
+    {
+      "faultyLine": 5,
+      "code": "for element in lst:",
+      "explanation": "Starting a for loop iterating over each element in 'lst'."
+    }
+  ]
+}

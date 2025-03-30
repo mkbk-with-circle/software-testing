@@ -1,0 +1,1 @@
+This line is causing an UnboundLocalError because the variable newseq is referenced before it is assigned. The code tries to access newseq before it is defined on line 7. This line should be moved after the assignment of newseq.

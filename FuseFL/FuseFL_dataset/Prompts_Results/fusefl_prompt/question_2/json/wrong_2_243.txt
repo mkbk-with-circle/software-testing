@@ -1,0 +1,29 @@
+{
+  "faultLoc": [
+    {
+      "faultyLine": 21,
+      "code": "condition = unique_day(month_day[1],possible_birthdays)",
+      "explanation": "The condition variable is being overwritten in each iteration, so it only reflects the uniqueness of the last month_day tuple. We need to modify the code to consider all the tuples and return True if any of them have a unique day for the given month."
+    },
+    {
+      "faultyLine": 20,
+      "code": "if month == month_day[0]:",
+      "explanation": "This line checks if the given month matches the month of the current month_day tuple."
+    },
+    {
+      "faultyLine": 19,
+      "code": "for month_day in possible_birthdays:",
+      "explanation": "This line starts a loop over the possible_birthdays list."
+    },
+    {
+      "faultyLine": 18,
+      "code": "condition = False",
+      "explanation": "The condition variable is initialized to False, but it is immediately overwritten in the loop."
+    },
+    {
+      "faultyLine": 22,
+      "code": "return condition",
+      "explanation": "This line returns the value of the condition variable."
+    }
+  ]
+}

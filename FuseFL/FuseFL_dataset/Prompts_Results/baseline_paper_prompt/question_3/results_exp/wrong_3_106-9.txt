@@ -1,0 +1,1 @@
+Inefficient use of concatenation in a loop. Use a list and 'append()' instead.

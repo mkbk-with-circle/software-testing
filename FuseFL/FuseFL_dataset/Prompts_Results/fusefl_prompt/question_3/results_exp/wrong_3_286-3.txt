@@ -1,0 +1,1 @@
+This line checks if the count of the current element in the list is greater than 1.

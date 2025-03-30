@@ -1,0 +1,1 @@
+This line initializes the `current` variable to 0. However, it seems unnecessary for sorting the list of people based on age. The `current` variable is not used elsewhere in the code, so it can be considered potentially faulty.

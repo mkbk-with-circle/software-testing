@@ -1,0 +1,1 @@
+Initializing y as an empty tuple is unnecessary and can be replaced with an empty list.

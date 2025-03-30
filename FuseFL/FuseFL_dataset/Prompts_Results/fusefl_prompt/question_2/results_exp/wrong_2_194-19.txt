@@ -1,0 +1,1 @@
+This line is redundant and unnecessary as it assigns x to itself.

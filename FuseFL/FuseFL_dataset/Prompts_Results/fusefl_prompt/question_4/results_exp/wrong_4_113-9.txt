@@ -1,0 +1,1 @@
+This line checks if the loop has reached the last element of 'out'. However, if 'out' is empty, an IndexError will occur since the length of 'out' will be 0.

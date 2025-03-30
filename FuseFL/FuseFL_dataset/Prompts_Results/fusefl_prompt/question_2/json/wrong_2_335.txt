@@ -1,0 +1,9 @@
+{
+  "faultLoc": [
+    {
+      "faultyLine": 6,
+      "code": "if single[1] == day:",
+      "explanation": "The variable 'day' is not defined in the code, causing a 'NameError' when the condition is checked."
+    }
+  ]
+}

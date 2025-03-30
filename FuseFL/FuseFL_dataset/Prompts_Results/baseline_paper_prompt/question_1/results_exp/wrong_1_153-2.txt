@@ -1,0 +1,1 @@
+Iterating through the indices of seq using range(len(seq)) can be improved by using enumerate(seq) instead, which provides both the index and the value at each iteration.

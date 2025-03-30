@@ -1,0 +1,1 @@
+Does not consider the possibility of multiple matches for the given day

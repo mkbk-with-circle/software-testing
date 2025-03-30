@@ -1,0 +1,1 @@
+Calling max() function on every iteration is inefficient.

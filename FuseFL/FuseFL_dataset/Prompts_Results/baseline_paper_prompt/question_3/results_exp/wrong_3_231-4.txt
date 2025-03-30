@@ -1,0 +1,1 @@
+The condition 'lst.count(i) == 1' will always be false since 'lst' is an empty list.

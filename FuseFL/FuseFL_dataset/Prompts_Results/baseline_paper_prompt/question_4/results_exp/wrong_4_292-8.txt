@@ -1,0 +1,1 @@
+The 'i' variable is referenced outside the loop, which may lead to a NameError.

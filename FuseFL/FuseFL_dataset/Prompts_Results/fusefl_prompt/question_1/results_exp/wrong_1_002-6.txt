@@ -1,0 +1,1 @@
+This line is the correct return statement when the value x is found in the sequence. However, it does not handle the case when the sequence is empty. This should be handled separately to return 0 when the sequence is empty.

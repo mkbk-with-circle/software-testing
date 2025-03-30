@@ -1,0 +1,1 @@
+Incorrect comparison of element instead of index

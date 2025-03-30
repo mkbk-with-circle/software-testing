@@ -1,0 +1,1 @@
+The counter variable is incremented after each iteration of the inner loop, which is incorrect. It should be incremented only when a maximum value is found.

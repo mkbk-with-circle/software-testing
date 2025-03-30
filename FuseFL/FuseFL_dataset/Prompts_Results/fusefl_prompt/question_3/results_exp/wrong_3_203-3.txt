@@ -1,0 +1,1 @@
+The while loop on line 3 checks if the current element elem is present in the remaining part of the list lst. However, the usage of lst.index(elem) inside the loop can cause issues because it always returns the index of the first occurrence of elem in the list, which may not be the correct index after elements have been removed.

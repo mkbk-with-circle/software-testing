@@ -1,0 +1,1 @@
+Initializing lst2 here is unnecessary as it is overwritten later in the code.

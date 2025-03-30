@@ -1,0 +1,1 @@
+The line should be 'return sort[:k]' to include the kth largest element in the result.

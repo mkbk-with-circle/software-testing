@@ -1,0 +1,1 @@
+Potential IndexError if possible_birthdays is empty

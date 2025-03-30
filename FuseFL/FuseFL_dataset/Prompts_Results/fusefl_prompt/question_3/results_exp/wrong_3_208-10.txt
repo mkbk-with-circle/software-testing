@@ -1,0 +1,1 @@
+Updating 'n' is unnecessary since the length is recalculated in each iteration.

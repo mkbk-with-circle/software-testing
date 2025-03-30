@@ -1,0 +1,1 @@
+The '+=' operator is used for concatenating two lists, not for appending a single element. Use the 'append()' method instead.

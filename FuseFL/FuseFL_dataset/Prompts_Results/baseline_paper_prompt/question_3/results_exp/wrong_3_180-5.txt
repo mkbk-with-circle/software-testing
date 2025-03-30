@@ -1,0 +1,1 @@
+The condition will never be true, and the break statement will never be executed

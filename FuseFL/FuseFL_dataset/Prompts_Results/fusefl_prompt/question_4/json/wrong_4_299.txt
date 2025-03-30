@@ -1,0 +1,9 @@
+{
+  "faultLoc": [
+    {
+      "faultyLine": 2,
+      "code": "return lst.sort(key=lambda x:x[1])",
+      "explanation": "The sort() method doesn't return a new sorted list, so using it in the return statement causes the function to return None instead of the sorted list."
+    }
+  ]
+}

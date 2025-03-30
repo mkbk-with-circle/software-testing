@@ -1,0 +1,1 @@
+This line contains a potential bug. The condition 'elem <= x <= elem + 1' may not work as expected. It should be split into two separate conditions: 'elem <= x' and 'x <= elem + 1'.

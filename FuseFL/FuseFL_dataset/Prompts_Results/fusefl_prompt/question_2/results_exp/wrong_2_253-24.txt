@@ -1,0 +1,1 @@
+This line initializes an empty tuple 'a', which is later used to store birthdays with a specific month.

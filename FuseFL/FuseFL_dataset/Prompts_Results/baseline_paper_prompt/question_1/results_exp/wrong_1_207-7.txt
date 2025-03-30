@@ -1,0 +1,1 @@
+The loop iterates until the second-to-last element of 'seq', potentially missing the last element if 'x' is equal to it.

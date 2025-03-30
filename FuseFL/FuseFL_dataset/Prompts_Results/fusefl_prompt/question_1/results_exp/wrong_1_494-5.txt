@@ -1,0 +1,1 @@
+This line is not faulty, it correctly iterates over the sequence and assigns each element to `elem` variable.

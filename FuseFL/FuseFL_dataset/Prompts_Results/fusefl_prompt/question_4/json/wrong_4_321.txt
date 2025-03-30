@@ -1,0 +1,29 @@
+{
+  "faultLoc": [
+    {
+      "faultyLine": 7,
+      "code": "big=n",
+      "explanation": "This line assigns the value of `n` to `big`, which is intended to keep track of the oldest person in the list. However, this assignment is incorrect because `n` is not necessarily the oldest person in the list. It only compares the age of `n` with the current maximum age (`big[1]`) and updates `big` if `n` is older."
+    },
+    {
+      "faultyLine": 4,
+      "code": "big=lst[0]",
+      "explanation": "This line initializes `big` with the first person in the list. While this is a valid starting point, the subsequent iterations of the loop should update `big` based on the age comparison. However, the faulty line 7 overrides this initialization, making this line unnecessary."
+    },
+    {
+      "faultyLine": 5,
+      "code": "for n in lst:",
+      "explanation": "This line starts a loop to iterate over each person in the list. It seems valid, but the faulty line 7 modifies the list during the loop, which can lead to unexpected behavior. Removing elements from the list while iterating over it can cause skipped or repeated elements in subsequent iterations."
+    },
+    {
+      "faultyLine": 6,
+      "code": "if n[1]>big[1]:",
+      "explanation": "This line compares the age of the current person (`n`) with the current maximum age (`big[1]`). If `n` is older, it updates `big` with the value of `n`. However, since line 7 assigns `big=n` unconditionally, this comparison becomes redundant and unnecessary."
+    },
+    {
+      "faultyLine": 8,
+      "code": "lst.remove(big)",
+      "explanation": "This line removes the person with the maximum age (`big`) from the list. However, removing elements from a list while iterating over it (inside the loop of line 5) can cause unexpected behavior. It can result in skipped or repeated elements in subsequent iterations, leading to incorrect sorting."
+    }
+  ]
+}

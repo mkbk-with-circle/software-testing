@@ -1,0 +1,1 @@
+Inefficient use of 'max(seq)' in each iteration of the loop

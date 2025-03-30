@@ -1,0 +1,9 @@
+{
+  "faultLoc": [
+    {
+      "faultyLine": 2,
+      "code": "for i in range(seq):",
+      "explanation": "The range() function should use the length of the sequence object instead of the object itself."
+    }
+  ]
+}

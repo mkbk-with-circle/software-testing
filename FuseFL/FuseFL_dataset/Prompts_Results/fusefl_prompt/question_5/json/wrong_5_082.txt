@@ -1,0 +1,19 @@
+{
+  "faultLoc": [
+    {
+      "faultyLine": 5,
+      "code": "sotsot.append(max(lst))",
+      "explanation": "The maximum value of lst is being appended to sotsot without removing it from lst. This can result in the same maximum value being added multiple times."
+    },
+    {
+      "faultyLine": 4,
+      "code": "while len(sotsot)<=k :",
+      "explanation": "The condition in this while loop is incorrect. It should check if the length of sotsot is less than k, not less than or equal to k. This can cause more elements to be added than required."
+    },
+    {
+      "faultyLine": 6,
+      "code": "lst.remove(max(lst)) #wont return u any value just modified the list only.",
+      "explanation": "This line is not necessary for the functionality of the code and can be removed. It removes the maximum value from lst but doesn't return any value."
+    }
+  ]
+}

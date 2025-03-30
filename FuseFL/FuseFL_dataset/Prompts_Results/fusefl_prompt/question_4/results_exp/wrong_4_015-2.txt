@@ -1,0 +1,1 @@
+Initializing an empty list 'sort' is necessary for sorting.

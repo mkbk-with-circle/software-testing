@@ -1,0 +1,1 @@
+The line iterates over the sequence using the `range` function, but it should use the length of `seq` instead of `len` alone.

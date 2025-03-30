@@ -1,0 +1,1 @@
+Initializing new_lst with the first element of the input list, which can cause an IndexError if the list is empty.

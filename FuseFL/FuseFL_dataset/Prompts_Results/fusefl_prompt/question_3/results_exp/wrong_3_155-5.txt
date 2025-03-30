@@ -1,0 +1,1 @@
+The line 'result += ele' is potentially faulty because it tries to concatenate an integer 'ele' to the list 'result'. This operation is not valid since the '+=' operator expects an iterable object on the right-hand side, but 'ele' is an integer.

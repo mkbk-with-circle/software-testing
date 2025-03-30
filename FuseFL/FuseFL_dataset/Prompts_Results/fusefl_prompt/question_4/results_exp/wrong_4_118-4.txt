@@ -1,0 +1,1 @@
+If 'lst' is empty, it will raise an IndexError. Adding a check to ensure 'lst' is not empty before accessing its first element can fix this issue.

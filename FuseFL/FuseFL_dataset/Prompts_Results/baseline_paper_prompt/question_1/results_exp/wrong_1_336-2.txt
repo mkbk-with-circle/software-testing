@@ -1,0 +1,1 @@
+Checking for an empty sequence using 'seq == ()' instead of 'if not seq:'

@@ -1,0 +1,20 @@
+{
+  "intentOfThisFunction": "Search for the index of a value in a sorted sequence",
+  "faultLocalization": [
+    {
+      "lineNumber": 4,
+      "codeContent": "if x < seq[i-1]:",
+      "reason": "Doesn't handle the case when x is smaller than the first element"
+    },
+    {
+      "lineNumber": 5,
+      "codeContent": "elif seq[i-1] < x < seq[i]:",
+      "reason": "Doesn't handle the case when x is larger than the last element"
+    },
+    {
+      "lineNumber": 7,
+      "codeContent": "else:",
+      "reason": "Premature return within the loop, doesn't check remaining elements"
+    }
+  ]
+}

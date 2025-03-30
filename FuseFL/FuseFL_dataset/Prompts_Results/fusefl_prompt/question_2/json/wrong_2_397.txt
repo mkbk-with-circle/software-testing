@@ -1,0 +1,19 @@
+{
+  "faultLoc": [
+    {
+      "faultyLine": 24,
+      "code": "elif month=='May':",
+      "explanation": "This line is suspicious because it returns True for the month of May in the contains_unique_day function. However, the expected behavior is to return False for any month other than June and May. This discrepancy suggests a potential error in the condition."
+    },
+    {
+      "faultyLine": 27,
+      "code": "return False",
+      "explanation": "This line is suspicious because it unconditionally returns False in the contains_unique_day function. However, the expected behavior is to return True for the months of June and May. This discrepancy suggests a potential error in the logic."
+    },
+    {
+      "faultyLine": 22,
+      "code": "if month=='June':",
+      "explanation": "This line is suspicious because it returns True for the month of June in the contains_unique_day function. However, the expected behavior is to return True only if there exists a birthday with a unique day within the list for June. This discrepancy suggests a potential error in the condition or the logic."
+    }
+  ]
+}

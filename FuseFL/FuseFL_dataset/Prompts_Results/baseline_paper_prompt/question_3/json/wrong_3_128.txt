@@ -1,0 +1,20 @@
+{
+  "intentOfThisFunction": "The intended purpose of this function is to remove duplicate elements from the input list.",
+  "faultLocalization": [
+    {
+      "lineNumber": 4,
+      "codeContent": "lst.pop[i]",
+      "reason": "Incorrect syntax. Should be lst.pop(i) instead of lst.pop[i]."
+    },
+    {
+      "lineNumber": 3,
+      "codeContent": "while i > (-len(lst)):",
+      "reason": "Loop condition should be i >= (-len(lst)) to include the last element."
+    },
+    {
+      "lineNumber": 5,
+      "codeContent": "i = i + 1",
+      "reason": "Increment statement should be indented inside the loop."
+    }
+  ]
+}

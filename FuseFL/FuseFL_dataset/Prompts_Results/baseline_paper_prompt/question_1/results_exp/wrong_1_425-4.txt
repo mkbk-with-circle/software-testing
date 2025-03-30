@@ -1,0 +1,1 @@
+The loop range 'range(len(seq))' should be adjusted to 'range(len(seq) + 1)' to include the last element of the sequence.

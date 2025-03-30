@@ -1,0 +1,1 @@
+This line might cause incorrect results. It assumes that the sequence is sorted in ascending order, but that is not guaranteed by the code. If the sequence is not sorted, this condition will not work as expected.

@@ -1,0 +1,1 @@
+The line returns a reversed version of the sorted_list, but since list.reverse() reverses the list in-place and returns None, we encounter a 'TypeError: 'NoneType' object is not subscriptable' when trying to slice the reversed list. This line should be modified to reverse the list and then return the sliced portion.

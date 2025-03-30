@@ -1,0 +1,1 @@
+The condition checks if the length of 'seq' is zero, but it should be checking if the length is less than or equal to zero. This can lead to incorrect behavior when 'seq' is an empty sequence.

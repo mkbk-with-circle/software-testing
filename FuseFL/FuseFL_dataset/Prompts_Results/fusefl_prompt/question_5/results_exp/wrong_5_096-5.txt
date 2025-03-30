@@ -1,0 +1,1 @@
+The function returns the first k elements of the list, but the list is not sorted correctly, so the result is incorrect.

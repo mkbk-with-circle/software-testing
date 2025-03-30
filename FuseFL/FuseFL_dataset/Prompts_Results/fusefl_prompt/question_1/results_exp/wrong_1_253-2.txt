@@ -1,0 +1,1 @@
+This line checks if the sequence is empty by comparing it to an empty list and an empty tuple. However, it is unnecessary to check both conditions as they are equivalent. This redundancy can potentially lead to confusion or errors.

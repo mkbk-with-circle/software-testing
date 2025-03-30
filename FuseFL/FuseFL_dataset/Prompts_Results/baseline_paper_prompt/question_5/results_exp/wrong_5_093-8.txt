@@ -1,0 +1,1 @@
+Modifies the list `lst` while iterating over it, which can lead to unexpected behavior.

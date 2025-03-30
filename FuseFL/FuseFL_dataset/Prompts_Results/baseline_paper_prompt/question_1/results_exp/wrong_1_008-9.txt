@@ -1,0 +1,1 @@
+Incorrect creation of seq_enum list

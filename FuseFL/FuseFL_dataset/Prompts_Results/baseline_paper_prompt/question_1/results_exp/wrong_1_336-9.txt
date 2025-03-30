@@ -1,0 +1,1 @@
+Returning the length of 'seq' instead of the index of the last element

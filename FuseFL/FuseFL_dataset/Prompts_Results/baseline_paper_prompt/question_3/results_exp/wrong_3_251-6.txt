@@ -1,0 +1,1 @@
+This location is potentially faulty because removing elements from a list while iterating over it can lead to unexpected behavior.

@@ -1,0 +1,1 @@
+The use of `result += [i]` is inefficient. It creates a new list for each element `i` and then concatenates it with the `result` list. A more efficient approach would be to use `result.append(i)`.

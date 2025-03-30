@@ -1,0 +1,1 @@
+Assumes the month is always stored as the first element in possible_birthdays

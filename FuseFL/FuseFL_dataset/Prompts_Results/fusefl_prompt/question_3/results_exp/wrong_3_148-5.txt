@@ -1,0 +1,1 @@
+The line 'lst2+=i' is causing a TypeError: 'int' object is not iterable. This error occurs because the code is trying to concatenate an integer 'i' to the list 'lst2'. However, the '+=' operator is used for concatenating lists, not individual elements. To fix this, we need to change 'lst2+=i' to 'lst2.append(i)' in order to add 'i' to 'lst2' as a separate element.

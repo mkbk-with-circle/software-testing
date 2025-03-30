@@ -1,0 +1,1 @@
+This line recursively calls the sort_age function on the first half of the list. Since the function is expected to sort the list, this line seems reasonable.

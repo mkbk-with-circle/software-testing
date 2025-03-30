@@ -1,0 +1,1 @@
+This line assigns the age of the current person to 'biggest', but it doesn't update the variable 'i' or store the person with the biggest age.

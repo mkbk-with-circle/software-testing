@@ -1,0 +1,1 @@
+Incorrect order of assignment. It should be lst[j + 1] = lst[j].

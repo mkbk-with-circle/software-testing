@@ -1,0 +1,1 @@
+The condition 'i[0]==month' is used to check if the month matches. However, it should be 'i[1]==month' to check if the month matches.

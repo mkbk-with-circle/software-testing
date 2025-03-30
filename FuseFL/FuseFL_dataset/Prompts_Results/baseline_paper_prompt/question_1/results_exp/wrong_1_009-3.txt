@@ -1,0 +1,1 @@
+This line contains a potential bug. The condition 'elem < x < elem + 1' may not work as expected. It is evaluating two separate comparisons instead of checking if 'x' falls within the range of 'elem' and 'elem + 1'.

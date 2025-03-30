@@ -1,0 +1,1 @@
+This line is not considered faulty as it correctly checks if the count of dates is equal to 1.

@@ -1,0 +1,1 @@
+This condition is incorrect as it compares the same index i with j. It should compare lst[i] with lst[j+1] to check for duplicates.

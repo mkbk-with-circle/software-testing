@@ -1,0 +1,29 @@
+{
+  "faultLoc": [
+    {
+      "faultyLine": 6,
+      "code": "if i[1]>biggest:",
+      "explanation": "The code correctly checks if the age of the current person is greater than the current maximum age. However, it doesn't update the value of 'biggest' when a new maximum age is found. This results in incorrect sorting."
+    },
+    {
+      "faultyLine": 8,
+      "code": "lst.remove(i)",
+      "explanation": "Modifying a list while iterating over it can lead to unexpected behavior. It is better to create a new list and append the sorted people to it instead of modifying the original list."
+    },
+    {
+      "faultyLine": 5,
+      "code": "for i in lst:",
+      "explanation": "Using the variable 'i' as a loop variable can cause issues later in the code. It is better to use a different variable name to avoid confusion."
+    },
+    {
+      "faultyLine": 9,
+      "code": "sort.append(i)",
+      "explanation": "The code doesn't update the value of 'i' correctly, resulting in appending the last person from the original list repeatedly. This leads to incorrect sorting."
+    },
+    {
+      "faultyLine": 4,
+      "code": "biggest=lst[0][1]",
+      "explanation": "Initializing the variable 'biggest' with the age of the first person in the list assumes that the first person is the oldest, which is incorrect in general cases."
+    }
+  ]
+}

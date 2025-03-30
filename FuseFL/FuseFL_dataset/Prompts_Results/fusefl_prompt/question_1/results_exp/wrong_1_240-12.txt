@@ -1,0 +1,1 @@
+The variable 'position' is referenced before assignment, causing an UnboundLocalError when the condition 'if seq==():' is not satisfied.

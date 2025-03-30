@@ -1,0 +1,1 @@
+The line returns True without considering the condition of total > 1. It should only return True if unique_day returns True for any birthday in the given month.

@@ -1,0 +1,29 @@
+{
+  "faultLoc": [
+    {
+      "faultyLine": 4,
+      "code": "biggest=lst[0][1]",
+      "explanation": "The variable 'biggest' is initialized with the age value of the first person in the list. However, this line doesn't consider the gender information, which is necessary for sorting the list correctly."
+    },
+    {
+      "faultyLine": 5,
+      "code": "for i in lst:",
+      "explanation": "This line starts a loop to iterate over the list of people. However, the subsequent lines of code use the variable 'i' assuming it represents a person, but it actually represents the last person in the list due to the previous loop iterations."
+    },
+    {
+      "faultyLine": 6,
+      "code": "if i[1]>biggest:",
+      "explanation": "This line compares the age of the last person in the list with the variable 'biggest'. However, since 'i' represents the last person in the list, this comparison is incorrect as it should compare the age of the current person being iterated."
+    },
+    {
+      "faultyLine": 8,
+      "code": "lst.remove(i)",
+      "explanation": "This line attempts to remove the last person from the list. However, since 'i' represents the last person in the list, it will always remove the same person in each iteration, leading to incorrect results."
+    },
+    {
+      "faultyLine": 9,
+      "code": "sort.append(i)",
+      "explanation": "This line appends the last person in the list to the 'sort' list. However, since 'i' represents the last person in the list, it will append the same person in each iteration, leading to incorrect results."
+    }
+  ]
+}

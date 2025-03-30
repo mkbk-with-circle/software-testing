@@ -1,0 +1,1 @@
+This line compares the age of each person with the variable largest to find the maximum age. While the comparison is correct, the code fails to update the value of largest when a larger age is found. As a result, the sorting logic based on age is flawed, leading to incorrect results.

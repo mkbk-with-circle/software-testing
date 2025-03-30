@@ -1,0 +1,9 @@
+{
+  "faultLoc": [
+    {
+      "faultyLine": 6,
+      "code": "if single[1] == day:",
+      "explanation": "This line compares the second element of `single` with an undefined variable `day`. It seems like `day` should be replaced with the `date` parameter passed to the function."
+    }
+  ]
+}

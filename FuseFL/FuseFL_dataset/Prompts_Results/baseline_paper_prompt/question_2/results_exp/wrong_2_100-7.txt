@@ -1,0 +1,1 @@
+The condition 'if count == 1' is placed outside the loop, leading to incorrect behavior.

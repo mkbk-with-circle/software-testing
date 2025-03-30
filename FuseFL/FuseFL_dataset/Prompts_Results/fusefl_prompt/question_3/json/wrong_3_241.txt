@@ -1,0 +1,14 @@
+{
+  "faultLoc": [
+    {
+      "faultyLine": 5,
+      "code": "elif lst[0] not in lst:",
+      "explanation": "This line checks if the first element of the list is not present in the entire list. However, this condition will always be false since the element will always be present in the list itself. Therefore, this line seems to be potentially faulty."
+    },
+    {
+      "faultyLine": 8,
+      "code": "new_lst += remove_extras(lst[1:])",
+      "explanation": "This line attempts to concatenate the result of `remove_extras` function call with `new_lst`. However, the function does not have a return statement when the condition `elif lst[0] not in lst:` is True. This results in the function returning `None`, causing a `TypeError` when trying to concatenate it to `new_lst`. Hence, this line is potentially faulty."
+    }
+  ]
+}

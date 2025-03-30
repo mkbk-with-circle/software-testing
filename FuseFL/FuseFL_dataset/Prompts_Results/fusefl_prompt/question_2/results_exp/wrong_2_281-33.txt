@@ -1,0 +1,1 @@
+This line breaks the loop after checking only one element, leading to incorrect results.

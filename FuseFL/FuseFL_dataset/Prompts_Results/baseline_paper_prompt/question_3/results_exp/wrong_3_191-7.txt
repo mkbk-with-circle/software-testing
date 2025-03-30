@@ -1,0 +1,1 @@
+Potential bug: Modifying 'check' for every iteration without resetting it.

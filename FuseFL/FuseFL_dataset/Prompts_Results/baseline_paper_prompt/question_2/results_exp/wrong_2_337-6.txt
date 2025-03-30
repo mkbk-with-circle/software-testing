@@ -1,0 +1,1 @@
+The variable 'day' is not defined. It should be replaced with 'date' to compare the day value.

@@ -1,0 +1,1 @@
+No issues found in this line. It iterates over each tuple 'i' in the list 'lst'.

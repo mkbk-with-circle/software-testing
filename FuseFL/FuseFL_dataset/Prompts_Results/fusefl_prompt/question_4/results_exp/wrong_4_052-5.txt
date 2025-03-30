@@ -1,0 +1,1 @@
+The line `for person in lst:` is not faulty. It correctly iterates over each person in the list. This line sets up the loop to compare the ages of the people and find the oldest person.

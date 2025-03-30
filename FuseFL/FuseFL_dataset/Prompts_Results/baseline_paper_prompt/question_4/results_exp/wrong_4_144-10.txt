@@ -1,0 +1,1 @@
+The function calls 'merge_sort' on the 'males' and 'females' lists without checking if they are empty. This could lead to errors if either list is empty.

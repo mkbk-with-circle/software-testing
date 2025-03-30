@@ -1,0 +1,1 @@
+Using negative indices can lead to confusion and potential off-by-one errors. It would be safer and more readable to iterate over the indices using range(len(lst)) and then access the elements using lst[i].

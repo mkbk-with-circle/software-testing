@@ -1,0 +1,1 @@
+The 'biggest' element is appended twice to the 'sort' list. The second occurrence is redundant and can be removed.

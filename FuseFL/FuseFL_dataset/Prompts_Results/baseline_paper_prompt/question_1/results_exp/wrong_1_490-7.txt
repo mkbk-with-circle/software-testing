@@ -1,0 +1,1 @@
+The condition should be moved inside the loop to ensure 'i' is defined before using it.

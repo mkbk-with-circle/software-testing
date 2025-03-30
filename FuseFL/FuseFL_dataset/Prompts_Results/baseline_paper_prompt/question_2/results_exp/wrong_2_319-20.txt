@@ -1,0 +1,1 @@
+The variable 'days' is initialized as an empty tuple, but it should be a list to store the days.

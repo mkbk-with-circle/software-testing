@@ -1,0 +1,1 @@
+The condition in the 'if' statement might not be capturing the uniqueness of the month correctly.

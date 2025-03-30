@@ -1,0 +1,1 @@
+Initializing an empty list to store the sorted results.

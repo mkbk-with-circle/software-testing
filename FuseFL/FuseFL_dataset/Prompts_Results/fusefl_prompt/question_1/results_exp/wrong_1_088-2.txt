@@ -1,0 +1,1 @@
+The variable count is initialized to 0, but it is not used correctly in the loop. This leads to incorrect counting of elements in seq.

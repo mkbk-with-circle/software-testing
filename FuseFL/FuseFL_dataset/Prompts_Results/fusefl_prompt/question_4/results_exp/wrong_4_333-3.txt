@@ -1,0 +1,1 @@
+The loop condition doesn't update the value of 'i', potentially leading to an infinite loop.

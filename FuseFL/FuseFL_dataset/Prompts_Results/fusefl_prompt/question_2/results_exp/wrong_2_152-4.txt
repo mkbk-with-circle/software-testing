@@ -1,0 +1,1 @@
+The loop does not correctly compare the month or day values within each tuple.

@@ -1,0 +1,1 @@
+This line appends the last person in the list to the 'sort' list. However, since 'i' represents the last person in the list, it will append the same person in each iteration, leading to incorrect results.

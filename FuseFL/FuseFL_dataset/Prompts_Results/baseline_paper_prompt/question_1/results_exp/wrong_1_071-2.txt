@@ -1,0 +1,1 @@
+Use 'not seq' to check for an empty sequence instead of comparing with an empty tuple.

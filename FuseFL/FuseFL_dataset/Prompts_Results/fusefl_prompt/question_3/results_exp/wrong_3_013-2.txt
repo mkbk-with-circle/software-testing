@@ -1,0 +1,1 @@
+This line initializes an empty list 'result' which is used to store the unique elements. There is no issue with this line.

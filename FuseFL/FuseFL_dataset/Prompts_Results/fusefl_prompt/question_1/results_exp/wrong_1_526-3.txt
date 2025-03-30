@@ -1,0 +1,1 @@
+This line returns None when the sequence is empty, but the task description expects 0 in this case.

@@ -1,0 +1,1 @@
+The condition checks if the month of a birthday matches the given month, but it does not update the total variable accordingly. This means the count of occurrences of the given month will not be accurate.

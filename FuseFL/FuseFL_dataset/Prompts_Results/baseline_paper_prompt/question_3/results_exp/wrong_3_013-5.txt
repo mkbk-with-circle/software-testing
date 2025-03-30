@@ -1,0 +1,1 @@
+This line seems to have a typo and is not correctly appending the current element to the result list. It should be 'result.append(i)' instead of 'result += result + i'.

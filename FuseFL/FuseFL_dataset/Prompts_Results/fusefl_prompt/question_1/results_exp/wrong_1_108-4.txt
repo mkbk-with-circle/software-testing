@@ -1,0 +1,1 @@
+The condition checks if x is less than or equal to the first element of the sequence. Similar to the previous line, this condition should be inclusive. Changing it to 'x < seq[0]' will resolve the problem.

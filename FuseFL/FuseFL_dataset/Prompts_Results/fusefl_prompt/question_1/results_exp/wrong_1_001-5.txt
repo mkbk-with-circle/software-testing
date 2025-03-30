@@ -1,0 +1,1 @@
+This line might be faulty because it returns the length instead of 0 when the sequence is empty.

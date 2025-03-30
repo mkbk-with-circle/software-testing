@@ -1,0 +1,1 @@
+This line calculates the length of the sequence seq. It seems fine and not likely to be faulty.

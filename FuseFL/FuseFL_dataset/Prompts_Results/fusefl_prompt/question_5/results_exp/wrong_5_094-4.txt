@@ -1,0 +1,1 @@
+The swapping logic is incorrect. It assigns lst[j] to lst[j + 1] and then assigns lst[j + 1] to lst[j], resulting in both elements having the same value.

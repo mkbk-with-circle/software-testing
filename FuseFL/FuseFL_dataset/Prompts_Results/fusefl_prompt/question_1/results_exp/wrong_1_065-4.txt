@@ -1,0 +1,1 @@
+This line returns the index position immediately without checking the remaining elements. It should only return i if the condition in line 3 is not satisfied.

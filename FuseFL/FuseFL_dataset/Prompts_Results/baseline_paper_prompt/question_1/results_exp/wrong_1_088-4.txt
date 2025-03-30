@@ -1,0 +1,1 @@
+This line is potentially faulty because it compares 'seq[count]' with 'x' instead of 'seq[i]'.

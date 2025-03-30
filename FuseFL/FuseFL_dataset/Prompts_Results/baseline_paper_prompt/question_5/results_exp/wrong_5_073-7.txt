@@ -1,0 +1,1 @@
+Assuming the maximum value will always be found at index i.

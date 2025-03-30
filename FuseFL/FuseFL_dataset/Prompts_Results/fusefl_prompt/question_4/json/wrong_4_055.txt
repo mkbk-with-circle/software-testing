@@ -1,0 +1,29 @@
+{
+  "faultLoc": [
+    {
+      "faultyLine": 2,
+      "code": "result = []",
+      "explanation": "Initializing an empty list to store the sorted results."
+    },
+    {
+      "faultyLine": 3,
+      "code": "while lst:",
+      "explanation": "Starting a while loop that continues until the input list 'lst' is empty."
+    },
+    {
+      "faultyLine": 4,
+      "code": "oldest = lst[0]",
+      "explanation": "Initializing the variable 'oldest' with the first element of the 'lst' list."
+    },
+    {
+      "faultyLine": 5,
+      "code": "for people in lst:",
+      "explanation": "Starting a for loop to iterate over each element, referred to as 'people', in the 'lst' list."
+    },
+    {
+      "faultyLine": 6,
+      "code": "if people[1] > oldest[1]:",
+      "explanation": "Comparing the age of the current 'people' with the age of the 'oldest' person."
+    }
+  ]
+}

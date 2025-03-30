@@ -1,0 +1,29 @@
+{
+  "faultLoc": [
+    {
+      "faultyLine": 2,
+      "code": "youngest = lst[0][1]",
+      "explanation": "This line can raise an IndexError if the list is empty."
+    },
+    {
+      "faultyLine": 3,
+      "code": "sorted = []",
+      "explanation": "Using the name 'sorted' can cause confusion with the built-in function."
+    },
+    {
+      "faultyLine": 4,
+      "code": "while lst:",
+      "explanation": "The while loop doesn't handle the case where the list is initially empty."
+    },
+    {
+      "faultyLine": 5,
+      "code": "for elem in lst:",
+      "explanation": "The for loop doesn't handle the case where the list is empty."
+    },
+    {
+      "faultyLine": 6,
+      "code": "if elem[1] < youngest:",
+      "explanation": "The youngest variable is not updated when a younger age is found."
+    }
+  ]
+}

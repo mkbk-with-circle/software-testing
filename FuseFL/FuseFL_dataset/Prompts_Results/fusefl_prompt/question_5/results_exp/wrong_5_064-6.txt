@@ -1,0 +1,1 @@
+The condition checks if the current element lst[i] is equal to the maximum value in the list lst. However, max(lst) will change as elements are removed from the list. The condition should be modified to compare lst[i] with the maximum value before the loop starts.

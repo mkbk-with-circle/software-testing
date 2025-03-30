@@ -1,0 +1,1 @@
+This line starts a loop iterating over the days_in_month tuple. However, it is not necessary to use a loop here since we can directly access the elements using indexing.

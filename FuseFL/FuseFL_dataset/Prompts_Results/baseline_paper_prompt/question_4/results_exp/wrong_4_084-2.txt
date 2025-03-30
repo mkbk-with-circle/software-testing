@@ -1,0 +1,1 @@
+Initializing an empty list outside the while loop is unnecessary and can be moved inside the loop.

@@ -1,0 +1,1 @@
+This line raises an UnboundLocalError when seq is empty because i might not be assigned a value if the loop doesn't execute.

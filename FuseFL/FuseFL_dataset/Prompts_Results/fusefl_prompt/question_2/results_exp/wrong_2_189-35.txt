@@ -1,0 +1,1 @@
+The loop should iterate over the range of the length of days(month, possible_birthdays) minus one because the index starts from 0. The range should be adjusted accordingly: for x in range(len(days(month, possible_birthdays)) - 1):

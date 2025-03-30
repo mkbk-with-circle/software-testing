@@ -1,0 +1,1 @@
+The code modifies the original list 'lst', which may not be the desired behavior.

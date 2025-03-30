@@ -1,0 +1,1 @@
+The condition 'seq==()' is checking if the sequence 'seq' is an empty tuple. However, this condition will never be True since 'seq' is a parameter passed to the function and will never be an empty tuple. This condition can be removed.

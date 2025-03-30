@@ -1,0 +1,1 @@
+Incorrect comparison in the first condition, causing incorrect results

@@ -1,0 +1,29 @@
+{
+  "faultLoc": [
+    {
+      "faultyLine": 15,
+      "code": "return",
+      "explanation": "The return statement in the unique_month function is not implemented correctly."
+    },
+    {
+      "faultyLine": 12,
+      "code": "return",
+      "explanation": "The return statement in the contains_unique_day function is not implemented correctly."
+    },
+    {
+      "faultyLine": 2,
+      "code": "tester = 0",
+      "explanation": "The initialization of the tester variable in the unique_day function is not faulty."
+    },
+    {
+      "faultyLine": 3,
+      "code": "for i in possible_birthdays:",
+      "explanation": "The loop in the unique_day function is not faulty."
+    },
+    {
+      "faultyLine": 4,
+      "code": "if date == i[1]:",
+      "explanation": "The comparison in the unique_day function is not faulty."
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "faultLoc": [
+    {
+      "faultyLine": 9,
+      "code": "lst[i], lst[j] = lst[j], lst[i] #swap positions if larger",
+      "explanation": "The line is intended to swap the positions of the current element with the larger element. However, it mistakenly swaps lst[j] with itself (lst[j],lst[j]). The correct swap should be lst[i], lst[j] = lst[j], lst[i]."
+    },
+    {
+      "faultyLine": 8,
+      "code": "largest = lst[j] #assign new largest value",
+      "explanation": "The line assigns the new largest value, but it should be lst[j] instead of largest. The correct assignment should be largest = lst[j]."
+    },
+    {
+      "faultyLine": 7,
+      "code": "if lst[j][1] > largest[1]:",
+      "explanation": "The line is used to compare the ages of two people. However, it should compare with the current largest age (largest[1]), not largest itself. This comparison should be fixed."
+    },
+    {
+      "faultyLine": 6,
+      "code": "for j in range(i+1,l):",
+      "explanation": "The line initializes the inner loop, which iterates over the remaining elements in the list. There doesn't seem to be any issue with this line."
+    },
+    {
+      "faultyLine": 5,
+      "code": "largest = lst[i]",
+      "explanation": "The line initializes the largest value with the current element. There doesn't seem to be any issue with this line."
+    }
+  ]
+}

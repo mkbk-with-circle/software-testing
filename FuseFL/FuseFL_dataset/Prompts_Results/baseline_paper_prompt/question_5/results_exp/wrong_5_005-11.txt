@@ -1,0 +1,1 @@
+This condition checks the length of the `sort` list, but it should check the length of `lst` instead to ensure that the loop breaks when the desired number of elements have been sorted.

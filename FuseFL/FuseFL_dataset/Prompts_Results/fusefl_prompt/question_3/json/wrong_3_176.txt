@@ -1,0 +1,14 @@
+{
+  "faultLoc": [
+    {
+      "faultyLine": 3,
+      "code": "if lst[i] in lst[i+1:]:",
+      "explanation": "The line checks if the current element lst[i] is present in the remaining portion of the list lst[i+1:]. However, removing an element during iteration causes the loop to skip the next element, leading to incorrect results and potential IndexError."
+    },
+    {
+      "faultyLine": 4,
+      "code": "lst.pop(i)",
+      "explanation": "This line removes the element at index i from the list. However, removing elements while iterating over the list causes the iteration to skip the next element, leading to incorrect results."
+    }
+  ]
+}

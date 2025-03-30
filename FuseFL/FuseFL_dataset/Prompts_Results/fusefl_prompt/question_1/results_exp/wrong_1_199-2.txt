@@ -1,0 +1,1 @@
+This line calculates the length of the sequence, which is necessary for the subsequent comparisons. However, it is not the cause of the incorrect results.

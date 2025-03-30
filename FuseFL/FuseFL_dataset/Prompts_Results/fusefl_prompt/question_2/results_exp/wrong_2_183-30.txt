@@ -1,0 +1,1 @@
+This line starts a loop iterating over possible_birthdays. It contributes to the suspiciousness score because it is part of the loop where the faulty line (Line 31) is located.

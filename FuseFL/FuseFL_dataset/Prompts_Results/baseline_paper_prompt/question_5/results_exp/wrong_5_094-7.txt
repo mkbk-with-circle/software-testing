@@ -1,0 +1,1 @@
+Unnecessary line as the list is already sorted in ascending order. It should be removed.

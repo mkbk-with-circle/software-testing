@@ -1,0 +1,50 @@
+{
+  "intentOfThisFunction": "The purpose of this code is to check for uniqueness of days and months within a list of possible birthdays.",
+  "faultLocalization": [
+    {
+      "lineNumber": 7,
+      "codeContent": "            days = days + 1",
+      "reason": "The variable 'days' is incremented incorrectly."
+    },
+    {
+      "lineNumber": 12,
+      "codeContent": "    if day == 1:",
+      "reason": "The variable 'days' should be checked instead of 'day'."
+    },
+    {
+      "lineNumber": 6,
+      "codeContent": "    day = 0",
+      "reason": "The variable 'month' is assigned but never used."
+    },
+    {
+      "lineNumber": 11,
+      "codeContent": "            day = day + 1",
+      "reason": "The variable 'day' should be incremented instead of 'month'."
+    },
+    {
+      "lineNumber": 16,
+      "codeContent": "    if day == 1:",
+      "reason": "The variable 'day' should be checked instead of 'days'."
+    },
+    {
+      "lineNumber": 6,
+      "codeContent": "    x = []",
+      "reason": "The variable 'x' should be initialized as a list instead of a tuple."
+    },
+    {
+      "lineNumber": 10,
+      "codeContent": "        if possible_birthdays[i][1] == month:",
+      "reason": "The condition is checking against the wrong index."
+    },
+    {
+      "lineNumber": 14,
+      "codeContent": "        if unique_day(x[j][1], x):",
+      "reason": "The function 'unique_day' is called with incorrect arguments."
+    },
+    {
+      "lineNumber": 18,
+      "codeContent": "        continue",
+      "reason": "The 'continue' statement is unnecessary."
+    }
+  ]
+}

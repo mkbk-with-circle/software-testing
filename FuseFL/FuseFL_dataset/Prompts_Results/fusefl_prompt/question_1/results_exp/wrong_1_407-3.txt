@@ -1,0 +1,1 @@
+This line assumes that if `x` is less than or equal to the current element `i`, it has found the correct position for `x`. However, this might not always be the case, especially if `seq` is not sorted in ascending order.

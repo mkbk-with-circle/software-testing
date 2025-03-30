@@ -1,0 +1,30 @@
+{
+  "intentOfThisFunction": "The intended purpose of the function is to return the top k largest elements from the given list.",
+  "faultLocalization": [
+    {
+      "lineNumber": 4,
+      "codeContent": "largest = lst[0]",
+      "reason": "Potential IndexError if the list is empty."
+    },
+    {
+      "lineNumber": 5,
+      "codeContent": "for numbers in lst:",
+      "reason": "Misleading loop variable name. Should be 'number' instead of 'numbers'."
+    },
+    {
+      "lineNumber": 6,
+      "codeContent": "if numbers > largest:",
+      "reason": "Incorrect comparison. Should compare with the current largest number found so far."
+    },
+    {
+      "lineNumber": 7,
+      "codeContent": "largest = numbers",
+      "reason": "Incorrect assignment. Should update 'largest' only when a larger number is found."
+    },
+    {
+      "lineNumber": 8,
+      "codeContent": "new_lst.append(lst.pop(largest))",
+      "reason": "TypeError: 'largest' should be an index, not a value."
+    }
+  ]
+}

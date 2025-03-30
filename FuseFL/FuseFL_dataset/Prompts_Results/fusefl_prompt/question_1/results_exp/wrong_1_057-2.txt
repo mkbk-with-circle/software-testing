@@ -1,0 +1,1 @@
+This line is considered potentially faulty because it checks if the sequence is empty by comparing it to an empty tuple using '=='. However, the task description states that if the seq is empty, it should return 0. Therefore, comparing seq to an empty tuple is incorrect.

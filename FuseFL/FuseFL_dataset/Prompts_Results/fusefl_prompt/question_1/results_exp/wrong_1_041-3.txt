@@ -1,0 +1,1 @@
+The line assumes that seq[i-1] exists without performing proper boundary checks. This can lead to an IndexError when i is 0. Modify the condition to if i==0 or x < seq[i-1] to handle this case correctly.

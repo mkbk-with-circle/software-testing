@@ -1,0 +1,1 @@
+The condition should be 'x <= i' instead of 'x < i' to correctly handle the case when x is equal to the current element.

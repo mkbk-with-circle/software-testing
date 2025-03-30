@@ -1,0 +1,1 @@
+There is a possibility of an IndexError when accessing seq[i+1] because the loop iterates up to len(seq) and the last iteration will try to access seq[i+1], which is out of bounds. This line should be modified to handle the last element of the sequence separately.

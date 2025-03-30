@@ -1,0 +1,1 @@
+Starting a for loop to iterate over each element, referred to as 'people', in the 'lst' list.

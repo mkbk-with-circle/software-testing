@@ -1,0 +1,1 @@
+This line initializes an empty list called 'new_list', which is used to store the non-repeated elements.

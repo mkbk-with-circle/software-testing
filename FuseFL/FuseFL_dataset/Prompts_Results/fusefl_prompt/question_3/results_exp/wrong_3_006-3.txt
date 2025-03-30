@@ -1,0 +1,1 @@
+The loop is iterating over the incorrect variable 'list'. It should be 'lst', which is the input parameter of the function.

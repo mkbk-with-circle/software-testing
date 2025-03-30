@@ -1,0 +1,1 @@
+This line could be a potential bug. The index returned should correspond to the first element that satisfies the condition, but it is currently returning 'i + 1' without checking if the condition is met.

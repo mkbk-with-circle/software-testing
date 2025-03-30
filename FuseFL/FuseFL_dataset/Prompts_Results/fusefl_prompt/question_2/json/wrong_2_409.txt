@@ -1,0 +1,14 @@
+{
+  "faultLoc": [
+    {
+      "faultyLine": 11,
+      "code": "if i[0]==month:",
+      "explanation": "This line compares the month of the current birthday with the given month, but the task description specifies that the unique_month function should check if a given month is unique within the list of possible birthdays."
+    },
+    {
+      "faultyLine": 13,
+      "code": "return counter<=1",
+      "explanation": "This line doesn't correctly determine if a given month is unique because the counter variable is incremented inside the loop, not outside."
+    }
+  ]
+}

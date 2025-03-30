@@ -1,0 +1,15 @@
+{
+  "intentOfThisFunction": "Removing duplicate elements from the input list",
+  "faultLocalization": [
+    {
+      "lineNumber": 6,
+      "codeContent": "return lst",
+      "reason": "The function returns the original list instead of the modified list"
+    },
+    {
+      "lineNumber": 4,
+      "codeContent": "new_lst += [x]",
+      "reason": "The element is appended to the wrong list, not removing duplicates"
+    }
+  ]
+}

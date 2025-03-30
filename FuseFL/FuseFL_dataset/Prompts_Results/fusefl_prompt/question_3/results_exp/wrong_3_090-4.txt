@@ -1,0 +1,1 @@
+This line checks if the current element i is already present in the sublist lst[:i] (from the beginning up to the current index i). If it is, the code continues to the next iteration of the loop using the continue statement.

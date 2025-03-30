@@ -1,0 +1,1 @@
+This line doesn't correctly determine if a given month is unique because the counter variable is incremented inside the loop, not outside.

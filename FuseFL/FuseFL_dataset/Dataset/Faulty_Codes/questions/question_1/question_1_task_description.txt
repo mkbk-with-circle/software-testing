@@ -1,0 +1,1 @@
+The `search` function takes in a value x and a sorted sequence seq, and returns the position that x should go to such that the sequence remains sorted. If the element x is found, it should return the first posible position. If the seq is empty, it should return 0. 

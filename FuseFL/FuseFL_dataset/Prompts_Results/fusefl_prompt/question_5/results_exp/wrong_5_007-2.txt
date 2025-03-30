@@ -1,0 +1,1 @@
+The `lst1` list is initialized here, but there is no issue with this line.

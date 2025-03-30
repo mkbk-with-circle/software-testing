@@ -1,0 +1,29 @@
+{
+  "faultLoc": [
+    {
+      "faultyLine": 5,
+      "code": "for i in range(len(lst)):",
+      "explanation": "The sorting logic in this line is faulty."
+    },
+    {
+      "faultyLine": 4,
+      "code": "oldest = lst[0]",
+      "explanation": "The variable 'oldest' is not correctly updated during sorting."
+    },
+    {
+      "faultyLine": 3,
+      "code": "while lst:",
+      "explanation": "The loop condition does not correctly handle the termination of the loop."
+    },
+    {
+      "faultyLine": 10,
+      "code": "print(new_lst)",
+      "explanation": "Although not directly related to the sorting algorithm, the code does not return the expected output."
+    },
+    {
+      "faultyLine": 2,
+      "code": "new_lst = []",
+      "explanation": "This line is not faulty as it correctly initializes the list."
+    }
+  ]
+}

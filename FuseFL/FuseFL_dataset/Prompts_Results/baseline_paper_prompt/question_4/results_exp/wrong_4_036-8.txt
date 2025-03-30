@@ -1,0 +1,1 @@
+The assignment of lst[j] to largest is missing an additional condition to check if lst[j][1] is greater than largest[1]. It should be lst[j][1] > largest[1] and lst[j][1] > lst[i][1].

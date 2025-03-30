@@ -1,0 +1,1 @@
+The variable 'oldest' is assigned the first element of the list, assuming it is the oldest. However, this may not be true if the list is not sorted initially.

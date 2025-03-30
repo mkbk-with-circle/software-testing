@@ -1,0 +1,1 @@
+This condition returns an empty tuple as the result when 'seq' is empty, which might not be the intended behavior.

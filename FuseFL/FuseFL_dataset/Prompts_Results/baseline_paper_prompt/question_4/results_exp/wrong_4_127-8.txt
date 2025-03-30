@@ -1,0 +1,1 @@
+The variable 'biggest' is used without being declared or assigned a value.

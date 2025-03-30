@@ -1,0 +1,1 @@
+Checking if the current element is smaller than the current 'smallest' is crucial.

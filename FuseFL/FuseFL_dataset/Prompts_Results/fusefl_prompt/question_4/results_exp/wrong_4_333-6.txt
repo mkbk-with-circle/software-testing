@@ -1,0 +1,1 @@
+'reverse()' method reverses the list in-place and returns 'None', resulting in incorrect return value.

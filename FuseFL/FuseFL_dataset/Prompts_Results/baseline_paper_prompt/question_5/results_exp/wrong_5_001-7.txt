@@ -1,0 +1,1 @@
+This location is potentially faulty because it may return an extra element when k is initially 0.

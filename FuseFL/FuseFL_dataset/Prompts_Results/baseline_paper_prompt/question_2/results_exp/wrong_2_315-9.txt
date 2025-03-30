@@ -1,0 +1,1 @@
+Potential bug: It returns False for any case where the given day is not unique, but it may not cover all scenarios
