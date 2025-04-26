@@ -10,7 +10,7 @@
 import subprocess
 import argparse
 import sys
-
+import time
 def run_cmd(cmd):
     """运行 shell 命令，出错则打印并退出。"""
     print(f"Running: {cmd}")
@@ -59,6 +59,8 @@ def main():
         print(f"\n==> 处理 {project}#{bug_id} …")
         run_cmd(f"python3 get_diff.py {project} {bug_id}")
         run_cmd(f"python3 diff2json.py {project} {bug_id}")
+        # 等待 0.1 秒
+        time.sleep(0.1)
 
     print("\n==> 全部处理完成！")
 

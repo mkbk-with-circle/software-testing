@@ -2,7 +2,7 @@
 import subprocess
 import sys
 import argparse
-
+import os
 # 这里可以设置你需要的变量
 
 buggy_path = "/ymy/test/buggy"      # buggy 版本存放路径
@@ -25,6 +25,13 @@ def main():
     args = parser.parse_args()
     project = args.project
     bug_id = args.bug_id
+
+    output_file = f"/ymy/an-implementation-of-chatrepair/patches/{project}/{bug_id}.json"
+    # 如果output_file存在，则直接结束
+    #if os.path.exists(output_file):
+    #    print(f"==> {output_file} already exists, skipping")
+    #    return
+
     # 1. Checkout buggy 版本
     cmd_buggy = f"defects4j checkout -p {project} -v {bug_id}b -w {buggy_path}"
     run_command(cmd_buggy)
@@ -33,6 +40,7 @@ def main():
     cmd_patch = f"defects4j checkout -p {project} -v {bug_id}f -w {patch_path}"
     run_command(cmd_patch)
     
+
     # 3. 生成 diff 文件，比较 buggy 和 fixed 版本中的 src 目录
     diff_command = "diff -ruN /ymy/test/buggy/src /ymy/test/patch/src "
     try:
@@ -44,6 +52,11 @@ def main():
     except Exception as e:
         print(f"Error executing command: {e}")
 
+    # 4. 删除 对应的文件夹/ymy/test/buggy/src和/ymy/test/patch/src 
+    cmd_delete = f"rm -rf {buggy_path}/src"
+    run_command(cmd_delete)
+    cmd_delete = f"rm -rf {patch_path}/src"
+    run_command(cmd_delete)
 
     print(f"Diff generated successfully at {diff_path}")
 
