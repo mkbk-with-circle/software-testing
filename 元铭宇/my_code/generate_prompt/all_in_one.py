@@ -94,6 +94,11 @@ def main():
     INFO_FILE = f'../{PROJECT}_{BUG_ID}_prompt.md'
     print(f"==> Generating {INFO_FILE}")
 
+    # 如果INFO_FILE存在，则直接结束
+    if os.path.exists(INFO_FILE):
+        print(f"==> {INFO_FILE} already exists, skipping")
+        return
+
     # 3. 提取 Bug 相关信息并写入 markdown 文件
     txt_file_path = f'/ymy/an-implementation-of-chatrepair/initial/{PROJECT}/{BUG_ID}.txt'  # 动态生成路径
     extract_bug_details(txt_file_path, INFO_FILE)
