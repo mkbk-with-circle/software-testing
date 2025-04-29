@@ -48,7 +48,7 @@ def main():
     
 
     # 3. 生成 diff 文件，比较 buggy 和 fixed 版本中的 src 目录
-    diff_command = "diff -ruN ../../..//test/buggy/src ../../..//test/patch/src "
+    diff_command = "diff -ruN ../../../test/buggy/src ../../../test/patch/src "
     try:
         result = subprocess.run(diff_command, shell=True, capture_output=True, text=True)
         print(result.stdout)
