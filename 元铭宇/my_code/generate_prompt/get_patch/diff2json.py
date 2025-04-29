@@ -121,9 +121,9 @@ if __name__ == "__main__":
     args = parser.parse_args()
     project = args.project
     bug_id = args.bug_id
-    file_parse = "/ymy/patch.diff"
+    file_parse = "../../..//patch.diff"
     output = parse_diff(file_parse)
-    output_file = f"/ymy/an-implementation-of-chatrepair/patches/{project}/{bug_id}.json"
+    output_file = f"../../../an-implementation-of-chatrepair/patches/{project}/{bug_id}.json"
     print("output_file", output_file)
     with open(output_file, "w") as f:
         json.dump(output, f, indent=4)

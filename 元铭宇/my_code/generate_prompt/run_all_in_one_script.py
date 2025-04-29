@@ -1,3 +1,9 @@
+'''
+使用方法：python run_all_in_one_script.py {project_name}
+用途：运行all_in_one.py，生成bug_info/{project_name}_{bug_id}_prompt.md文件
+注意：要先修改路径
+'''
+
 import subprocess
 import sys
 import os
