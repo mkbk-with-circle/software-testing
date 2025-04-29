@@ -46,7 +46,7 @@ def extract_bug_details(txt_file_path, output_md_path):
             md_file.write(f"{error_match.group(0).strip()}\n")
 
 # Example usage
-txt_file_path = '/ymy/an-implementation-of-chatrepair/initial/Lang/10.txt'  # Replace with your txt file path
-output_md_path = '/ymy/my_code/generate_prompt/bug_info/my_info/info.md'  # The output markdown file path
+txt_file_path = '../../an-implementation-of-chatrepair/initial/Lang/10.txt'  # Replace with your txt file path
+output_md_path = 'bug_info/my_info/info.md'  # The output markdown file path
 
 extract_bug_details(txt_file_path, output_md_path)
