@@ -2,6 +2,7 @@
 # -*- coding: utf-8 -*-
 """
 文件名：extract_and_generate_bug_info.py
+使用方法：python all_in_one.py {project} {bug_id}
 用途：提取 Defects4J 某个 bug 的关键信息，包括具体出错的源代码行，并写入 info.md，同时执行 Defects4J 相关操作。
 """
 
@@ -100,7 +101,7 @@ def main():
         return
 
     # 3. 提取 Bug 相关信息并写入 markdown 文件
-    txt_file_path = f'/ymy/an-implementation-of-chatrepair/initial/{PROJECT}/{BUG_ID}.txt'  # 动态生成路径
+    txt_file_path = f'../../an-implementation-of-chatrepair/initial/{PROJECT}/{BUG_ID}.txt'  # 动态生成路径
     extract_bug_details(txt_file_path, INFO_FILE)
 
     # 4. 获取触发测试的相关信息

@@ -2,6 +2,7 @@
 # -*- coding: utf-8 -*-
 """
 文件名：get_all_patch.py
+使用方法: python get_all_patch.py {project}
 用途：对 Defects4J 某个项目的所有有效 Bug ID，依次调用
     python get_diff.py {project} {bug_id}
     python diff2json.py {project} {bug_id}
