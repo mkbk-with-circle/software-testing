@@ -101,7 +101,7 @@ def main():
         return
 
     # 3. 提取 Bug 相关信息并写入 markdown 文件
-    txt_file_path = f'/ymy/an-implementation-of-chatrepair/initial/{PROJECT}/{BUG_ID}.txt'  # 动态生成路径
+    txt_file_path = f'../../an-implementation-of-chatrepair/initial/{PROJECT}/{BUG_ID}.txt'  # 动态生成路径
     extract_bug_details(txt_file_path, INFO_FILE)
 
     # 4. 获取触发测试的相关信息
