@@ -1,0 +1,23 @@
+#第六种
+# Buggy code → Failed test → Error → Error Code Block → Test line
+order:
+  - "## Buggy code"
+  - "## Failed test"
+  - "## Error"
+  - "## Error Code Block"
+  - "## Test line"
+
+
+# 1. 人类：1. Failed test → Error → Test line → Error Code Block → Buggy code
+# 2. 从 code 启发（Bottom-up）：2. Buggy code → Error Code Block → Test line → Failed test → Error
+# 3. Test-first 策略：3. Error Code Block → Test line → Failed test → Error → Buggy code
+# 4. Buggy-code 优先（模仿 CodeT5、Codex）：4. Buggy code → Test line → Failed test → Error Code Block → Error
+# 5. 先报错，后源码（反向推理）：5. Error → Test line → Failed test → Error Code Block → Buggy code
+# 6. LLM 默认 style：6. Buggy code → Failed test → Error → Error Code Block → Test line
+
+
+# 目前:1.Buggy code → Failed test  → Test line → Error → Error Code Block
+
+export DEEPSEEK_API_KEY=sk-b6b33b2dbab24be39f0975d1dd9d380e
+cd /ymy/my_code/debug_with_gpt
+python3 communicate.py --folder /ymy/my_code/generate_prompt/bug_info_shuffled_6
