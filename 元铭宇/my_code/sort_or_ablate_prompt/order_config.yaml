@@ -1,0 +1,30 @@
+#第六种
+# Buggy code → Failed test → Error → Error Code Block → Test line
+order:
+  - "## Buggy code"
+  - "## Failed test"
+  - "## Error"
+  - "## Error Code Block"
+  - "## Test line"
+
+
+一共有60个case
+
+  结果：25,20,19,22,18,20,16
+  + 最开始：  Buggy code → Failed test  → Test line → Error → Error Code Block                                 25个                                                                
+  + 人类：1. Failed test → Error → Test line → Error Code Block → Buggy code                                 20个        
+  + 从 code 启发（Bottom-up）：2. Buggy code → Error Code Block → Test line → Failed test → Error              19个
+  + Test-first 策略：3. Error Code Block → Test line → Failed test → Error → Buggy code                      22个
+  + Buggy-code 优先（模仿 CodeT5、Codex）：4. Buggy code → Test line → Failed test → Error Code Block → Error  18个
+  + 先报错，后源码（反向推理）：5. Error → Test line → Failed test → Error Code Block → Buggy code                20个
+  +  LLM 默认 style：6. Buggy code → Failed test → Error → Error Code Block → Test line                       16个
+
+消融实验 以“最开始：  Buggy code → Failed test  → Test line → Error → Error Code Block ”的顺序为基础
+1. 消融['Error Code Block']                               15个
+2. 消融['Failed test', 'Test line']                       17个
+3. 消融['Failed test', 'Test line', 'Error Code Block']   14个
+4. 消融['Failed test', 'Test line', 'Error']        
+ 
+
+
+
