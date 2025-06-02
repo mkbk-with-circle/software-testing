@@ -1,0 +1,8 @@
+
+order:
+  - "^## Buggy code"
+  - "^## Error"
+  - "^## Error code block"
+exclude:
+  - "^## Failed test"
+  - "^## Test line"

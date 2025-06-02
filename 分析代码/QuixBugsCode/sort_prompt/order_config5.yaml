@@ -1,0 +1,6 @@
+order:
+  - "## Error"
+  - "## Failed test"
+  - "## Test line"
+  - "## Error code block"
+  - "## Buggy code"
